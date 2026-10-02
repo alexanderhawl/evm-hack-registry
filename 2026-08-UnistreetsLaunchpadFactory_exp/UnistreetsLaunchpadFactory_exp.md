@@ -22,7 +22,7 @@
 | **Attack tx #2** | [`0x962eb313…fb0b`](https://etherscan.io/tx/0x962eb313a1290f9e1de336782d2e3fd0c6dc7b7816834bbef50278d28dbefb0b) (block **25692392**, **+81 blocks / ~16 min**) — EOA [`0xfc3fAcD6…e92f`](https://etherscan.io/address/0xfc3facd67138966ab0c841e905b0c4bca1abe92f) burned the remaining **8** factory positions **+ 4** from a second custodian |
 | **Victim custodian #2** | [`0xd5799fd8…7ad8`](https://etherscan.io/address/0xd5799fd858d9163e75d28b2e4f68cf8569167ad8) — held **4** positions, drained in tx#2 |
 | **PoC fork** | mainnet @ block **25692310** (state one block before tx#1) |
-| **Alert** | [DefimonAlerts 2026-08-07](https://x.com/DefimonAlerts/status/2085611173953540541) |
+| **Alert** | [DefimonAlerts 2026-08-07](https://x.com/DefimonAlerts/status/2085611173953540541) · [@exvulsec](https://x.com/exvulsec/status/2105148638297206862)|
 | **Bug class** | Caller-supplied `modifyCalldata` forwarded into `PositionManager.multicall()` with the factory as `msg.sender` while the factory is the ERC-721 owner of every launch's LP position (confused-deputy) |
 
 ---
@@ -148,6 +148,8 @@ The browser Playground (opcode-level replay + the marked source lines above) rep
 - **Defense in depth:** validate the decoded action selectors against an allowlist before any forwarded call, and separate custody (NFT owner) from the entry point that accepts external calldata.
 
 ## References
+
+- https://x.com/exvulsec/status/2105148638297206862 (@exvulsec secondary analysis)
 
 - https://x.com/DefimonAlerts/status/2085611173953540541 — initial drain alert (tx#1)
 - https://x.com/unistreetsx/status/2085225140690751793 — Unistreets

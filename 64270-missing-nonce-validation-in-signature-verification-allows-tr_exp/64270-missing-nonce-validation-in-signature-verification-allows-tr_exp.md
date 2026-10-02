@@ -88,3 +88,8 @@ The browser bundle is generated from [`scripts/poc-configs/64270-missing-nonce-v
 - [AuditVault finding #64270](https://github.com/Auditware/AuditVault/blob/main/findings/64270-missing-nonce-validation-in-signature-verification-allows-tr.md)
 - [Cyfrin Securitize On/Off Ramp report](https://github.com/solodit/solodit_content/blob/main/reports/Cyfrin/2025-07-23-cyfrin-securitize-onofframp-bridge-v2.1.md)
 - [Securitize remediation commit `65179b`](https://github.com/securitize-io/bc-on-off-ramp-sc/commit/65179bcf41ed859106069dcaa751f5a2cec3038e)
+
+
+## References
+
+- https://x.com/Phalcon_xyz/status/2103114775324733816 (@Phalcon_xyz secondary analysis)
