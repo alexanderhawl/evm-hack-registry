@@ -71,17 +71,11 @@ interface ITectonicSocket {
 
 contract TectonicTonicOracleManipulation_exp is BaseTestWithBalanceLog {
     function setUp() public {
-        // Prefer named foundry.toml endpoint; allow env override for archive RPCs.
-        // Offline: anvil --load-state anvil_state.json --port 8561 --chain-id 25
-        //   then TECTONIC_FORK_URL=http://127.0.0.1:8561 forge test
-        string memory rpc = vm.envOr("TECTONIC_FORK_URL", string(""));
-        if (bytes(rpc).length == 0) {
-            rpc = vm.envOr("CRONOS_RPC_URL", string(""));
-        }
-        if (bytes(rpc).length == 0) {
-            rpc = "cronos";
-        }
-        vm.createSelectFork(rpc, FORK_BLOCK);
+        // Registry-standard offline fork: _shared/run-poc/run_poc.sh starts anvil with the
+        // committed anvil_state.json (post-pump oracle + posted tTONIC collateral) on port 8561
+        // (chains.conf: cronos -> 8561 -> chainId 25) and this literal lets the runner detect it.
+        // Online re-warm swaps this literal for the `cronos` archive alias (exhaustive_warm.py).
+        vm.createSelectFork("http://127.0.0.1:8561", FORK_BLOCK);
 
         multiAssetLog = true;
         fundingTokens.push(USDC);

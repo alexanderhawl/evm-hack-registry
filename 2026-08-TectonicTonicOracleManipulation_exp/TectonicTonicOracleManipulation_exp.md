@@ -105,12 +105,12 @@ Same family as Mango / Moonwell-MAMO: **thin collateral + manipulable mark + ove
 
 ```mermaid
 flowchart TD
-  A[Setup tx: deploy attack contracts\nseed USDC, buy TONIC on VVS] --> B[Mint/post tTONIC collateral\non position 0x2dc6…]
-  B --> C[Pump continues — feed rises\n~100-200x over ~20 min]
-  C --> D[Oracle getUnderlyingPrice(tTONIC)\nreturns inflated 1e18 mark]
-  D --> E[Socket getAccountLiquidity\nshows ~$137M borrow capacity]
-  E --> F[Over-borrow tx: tUSDC/tUSDT/… borrow]
-  F --> G[Stables/other assets to sinks\n~$6M bridged to ETH before halt]
+  A["Setup tx: deploy attack contracts<br/>seed USDC, buy TONIC on VVS"] --> B["Mint/post tTONIC collateral<br/>on position 0x2dc6…"]
+  B --> C["Pump continues — feed rises<br/>~100-200x over ~20 min"]
+  C --> D["Oracle getUnderlyingPrice tTONIC<br/>returns inflated 1e18 mark"]
+  D --> E["Socket getAccountLiquidity<br/>shows ~$137M borrow capacity"]
+  E --> F["Over-borrow tx: tUSDC/tUSDT/… borrow"]
+  F --> G["Stables/other assets to sinks<br/>~$6M bridged to ETH before halt"]
 ```
 
 ### Historical path

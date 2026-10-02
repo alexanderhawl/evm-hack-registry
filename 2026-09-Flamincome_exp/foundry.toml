@@ -10,5 +10,3 @@ fs_permissions = [{ access = "read", path = "./"}]
 line_length = 120
 tab_width = 4
 
-[rpc_endpoints]
-mainnet = "https://mainnet.infura.io/v3/6c80b4478d644647bcc2671e06966b23"

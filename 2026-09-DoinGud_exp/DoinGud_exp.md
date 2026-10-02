@@ -1,6 +1,6 @@
 # DoinGud `acceptOffer` pays the escrow twice — `amount == 0` skips offer deletion
 
-> **Vulnerability classes:** vuln/logic/incorrect-state-transition · vuln/logic/missing-check · vuln/logic/wrong-condition · vuln/auth/signature-replay
+> **Vulnerability classes:** vuln/logic/incorrect-state-transition · vuln/logic/missing-check · vuln/logic/wrong-condition
 > **Reproduction:** the PoC compiles and runs in an isolated Foundry project at [this project folder](.). Full verbose trace: [output.txt](output.txt). The diamond proxy is verified ([sources/DoinGudDiamond_E3A161/](sources/DoinGudDiamond_E3A161/)); the marketplace facet `0x123aAFC8…DDe1` is **unverified**. The vulnerable function below is reconstructed from the fork trace, not from source.
 
 ---

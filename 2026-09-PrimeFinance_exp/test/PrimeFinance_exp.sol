@@ -144,7 +144,7 @@ contract PrimeFinanceExp is BaseTestWithBalanceLog {
 
     function setUp() public {
         // Fork at the parent of the exploit block (46060987).
-        vm.createSelectFork("https://hyperliquid.drpc.org", 46_060_986);
+        vm.createSelectFork("http://127.0.0.1:8564", 46_060_986);
         fundingToken = address(WHYPE); // log/measure profit in WHYPE
     }
 

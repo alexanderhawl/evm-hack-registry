@@ -1,6 +1,6 @@
 # Startale ERC-7579 accounts — transient `INIT_SLOT` stays set after the proxy constructor, so `initializeAccount` can be called again in the same transaction
 
-> **Vulnerability classes:** vuln/logic/incorrect-initialization · vuln/access-control/missing-auth · vuln/dependency/unsafe-external-call · vuln/logic/delegatecall-target-confusion · vuln/auth/signature-replay
+> **Vulnerability classes:** vuln/logic/incorrect-initialization · vuln/access-control/missing-auth · vuln/dependency/unsafe-external-call · vuln/logic/delegatecall-target-confusion
 > **Reproduction:** isolated Foundry project at [this folder](.). Full verbose trace: [output.txt](output.txt). Impl: [sources/StartaleSmartAccount_000000](sources/StartaleSmartAccount_000000). Factory (includes `AccountProxy`): [sources/StartaleAccountFactory_000000](sources/StartaleAccountFactory_000000).
 
 ---

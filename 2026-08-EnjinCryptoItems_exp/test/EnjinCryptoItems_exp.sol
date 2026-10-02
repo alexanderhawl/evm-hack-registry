@@ -227,7 +227,7 @@ contract EnjinCryptoItemsExp is BaseTestWithBalanceLog {
     uint256 internal constant FORK_BLOCK = 25_834_070; // parent of the exploit block 25834071
 
     function setUp() public {
-        vm.createSelectFork("https://eth.drpc.org", FORK_BLOCK);
+        vm.createSelectFork("http://127.0.0.1:8545", FORK_BLOCK);
         fundingToken = ENJ;
         vm.label(0xfaaFDc07907ff5120a76b34b731b278c38d6043C, "Platform");
         vm.label(0x4E643a25a64952895f553f20252861258727174e, "Reserve");

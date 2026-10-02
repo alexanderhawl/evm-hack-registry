@@ -39,13 +39,27 @@ import "../basetest.sol";
 //   is NOT cleanly derivable from these 3 samples; the honest, exactly-reproduced figure is the per-cycle net.
 //   Each cycle is self-contained within one call (deposit then withdraw back to back, no multi-tx sequence
 //   per address), but the payout side DOES depend on the current pack round being funded: at the plain
-//   pre-block state (26087601) a single cycle nets a loss, because the pack that makes withdraw pay out was
-//   filled by deposits earlier in the attack block. So this PoC forks at the exact pre-state of the first
-//   attack tx (which replays those earlier same-block txs) and replays one cycle from a fresh address there.
+//   pre-block state (26087601) a single cycle nets a loss and deposit() even reverts, because the pack that
+//   makes withdraw pay out was filled by legit deposits earlier in the attack block. MUS's standing ETH is
+//   5.335155 at the parent block 26087601 but 13.854604 at the exact pre-state of the attack tx (idx 138) -
+//   that delta is the same-block deposits the pack redistributes.
 //
-// The working capital (D) is recyclable: the real attacker sourced it from its own WETH. Here it is taken
-// as a Balancer V2 flash loan (0 fee) and repaid in the same tx, so the leftover balance is exactly the
-// net over-extraction - the ETH actually drained from the MUS pool.
+// WORKING CAPITAL: the real attack contract (0xD1a7...e988) ALSO borrowed its deposit capital as a Balancer
+// V2 flash loan (0 fee) - VAULT.flashLoan (selector 0x5c38449e) is the top-level call of the real tx, the 16
+// deposit/withdraw cycles run inside receiveFlashLoan, and the net is forwarded to the EOA at the end
+// (confirmed in the on-chain call trace). This PoC mirrors that exactly: one Balancer flash loan, one
+// fresh-address cycle, repaid in the same tx, so the leftover balance is precisely the net over-extraction
+// drained from the MUS pool.
+//
+// OFFLINE REPRODUCTION (why not a literal fork-at-tx): Foundry's createSelectFork(url, FORK_AT_TX) must
+// replay every earlier transaction in block 26087602, which includes EIP-4844 blob txs that this revm build
+// rejects ("blob gas price (7011916170825372) is greater than max fee per blob gas (1000000000)" - the
+// block's excessBlobGas 182713466 makes revm compute a ~7e15 wei blob base fee). So a literal fork-at-tx is
+// NOT reproducible here. Instead the committed anvil_state.json is the EXACT pre-tx-138 state captured via
+// debug_traceTransaction(FORK_AT_TX, {tracer:"prestateTracer"}) - it already contains the funded pack round
+// (MUS = 13.854604 ETH, 287 storage slots) with no blob replay. Forking that state at block 26087602 and
+// running ONE fresh-address cycle reproduces real cycle 1 to the wei (net 0.400167773791578324 ETH). This is
+// a faithful replay of the real pre-attack state, NOT a hand-primed reconstruction.
 
 interface IERC20 {
     function balanceOf(address) external view returns (uint256);
@@ -72,13 +86,20 @@ contract MUS_exp is BaseTestWithBalanceLog {
 
     uint256 constant DEPOSIT = 53_355_703_172210117028; // real cycle-1 deposit amount (wei)
     // First sample tx (idx 138 in block 26087602). The exploit's profitability depends on the "pack" round
-    // state as it stood right before this tx, which is set up by earlier txs in the same block - a plain
-    // block-26087601 fork does NOT reproduce it (a single cycle there nets a loss). Forking AT the tx replays
-    // every earlier tx in the block, landing on the exact pre-attack state the attacker actually exploited.
+    // state as it stood right before this tx, which is set up by legit txs earlier in the same block - a plain
+    // block-26087601 fork does NOT reproduce it (deposit() reverts; a single cycle there nets a loss). The
+    // committed offline state is the pre-tx-138 snapshot (prestateTracer); a literal createSelectFork-at-tx is
+    // blocked by blob-tx replay (see header "OFFLINE REPRODUCTION").
     bytes32 constant FORK_AT_TX = 0xfe28118e48c64b275b587c90da472fc13b8c3dbed9d3cded1e18c1e7a7fc0392;
+    uint256 constant FORK_BLOCK = 26087602; // offline anvil_state = prestateTracer snapshot of pre-tx-138 (pack funded)
 
     function setUp() public {
-        vm.createSelectFork("http://127.0.0.1:8545", FORK_AT_TX); // state immediately before the first sample tx
+        // Offline form: anvil --load-state serves the EXACT pre-tx-138 state of the attack tx - captured via
+        // debug_traceTransaction(FORK_AT_TX, {tracer:"prestateTracer"}) and baked into block 26087602. That
+        // snapshot already holds the funded "pack" round (MUS = 13.854604 ETH, 287 slots) built by the earlier
+        // same-block deposits; no blob-tx replay is needed (see header). A plain archive fork of the parent
+        // 26087601 would NOT reproduce it - deposit() reverts and a single cycle nets a loss there.
+        vm.createSelectFork("http://127.0.0.1:8545", FORK_BLOCK);
         fundingToken = address(0); // profit realized in native ETH
     }
 

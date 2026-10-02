@@ -9,6 +9,3 @@ fs_permissions = [{ access = "read", path = "./"}]
 [fmt]
 line_length = 120
 tab_width = 4
-
-[rpc_endpoints]
-bsc = "https://bsc-mainnet.public.blastapi.io"

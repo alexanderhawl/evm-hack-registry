@@ -1,5 +1,5 @@
 # Nimiq HTLC handlers — OpenGSN `execute()` ignores the signature and opens an HTLC as the liquidity wallet
-> **Vulnerability classes:** vuln/access-control/missing-auth · vuln/auth/signature-bypass · vuln/bridge/htlc · vuln/auth/signature-replay
+> **Vulnerability classes:** vuln/access-control/missing-auth · vuln/auth/signature-bypass · vuln/bridge/htlc
 > **Reproduction:** the PoC compiles and runs offline in an isolated Foundry project at [this project folder](.). Full verbose trace: [output.txt](output.txt). Verified handler sources are in [sources/ERC20PermitHTLCHandler_0cFD86](sources/ERC20PermitHTLCHandler_0cFD86) and [sources/ERC20MetaHTLCHandler_F615bD](sources/ERC20MetaHTLCHandler_F615bD).
 ---
 ## Key info

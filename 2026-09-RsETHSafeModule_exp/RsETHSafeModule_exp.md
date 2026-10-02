@@ -1,5 +1,5 @@
 # rsETH Safe drain — Router `multicall` treats a self-call as authorized and the enabled module delegatecalls a recipe
-> **Vulnerability classes:** vuln/access-control/auth-bypass · vuln/auth/caller-check · vuln/logic/self-call · vuln/auth/signature-replay
+> **Vulnerability classes:** vuln/access-control/auth-bypass · vuln/auth/caller-check · vuln/logic/self-call
 > **Reproduction:** the PoC compiles and runs offline in an isolated Foundry project at [this project folder](.). Full verbose trace: [output.txt](output.txt). The Router and the Safe module are unverified on Etherscan (`fetch_sources` returned UNVERIFIED for both). The trace below is against the real bytecode.
 ---
 ## Key info
