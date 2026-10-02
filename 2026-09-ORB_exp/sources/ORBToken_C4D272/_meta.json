@@ -1,0 +1,9 @@
+{
+  "address": "0xC4D27261C06407053Cad16Cb825ecc0eEE7ee7d7",
+  "name": "ORBToken",
+  "compiler": "v0.8.17+commit.8df45f5f",
+  "optimizer": "1",
+  "runs": "200",
+  "proxy": "0",
+  "implementation": ""
+}

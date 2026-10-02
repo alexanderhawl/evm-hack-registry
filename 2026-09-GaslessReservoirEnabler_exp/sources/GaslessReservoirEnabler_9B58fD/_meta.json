@@ -1,0 +1,9 @@
+{
+  "address": "0x9B58fDAdc16E30fBA313E044bf9e88689C3F163e",
+  "name": "GaslessReservoirEnabler",
+  "compiler": "v0.8.11+commit.d7f03943",
+  "optimizer": "1",
+  "runs": "200",
+  "proxy": "0",
+  "implementation": ""
+}

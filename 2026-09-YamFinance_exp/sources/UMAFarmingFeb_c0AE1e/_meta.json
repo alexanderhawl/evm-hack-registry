@@ -1,0 +1,9 @@
+{
+  "address": "0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835",
+  "name": "UMAFarmingFeb",
+  "compiler": "v0.5.15+commit.6a57276f",
+  "optimizer": "1",
+  "runs": "5",
+  "proxy": "0",
+  "implementation": ""
+}

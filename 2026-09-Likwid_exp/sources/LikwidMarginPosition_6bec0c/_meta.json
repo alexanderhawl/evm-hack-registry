@@ -1,0 +1,9 @@
+{
+  "address": "0x6bec0c1dc4898484b7f094566ddf8bc82ed7abe8",
+  "name": "LikwidMarginPosition",
+  "compiler": "v0.8.28+commit.7893614a",
+  "optimizer": "1",
+  "runs": "200",
+  "proxy": "0",
+  "implementation": ""
+}

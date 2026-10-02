@@ -1,0 +1,9 @@
+{
+  "address": "0x000000b8f5f723A680d3D7EE624Fe0bC84a6E05A",
+  "name": "StartaleSmartAccount",
+  "compiler": "v0.8.30+commit.73712a01",
+  "optimizer": "1",
+  "runs": "499",
+  "proxy": "0",
+  "implementation": ""
+}

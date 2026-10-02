@@ -1,0 +1,9 @@
+{
+  "address": "0x0000003B3E7b530b4f981aE80d9350392Defef90",
+  "name": "StartaleAccountFactory",
+  "compiler": "v0.8.30+commit.73712a01",
+  "optimizer": "1",
+  "runs": "499",
+  "proxy": "0",
+  "implementation": ""
+}

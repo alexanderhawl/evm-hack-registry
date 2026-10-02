@@ -1,0 +1,9 @@
+{
+  "address": "0x2DA253835967D6E721C6c077157F9c9742934aeA",
+  "name": "YamGovernorAlpha",
+  "compiler": "v0.5.15+commit.6a57276f",
+  "optimizer": "1",
+  "runs": "200",
+  "proxy": "0",
+  "implementation": ""
+}

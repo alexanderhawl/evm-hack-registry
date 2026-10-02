@@ -1,0 +1,7 @@
+Error: failed to extract foundry config:
+foundry.toml error: TOML parse error at line 16, column 2
+   |
+16 | [rpc_endpoints]
+   |  ^^^^^^^^^^^^^
+duplicate key
+ for key "default./workspaces/RustroverProjects/audits/evm-hack-registry/2026-09-Flamincome_exp/foundry.toml" in foundry.toml TOML file for setting `/workspaces/RustroverProjects/audits/evm-hack-registry/2026-09-Flamincome_exp/foundry.toml`

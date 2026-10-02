@@ -1,0 +1,7 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+interface ITokenTransferCallback {
+    function beforeTokenTransfer(address msgSender, address from, address to, uint256 amount) external;
+    function afterTokenTransfer(address msgSender, address from, address to, uint256 amount) external;
+}

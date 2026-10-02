@@ -1,0 +1,9 @@
+{
+  "address": "0x17e801E17CeFC6334059189c178D4783830E03D3",
+  "name": "BonfireSwap",
+  "compiler": "v0.8.7+commit.e28d00a7",
+  "optimizer": "1",
+  "runs": "200",
+  "proxy": "0",
+  "implementation": ""
+}

@@ -1,0 +1,9 @@
+{
+  "address": "0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590",
+  "name": "Bonfire",
+  "compiler": "v0.6.12+commit.27d51765",
+  "optimizer": "1",
+  "runs": "200",
+  "proxy": "0",
+  "implementation": ""
+}

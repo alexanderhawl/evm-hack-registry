@@ -1,0 +1,44 @@
+No files changed, compilation skipped
+2026-10-01T14:37:21.246996Z ERROR sharedbackend: Failed to send/recv `storage` err=failed to get storage for 0x4E643a25a64952895f553f20252861258727174e at 76722745239674897933119141890138125657585153849656020607069496219476353104597: HTTP error 408 with body: {"id":69,"jsonrpc":"2.0","error":{"message":"Request timeout on the free plan, please upgrade to paid plan","code":30}}
+
+HTTP diagnostics:
+cf-ray: a43c3466f87ed36a-FRA
+server: cloudflare address=0x4E643a25a64952895f553f20252861258727174e index=76722745239674897933119141890138125657585153849656020607069496219476353104597
+
+Ran 1 test for test/EnjinCryptoItems_exp.sol:EnjinCryptoItemsExp
+[FAIL: EVM error; database error: failed to get storage for 0x4E643a25a64952895f553f20252861258727174e at 76722745239674897933119141890138125657585153849656020607069496219476353104597: HTTP error 408 with body: {"id":69,"jsonrpc":"2.0","error":{"message":"Request timeout on the free plan, please upgrade to paid plan","code":30}}
+
+HTTP diagnostics:
+cf-ray: a43c3466f87ed36a-FRA
+server: cloudflare] testExploit() (gas: 0)
+Traces:
+  [12228] EnjinCryptoItemsExp::setUp()
+    ├─ [0] VM::createSelectFork("<rpc url>", 25834070 [2.583e7])
+    │   └─ ← [Return] 0
+    ├─ [0] VM::label(Platform: [0xfaaFDc07907ff5120a76b34b731b278c38d6043C], "Platform")
+    │   └─ ← [Return]
+    ├─ [0] VM::label(Reserve: [0x4E643a25a64952895f553f20252861258727174e], "Reserve")
+    │   └─ ← [Return]
+    ├─ [0] VM::label(RegistryA: [0x13fA4b9a6C2F2604C919f96F456e3b50E968b157], "RegistryA")
+    │   └─ ← [Return]
+    ├─ [0] VM::label(RegistryB: [0x268C039A3127D3107c014F0DC6c390A53e6dB27f], "RegistryB")
+    │   └─ ← [Return]
+    ├─ [0] VM::label(ENJ: [0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c], "ENJ")
+    │   └─ ← [Return]
+    └─ ← [Stop]
+
+Suite result: FAILED. 0 passed; 1 failed; 0 skipped; finished in 19.22s (18.26s CPU time)
+
+Ran 1 test suite in 19.26s (19.22s CPU time): 0 tests passed, 1 failed, 0 skipped (1 total tests)
+
+Failing tests:
+Encountered 1 failing test in test/EnjinCryptoItems_exp.sol:EnjinCryptoItemsExp
+[FAIL: EVM error; database error: failed to get storage for 0x4E643a25a64952895f553f20252861258727174e at 76722745239674897933119141890138125657585153849656020607069496219476353104597: HTTP error 408 with body: {"id":69,"jsonrpc":"2.0","error":{"message":"Request timeout on the free plan, please upgrade to paid plan","code":30}}
+
+HTTP diagnostics:
+cf-ray: a43c3466f87ed36a-FRA
+server: cloudflare] testExploit() (gas: 0)
+
+Encountered a total of 1 failing tests, 0 tests succeeded
+
+Tip: Run `forge test --rerun` to retry only the 1 failed test

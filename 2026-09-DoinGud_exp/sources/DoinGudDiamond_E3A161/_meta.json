@@ -1,0 +1,9 @@
+{
+  "address": "0xE3A161EdD679fC5ce2dB2316a4B6f7ab33a8eD6A",
+  "name": "DoinGudDiamond",
+  "compiler": "v0.8.9+commit.e5eed63a",
+  "optimizer": "1",
+  "runs": "0",
+  "proxy": "1",
+  "implementation": "0x48d740d3d6c5b9bfe478d2ed276ef4a5064c4b2b"
+}

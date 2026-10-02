@@ -1,0 +1,9 @@
+{
+  "address": "0x6b82fDFC0344Bd76d5Cb58BC24D0FfE947975516",
+  "name": "Convertor",
+  "compiler": "v0.8.24+commit.e11b9ed9",
+  "optimizer": "1",
+  "runs": "200",
+  "proxy": "0",
+  "implementation": ""
+}

@@ -1,0 +1,9 @@
+{
+  "address": "0x837DBAbc4f5FA78BAF177597edbDa09645822032",
+  "name": "LiquidityUnifier",
+  "compiler": "v0.8.34+commit.80d5c536",
+  "optimizer": "1",
+  "runs": "200",
+  "proxy": "0",
+  "implementation": ""
+}

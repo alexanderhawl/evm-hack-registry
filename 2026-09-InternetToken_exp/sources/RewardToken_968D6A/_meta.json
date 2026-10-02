@@ -1,0 +1,9 @@
+{
+  "address": "0x968D6A288d7B024D5012c0B25d67A889E4E3eC19",
+  "name": "RewardToken",
+  "compiler": "v0.8.24+commit.e11b9ed9",
+  "optimizer": "1",
+  "runs": "200",
+  "proxy": "0",
+  "implementation": ""
+}
