@@ -387,8 +387,3 @@ Ran 1 test suite in 32.02s (31.47s CPU time): 1 tests passed, 0 failed, 0 skippe
 ---
 
 *Reference: DefimonAlerts — https://x.com/DefimonAlerts/status/2046862935650345139 (Juicebox REVLoans, Ethereum mainnet, ~21.77 ETH).*
-
-
-## References
-
-- https://x.com/blockaid_/status/2103400669042348063 (@blockaid_ secondary analysis)
